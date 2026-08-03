@@ -2,3 +2,5 @@ node_modules/
 .vercel/
 seed/.seed-state.json
 .env*
+
+.vercel
