@@ -6,7 +6,7 @@
 <title>관리자 — 명화 디지털 갤러리</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
 <style>
 :root {
   --bg: #101014; --bg2: #17171d; --bg3: #1f1f27; --line: #2a2a35;
@@ -184,9 +184,10 @@ textarea { resize: vertical; }
       <label class="fld">부제
         <input type="text" id="mk-sub" value="소장 작품선">
       </label>
-      <label class="fld">어둡기 <input type="range" id="mk-dim" min="0" max="75" value="42"></label>
+      <label class="fld">띠 어둡기 <input type="range" id="mk-band" min="0" max="80" value="38"></label>
+      <label class="fld">배경 어둡기 <input type="range" id="mk-dim" min="0" max="70" value="0"></label>
       <label class="fld">글자 크기 <input type="range" id="mk-size" min="60" max="160" value="104"></label>
-      <label class="fld">세로 위치 <input type="range" id="mk-y" min="25" max="80" value="50"></label>
+      <label class="fld">세로 위치 <input type="range" id="mk-y" min="25" max="80" value="48"></label>
       <div class="btns" style="margin-top:auto">
         <button class="btn" id="mk-cancel">취소</button>
         <button class="btn primary" id="mk-save">✓ 표지로 저장</button>
@@ -448,7 +449,7 @@ function openMaker(ex) {
   // 기본 배경: 현재 표지
   if (ex.cover_path) loadMakerBg(artUrl(ex.cover_path));
   else drawMaker();
-  document.fonts.load("600 104px 'Noto Serif KR'").then(drawMaker);
+  Promise.all([document.fonts.load("800 104px 'Nanum Myeongjo'"), document.fonts.load("400 42px 'Nanum Myeongjo'")]).then(drawMaker);
 }
 function loadMakerBg(url) {
   const im = new Image();
@@ -469,28 +470,37 @@ function drawMaker() {
     ctx.drawImage(im, (W - w) / 2, (H - h) / 2, w, h);
   }
   const dim = (+$('#mk-dim').value) / 100;
-  ctx.fillStyle = `rgba(0,0,0,${dim})`; ctx.fillRect(0, 0, W, H);
+  if (dim > 0) { ctx.fillStyle = `rgba(0,0,0,${dim})`; ctx.fillRect(0, 0, W, H); }
   const size = +$('#mk-size').value;
+  const subSize = Math.round(size * 0.4);
   const cy = H * (+$('#mk-y').value) / 100;
   const title = $('#mk-title').value, sub = $('#mk-sub').value;
+  // 기존 양식: 텍스트 뒤 전폭 반투명 검정 띠
+  const band = (+$('#mk-band').value) / 100;
+  if (band > 0) {
+    const top = cy - size * 0.82;
+    const bottom = sub ? cy + size * 0.85 + subSize * 0.85 : cy + size * 0.82;
+    ctx.fillStyle = `rgba(0,0,0,${band})`;
+    ctx.fillRect(0, top, W, bottom - top);
+  }
   ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-  ctx.shadowColor = 'rgba(0,0,0,.55)'; ctx.shadowBlur = 18; ctx.shadowOffsetY = 3;
+  ctx.shadowColor = 'rgba(0,0,0,.35)'; ctx.shadowBlur = 10; ctx.shadowOffsetY = 2;
   if (title) {
-    ctx.font = `600 ${size}px 'Noto Serif KR', serif`;
-    try { ctx.letterSpacing = Math.round(size * 0.06) + 'px'; } catch {}
+    ctx.font = `800 ${size}px 'Nanum Myeongjo', serif`;
+    try { ctx.letterSpacing = Math.round(size * 0.03) + 'px'; } catch {}
     ctx.fillStyle = '#ffffff';
     ctx.fillText(title, W / 2, cy);
   }
   if (sub) {
-    ctx.font = `400 ${Math.round(size * 0.4)}px 'Noto Serif KR', serif`;
-    try { ctx.letterSpacing = Math.round(size * 0.12) + 'px'; } catch {}
-    ctx.fillStyle = '#e8e0d0';
+    ctx.font = `400 ${subSize}px 'Nanum Myeongjo', serif`;
+    try { ctx.letterSpacing = Math.round(size * 0.1) + 'px'; } catch {}
+    ctx.fillStyle = '#f0ece2';
     ctx.fillText(sub, W / 2, cy + size * 0.85);
   }
   ctx.shadowBlur = 0; ctx.shadowOffsetY = 0;
   try { ctx.letterSpacing = '0px'; } catch {}
 }
-['mk-title', 'mk-sub', 'mk-dim', 'mk-size', 'mk-y'].forEach(id => document.addEventListener('input', e => { if (e.target.id === id) drawMaker(); }));
+['mk-title', 'mk-sub', 'mk-band', 'mk-dim', 'mk-size', 'mk-y'].forEach(id => document.addEventListener('input', e => { if (e.target.id === id) drawMaker(); }));
 $('#mk-bgfile').onchange = e => {
   const f = e.target.files[0];
   if (f) loadMakerBg(URL.createObjectURL(f));
