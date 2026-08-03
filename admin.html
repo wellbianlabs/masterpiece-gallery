@@ -184,10 +184,13 @@ textarea { resize: vertical; }
       <label class="fld">부제
         <input type="text" id="mk-sub" value="소장 작품선">
       </label>
-      <label class="fld">띠 어둡기 <input type="range" id="mk-band" min="0" max="80" value="38"></label>
-      <label class="fld">배경 어둡기 <input type="range" id="mk-dim" min="0" max="70" value="0"></label>
-      <label class="fld">글자 크기 <input type="range" id="mk-size" min="60" max="160" value="104"></label>
-      <label class="fld">세로 위치 <input type="range" id="mk-y" min="25" max="80" value="48"></label>
+      <label class="fld"><span>띠 어둡기 <b class="mk-val" data-for="mk-band" style="color:var(--accent)">38%</b></span><input type="range" id="mk-band" min="0" max="80" value="38"></label>
+      <label class="fld"><span>배경 어둡기 <b class="mk-val" data-for="mk-dim" style="color:var(--accent)">0%</b></span><input type="range" id="mk-dim" min="0" max="70" value="0"></label>
+      <label class="fld"><span>글자 크기 <b class="mk-val" data-for="mk-size" style="color:var(--accent)">104px</b></span><input type="range" id="mk-size" min="60" max="160" value="104"></label>
+      <label class="fld"><span>세로 위치 <b class="mk-val" data-for="mk-y" style="color:var(--accent)">48%</b></span><input type="range" id="mk-y" min="25" max="80" value="48"></label>
+      <label class="pub-toggle" style="margin-top:4px" title="체크하면 현재 설정(띠/어둡기/크기/위치/부제)이 저장되어 다른 전시 표지를 만들 때도 기준값으로 적용됩니다">
+        <input type="checkbox" id="mk-keep"> 이 설정을 기본값으로 유지
+      </label>
       <div class="btns" style="margin-top:auto">
         <button class="btn" id="mk-cancel">취소</button>
         <button class="btn primary" id="mk-save">✓ 표지로 저장</button>
@@ -441,16 +444,44 @@ async function saveCover() {
 
 /* ───────── 표지 생성기 (배경 + 제목/부제 합성) ───────── */
 const MK = { ex: null, bg: null };
+const MK_FACTORY = { band: 38, dim: 0, size: 104, y: 48, sub: '소장 작품선' };
+function mkDefaults() {
+  try { return JSON.parse(localStorage.getItem('gallery-maker-defaults')) || null; } catch { return null; }
+}
+function mkSaveDefaults() {
+  localStorage.setItem('gallery-maker-defaults', JSON.stringify({
+    enabled: $('#mk-keep').checked,
+    band: +$('#mk-band').value, dim: +$('#mk-dim').value,
+    size: +$('#mk-size').value, y: +$('#mk-y').value, sub: $('#mk-sub').value,
+  }));
+}
+function mkUpdateVals() {
+  $$('.mk-val').forEach(el => {
+    const v = $('#' + el.dataset.for).value;
+    el.textContent = el.dataset.for === 'mk-size' ? v + 'px' : v + '%';
+  });
+}
 function openMaker(ex) {
   MK.ex = ex; MK.bg = null;
   $('#mk-title').value = ex.name || '';
-  $('#mk-sub').value = '소장 작품선';
+  // 저장된 기본값이 켜져 있으면 그 세팅으로, 아니면 공장 기본값
+  const d = mkDefaults();
+  const useSaved = d && d.enabled;
+  const v = useSaved ? d : MK_FACTORY;
+  $('#mk-sub').value = v.sub ?? MK_FACTORY.sub;
+  $('#mk-band').value = v.band ?? MK_FACTORY.band;
+  $('#mk-dim').value = v.dim ?? MK_FACTORY.dim;
+  $('#mk-size').value = v.size ?? MK_FACTORY.size;
+  $('#mk-y').value = v.y ?? MK_FACTORY.y;
+  $('#mk-keep').checked = !!useSaved;
+  mkUpdateVals();
   $('#maker').classList.add('open');
   // 기본 배경: 현재 표지
   if (ex.cover_path) loadMakerBg(artUrl(ex.cover_path));
   else drawMaker();
   Promise.all([document.fonts.load("800 104px 'Nanum Myeongjo'"), document.fonts.load("400 42px 'Nanum Myeongjo'")]).then(drawMaker);
 }
+$('#mk-keep').onchange = () => mkSaveDefaults();
 function loadMakerBg(url) {
   const im = new Image();
   im.crossOrigin = 'anonymous';
@@ -500,7 +531,12 @@ function drawMaker() {
   ctx.shadowBlur = 0; ctx.shadowOffsetY = 0;
   try { ctx.letterSpacing = '0px'; } catch {}
 }
-['mk-title', 'mk-sub', 'mk-band', 'mk-dim', 'mk-size', 'mk-y'].forEach(id => document.addEventListener('input', e => { if (e.target.id === id) drawMaker(); }));
+['mk-title', 'mk-sub', 'mk-band', 'mk-dim', 'mk-size', 'mk-y'].forEach(id => document.addEventListener('input', e => {
+  if (e.target.id !== id) return;
+  mkUpdateVals();
+  drawMaker();
+  if ($('#mk-keep').checked) mkSaveDefaults();   // 기본값 유지 중이면 변경값도 즉시 저장
+}));
 $('#mk-bgfile').onchange = e => {
   const f = e.target.files[0];
   if (f) loadMakerBg(URL.createObjectURL(f));
