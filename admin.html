@@ -187,7 +187,9 @@ textarea { resize: vertical; }
       <label class="fld"><span>띠 어둡기 <b class="mk-val" data-for="mk-band" style="color:var(--accent)">38%</b></span><input type="range" id="mk-band" min="0" max="80" value="38"></label>
       <label class="fld"><span>띠 높이 <b class="mk-val" data-for="mk-bandh" style="color:var(--accent)">280px</b></span><input type="range" id="mk-bandh" min="80" max="800" value="280"></label>
       <label class="fld"><span>배경 어둡기 <b class="mk-val" data-for="mk-dim" style="color:var(--accent)">0%</b></span><input type="range" id="mk-dim" min="0" max="70" value="0"></label>
-      <label class="fld"><span>글자 크기 <b class="mk-val" data-for="mk-size" style="color:var(--accent)">104px</b></span><input type="range" id="mk-size" min="60" max="160" value="104"></label>
+      <label class="fld"><span>제목 크기 <b class="mk-val" data-for="mk-tsize" style="color:var(--accent)">104px</b></span><input type="range" id="mk-tsize" min="50" max="180" value="104"></label>
+      <label class="fld"><span>부제 크기 <b class="mk-val" data-for="mk-ssize" style="color:var(--accent)">42px</b></span><input type="range" id="mk-ssize" min="20" max="90" value="42"></label>
+      <label class="fld"><span>제목·부제 간격 <b class="mk-val" data-for="mk-gap" style="color:var(--accent)">92px</b></span><input type="range" id="mk-gap" min="40" max="260" value="92"></label>
       <label class="fld"><span>세로 위치 <b class="mk-val" data-for="mk-y" style="color:var(--accent)">48%</b></span><input type="range" id="mk-y" min="25" max="80" value="48"></label>
       <label class="pub-toggle" style="margin-top:4px" title="체크하면 현재 설정(띠/어둡기/크기/위치/부제)이 저장되어 다른 전시 표지를 만들 때도 기준값으로 적용됩니다">
         <input type="checkbox" id="mk-keep"> 이 설정을 기본값으로 유지
@@ -445,7 +447,7 @@ async function saveCover() {
 
 /* ───────── 표지 생성기 (배경 + 제목/부제 합성) ───────── */
 const MK = { ex: null, bg: null };
-const MK_FACTORY = { band: 38, bandh: 280, dim: 0, size: 104, y: 48, sub: '소장 작품선' };
+const MK_FACTORY = { band: 38, bandh: 280, dim: 0, tsize: 104, ssize: 42, gap: 92, y: 48, sub: '소장 작품선' };
 function mkDefaults() {
   try { return JSON.parse(localStorage.getItem('gallery-maker-defaults')) || null; } catch { return null; }
 }
@@ -453,13 +455,14 @@ function mkSaveDefaults() {
   localStorage.setItem('gallery-maker-defaults', JSON.stringify({
     enabled: $('#mk-keep').checked,
     band: +$('#mk-band').value, bandh: +$('#mk-bandh').value, dim: +$('#mk-dim').value,
-    size: +$('#mk-size').value, y: +$('#mk-y').value, sub: $('#mk-sub').value,
+    tsize: +$('#mk-tsize').value, ssize: +$('#mk-ssize').value, gap: +$('#mk-gap').value,
+    y: +$('#mk-y').value, sub: $('#mk-sub').value,
   }));
 }
 function mkUpdateVals() {
   $$('.mk-val').forEach(el => {
     const v = $('#' + el.dataset.for).value;
-    el.textContent = (el.dataset.for === 'mk-size' || el.dataset.for === 'mk-bandh') ? v + 'px' : v + '%';
+    el.textContent = ['mk-tsize', 'mk-ssize', 'mk-gap', 'mk-bandh'].includes(el.dataset.for) ? v + 'px' : v + '%';
   });
 }
 function openMaker(ex) {
@@ -473,7 +476,9 @@ function openMaker(ex) {
   $('#mk-band').value = v.band ?? MK_FACTORY.band;
   $('#mk-bandh').value = v.bandh ?? MK_FACTORY.bandh;
   $('#mk-dim').value = v.dim ?? MK_FACTORY.dim;
-  $('#mk-size').value = v.size ?? MK_FACTORY.size;
+  $('#mk-tsize').value = v.tsize ?? MK_FACTORY.tsize;
+  $('#mk-ssize').value = v.ssize ?? MK_FACTORY.ssize;
+  $('#mk-gap').value = v.gap ?? MK_FACTORY.gap;
   $('#mk-y').value = v.y ?? MK_FACTORY.y;
   $('#mk-keep').checked = !!useSaved;
   mkUpdateVals();
@@ -504,36 +509,38 @@ function drawMaker() {
   }
   const dim = (+$('#mk-dim').value) / 100;
   if (dim > 0) { ctx.fillStyle = `rgba(0,0,0,${dim})`; ctx.fillRect(0, 0, W, H); }
-  const size = +$('#mk-size').value;
-  const subSize = Math.round(size * 0.4);
-  const cy = H * (+$('#mk-y').value) / 100;
+  const tSize = +$('#mk-tsize').value;
+  const sSize = +$('#mk-ssize').value;
+  const gap = +$('#mk-gap').value;                 // 제목 중심 ↔ 부제 중심 거리
+  const cy = H * (+$('#mk-y').value) / 100;        // 텍스트 블록·띠의 공통 중심
   const title = $('#mk-title').value, sub = $('#mk-sub').value;
-  // 기존 양식: 텍스트 뒤 전폭 반투명 검정 띠 — 텍스트 블록 중앙 기준, 높이 조절 가능
+  // 띠: 글자 크기와 무관하게 세로 위치(cy) 중심 + 띠 높이로만 결정
   const band = (+$('#mk-band').value) / 100;
   const bandH = +$('#mk-bandh').value;
   if (band > 0) {
-    const blockCenter = sub ? cy + (size * 0.85 + subSize * 0.85 - size * 0.82) / 2 : cy;
     ctx.fillStyle = `rgba(0,0,0,${band})`;
-    ctx.fillRect(0, blockCenter - bandH / 2, W, bandH);
+    ctx.fillRect(0, cy - bandH / 2, W, bandH);
   }
+  const titleY = sub ? cy - gap / 2 : cy;
+  const subY = cy + gap / 2;
   ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
   ctx.shadowColor = 'rgba(0,0,0,.35)'; ctx.shadowBlur = 10; ctx.shadowOffsetY = 2;
   if (title) {
-    ctx.font = `800 ${size}px 'Nanum Myeongjo', serif`;
-    try { ctx.letterSpacing = Math.round(size * 0.03) + 'px'; } catch {}
+    ctx.font = `800 ${tSize}px 'Nanum Myeongjo', serif`;
+    try { ctx.letterSpacing = Math.round(tSize * 0.03) + 'px'; } catch {}
     ctx.fillStyle = '#ffffff';
-    ctx.fillText(title, W / 2, cy);
+    ctx.fillText(title, W / 2, titleY);
   }
   if (sub) {
-    ctx.font = `400 ${subSize}px 'Nanum Myeongjo', serif`;
-    try { ctx.letterSpacing = Math.round(size * 0.1) + 'px'; } catch {}
+    ctx.font = `400 ${sSize}px 'Nanum Myeongjo', serif`;
+    try { ctx.letterSpacing = Math.round(sSize * 0.25) + 'px'; } catch {}
     ctx.fillStyle = '#f0ece2';
-    ctx.fillText(sub, W / 2, cy + size * 0.85);
+    ctx.fillText(sub, W / 2, subY);
   }
   ctx.shadowBlur = 0; ctx.shadowOffsetY = 0;
   try { ctx.letterSpacing = '0px'; } catch {}
 }
-['mk-title', 'mk-sub', 'mk-band', 'mk-bandh', 'mk-dim', 'mk-size', 'mk-y'].forEach(id => document.addEventListener('input', e => {
+['mk-title', 'mk-sub', 'mk-band', 'mk-bandh', 'mk-dim', 'mk-tsize', 'mk-ssize', 'mk-gap', 'mk-y'].forEach(id => document.addEventListener('input', e => {
   if (e.target.id !== id) return;
   mkUpdateVals();
   drawMaker();
