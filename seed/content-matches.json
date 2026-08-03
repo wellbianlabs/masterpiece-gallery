@@ -1,0 +1,754 @@
+{
+ "스웨덴국립미술관_수정/0001.jpg": {
+  "original": "A_Barn_at_Kronetorp,_Skåne_(Gustaf_Rydberg)_-_Nationalmuseum_-_20749.tif",
+  "score": 0.567,
+  "margin": 0.112,
+  "title": "A Barn at Kronetorp, Skåne",
+  "artist": "Gustaf Rydberg",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0002.jpg": {
+  "original": "A_Cold_September_Day_in_Medelpad_(Carl_Johansson)_-_Nationalmuseum_-_18620.tif",
+  "score": 0.892,
+  "margin": 0.349,
+  "title": "A Cold September Day in Medelpad",
+  "artist": "Carl Johansson",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0003.jpg": {
+  "original": "A_Country_Church._Study_(Alfred_Wahlberg)_-_Nationalmuseum_-_20761.tif",
+  "score": 0.858,
+  "margin": 0.37,
+  "title": "A Country Church. Study",
+  "artist": "Alfred Wahlberg",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0004.jpg": {
+  "original": "A_Day_of_Celebration._From_A_Home_(26_watercolours)_(Carl_Larsson)_-_Nationalmuseum_-_24221.tif",
+  "score": 0.966,
+  "margin": 0.619,
+  "title": "A Day of Celebration. From A Home (26 watercolours)",
+  "artist": "Carl Larsson",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0005.jpg": {
+  "original": "A_Day_of_Celebration_(Fanny_Brate)_-_Nationalmuseum_-_18609.tif",
+  "score": 0.876,
+  "margin": 0.494,
+  "title": "A Day of Celebration",
+  "artist": "Fanny Brate",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0006.jpg": {
+  "original": "A_Ditch_(Lorenz_Frølich)_-_Nationalmuseum_-_212696.tif",
+  "score": 0.718,
+  "margin": 0.123,
+  "title": "A Ditch",
+  "artist": "Lorenz Frølich",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0007.jpg": {
+  "original": "A_Fishing_Harbour._Study_from_North_Norway_(Anna_Boberg)_-_Nationalmuseum_-_21342.tif",
+  "score": 0.878,
+  "margin": 0.596,
+  "title": "A Fishing Harbour. Study from North Norway",
+  "artist": "Anna Boberg",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0008.jpg": {
+  "original": "A_Garden_in_Grez_(Georg_Pauli)_-_Nationalmuseum_-_22314.tif",
+  "score": 0.947,
+  "margin": 0.555,
+  "title": "A Garden in Grez",
+  "artist": "Georg Pauli",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0009.jpg": {
+  "original": "A_Man_Drawing_(Otto_Holmström)_-_Nationalmuseum_-_23840.tif",
+  "score": 0.792,
+  "margin": 0.351,
+  "title": "A Man Drawing",
+  "artist": "Otto Holmström",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0010.jpg": {
+  "original": "A_Mountain_Lake._Study_from_North_Norway_(Anna_Boberg)_-_Nationalmuseum_-_21377.tif",
+  "score": 0.718,
+  "margin": 0.135,
+  "title": "A Mountain Lake. Study from North Norway",
+  "artist": "Anna Boberg",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0011.jpg": {
+  "original": "A_Noble_Family_Distributing_Alms_in_a_Park_(Mathys_Ignatius_van_Bree)_-_Nationalmuseum_-_17364.tif",
+  "score": 0.994,
+  "margin": 0.45,
+  "title": "A Noble Family Distributing Alms in a Park",
+  "artist": "Mathys Ignatius van Bree",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0012.jpg": {
+  "original": "A_Quiet_Evening._Study_from_North_Norway_(Anna_Boberg)_-_Nationalmuseum_-_21421.tif",
+  "score": 0.888,
+  "margin": 0.18,
+  "title": "A Quiet Evening. Study from North Norway",
+  "artist": "Anna Boberg",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0013.jpg": {
+  "original": "A_River_in_France._Study_(Ida_von_Schulzenheim)_-_Nationalmuseum_-_20956.tif",
+  "score": 0.966,
+  "margin": 0.383,
+  "title": "A River in France. Study",
+  "artist": "Ida von Schulzenheim",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0014.jpg": {
+  "original": "A_Winter_Morning_after_a_Snowfall_in_Dalarna_(Anshelm_Schultzberg)_-_Nationalmuseum_-_18455.tif",
+  "score": 0.922,
+  "margin": 0.294,
+  "title": "A Winter Morning after a Snowfall in Dalarna",
+  "artist": "Anshelm Schultzberg",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0015.jpg": {
+  "original": "A_Working_Day_in_Paris_-_Nationalmuseum_-_18851.tif",
+  "score": 0.955,
+  "margin": 0.274,
+  "title": "A Working Day in Paris",
+  "artist": "",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0016.jpg": {
+  "original": "Apple_Tree_in_Blossom_(Carl_Fredrik_Hill)_-_Nationalmuseum_-_18868.tif",
+  "score": 0.918,
+  "margin": 0.254,
+  "title": "Apple Tree in Blossom",
+  "artist": "Carl Fredrik Hill",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0017.jpg": {
+  "original": "At_Barrière_de_la_Villette,_Paris_(Auguste-Xavier_LePrince)_-_Nationalmuseum_-_181922_(cropped).tif",
+  "score": 0.98,
+  "margin": 0.175,
+  "title": "At Barrière de la Villette, Paris (Auguste-Xavier LePrince) - Nationalmuseum - 181922",
+  "artist": "cropped",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0018.jpg": {
+  "original": "At_Breakfast_(Laurits_Andersen_Ring)_-_Nationalmuseum_-_21399.tif",
+  "score": 0.914,
+  "margin": 0.42,
+  "title": "At Breakfast",
+  "artist": "Laurits Andersen Ring",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0019.jpg": {
+  "original": "At_the_City_Toll_Gate_(Victor_Forssell)_-_Nationalmuseum_-_20432.tif",
+  "score": 0.956,
+  "margin": 0.405,
+  "title": "At the City Toll Gate",
+  "artist": "Victor Forssell",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0020.jpg": {
+  "original": "At_the_Old_House_(Laurits_Andersen_Ring)_-_Nationalmuseum_-_19491.tif",
+  "score": 0.899,
+  "margin": 0.48,
+  "title": "At the Old House",
+  "artist": "Laurits Andersen Ring",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0021.jpg": {
+  "original": "At_the_Piano_(Mina_Carlson-Bredberg)_-_Nationalmuseum_-_20185.tif",
+  "score": 0.986,
+  "margin": 0.504,
+  "title": "At the Piano",
+  "artist": "Mina Carlson-Bredberg",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0022.jpg": {
+  "original": "Autumn_Landscape_in_the_Glow_of_Sunset_(Per_Ekström)_-_Nationalmuseum_-_21817.tif",
+  "score": 0.985,
+  "margin": 0.238,
+  "title": "Autumn Landscape in the Glow of Sunset",
+  "artist": "Per Ekström",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0023.jpg": {
+  "original": "Between_Christmas_and_New_Year._From_A_Home_(26_watercolours)_(Carl_Larsson)_-_Nationalmuseum_-_24206.tif",
+  "score": 0.928,
+  "margin": 0.341,
+  "title": "Between Christmas and New Year. From A Home (26 watercolours)",
+  "artist": "Carl Larsson",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0024.jpg": {
+  "original": "Blind_Christian._Study_(Michael_Ancher)_-_Nationalmuseum_-_19747.tif",
+  "score": 0.946,
+  "margin": 0.356,
+  "title": "Blind Christian. Study",
+  "artist": "Michael Ancher",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0025.jpg": {
+  "original": "Breakfast_under_the_Big_Birch._From_A_Home_(26_watercolours)_(Carl_Larsson)_-_Nationalmuseum_-_24220.tif",
+  "score": 0.896,
+  "margin": 0.512,
+  "title": "Breakfast under the Big Birch. From A Home (26 watercolours)",
+  "artist": "Carl Larsson",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0026.jpg": {
+  "original": "Breakfast-Time_(Hanna_Pauli)_-_Nationalmuseum_-_18709.tif",
+  "score": 0.817,
+  "margin": 0.408,
+  "title": "Breakfast-Time",
+  "artist": "Hanna Pauli",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0027.jpg": {
+  "original": "Briar-Rose_Bushes_Flowering_on_the_Isle_of_Tjörn_(Karl_Nordström)_-_Nationalmuseum_-_22020.tif",
+  "score": 0.876,
+  "margin": 0.443,
+  "title": "Briar-Rose Bushes Flowering on the Isle of Tjörn",
+  "artist": "Karl Nordström",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0028.jpg": {
+  "original": "Bridal_Escort_on_the_Hardanger_Fiord_(Johan_Fredrik_Eckersberg)_-_Nationalmuseum_-_18492.tif",
+  "score": 0.99,
+  "margin": 0.186,
+  "title": "Bridal Escort on the Hardanger Fiord",
+  "artist": "Johan Fredrik Eckersberg",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0029.jpg": {
+  "original": "By_the_Sea_(Alfred_Bergström)_-_Nationalmuseum_-_18630.tif",
+  "score": 0.967,
+  "margin": 0.133,
+  "title": "By the Sea",
+  "artist": "Alfred Bergström",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0030.jpg": {
+  "original": "Cat_on_a_flowery_meadow_(Bruno_Liljefors)_-_Nationalmuseum_-_149858.tif",
+  "score": 0.607,
+  "margin": 0.213,
+  "title": "Cat on a flowery meadow",
+  "artist": "Bruno Liljefors",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0031.jpg": {
+  "original": "Cosy_Corner._From_A_Home_(26_watercolours)_(Carl_Larsson)_-_Nationalmuseum_-_24210.tif",
+  "score": 0.91,
+  "margin": 0.564,
+  "title": "Cosy Corner. From A Home (26 watercolours)",
+  "artist": "Carl Larsson",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0032.jpg": {
+  "original": "Countryside_near_Grez-sur-Loing_(Carl_Trägårdh)_-_Nationalmuseum_-_19544.tif",
+  "score": 0.925,
+  "margin": 0.369,
+  "title": "Countryside near Grez-sur-Loing",
+  "artist": "Carl Trägårdh",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0033.jpg": {
+  "original": "Cows_on_the_Beach_(Nils_Kreuger)_-_Nationalmuseum_-_19347.tif",
+  "score": 0.927,
+  "margin": 0.124,
+  "title": "Cows on the Beach",
+  "artist": "Nils Kreuger",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0034.jpg": {
+  "original": "Crayfishing._From_A_Home_(26_watercolours)_(Carl_Larsson)_-_Nationalmuseum_-_24219.tif",
+  "score": 0.912,
+  "margin": 0.542,
+  "title": "Crayfishing. From A Home (26 watercolours)",
+  "artist": "Carl Larsson",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0035.jpg": {
+  "original": "Demolishing_the_Old_Orphanage,_Stockholm_(Anshelm_Schultzberg)_-_Nationalmuseum_-_20338.tif",
+  "score": 0.919,
+  "margin": 0.366,
+  "title": "Demolishing the Old Orphanage, Stockholm",
+  "artist": "Anshelm Schultzberg",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0036.jpg": {
+  "original": "Esbjörn_at_the_Study_Corner_(Carl_Larsson)_-_Nationalmuseum_-_26034.tif",
+  "score": 0.898,
+  "margin": 0.5,
+  "title": "Esbjörn at the Study Corner",
+  "artist": "Carl Larsson",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0037.jpg": {
+  "original": "Fiord_Landscape_(Sofie_Werenskiold)_-_Nationalmuseum_-_31080.tif",
+  "score": 0.972,
+  "margin": 0.555,
+  "title": "Fiord Landscape",
+  "artist": "Sofie Werenskiold",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0038.jpg": {
+  "original": "Hoga_Valley,_Tjörn_(Karl_Nordström)_-_Nationalmuseum_-_18532.tif",
+  "score": 0.992,
+  "margin": 0.286,
+  "title": "Hoga Valley, Tjörn",
+  "artist": "Karl Nordström",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0039.jpg": {
+  "original": "Idyll_(Carl_Larsson)_-_Nationalmuseum_-_19517.tif",
+  "score": 0.896,
+  "margin": 0.485,
+  "title": "Idyll",
+  "artist": "Carl Larsson",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0040.jpg": {
+  "original": "In_the_Bois_de_Boulogne_(Berthe_Morisot)_-_Nationalmuseum_-_22575.tif",
+  "score": 0.883,
+  "margin": 0.353,
+  "title": "In the Bois de Boulogne",
+  "artist": "Berthe Morisot",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0041.jpg": {
+  "original": "In_the_Drawing-room_at_Haiko_(Albert_Edelfelt)_-_Nationalmuseum_-_19582.tif",
+  "score": 0.929,
+  "margin": 0.399,
+  "title": "In the Drawing-room at Haiko",
+  "artist": "Albert Edelfelt",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0042.jpg": {
+  "original": "In_the_Park,_Frascati._Study_(Gustaf_Wilhelm_Palm)_-_Nationalmuseum_-_20295.tif",
+  "score": 0.814,
+  "margin": 0.239,
+  "title": "In the Park, Frascati. Study",
+  "artist": "Gustaf Wilhelm Palm",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0043.jpg": {
+  "original": "In_the_Quarry._Motif_from_Switzerland_(Axel_Jungstedt)_-_Nationalmuseum_-_18383.tif",
+  "score": 0.943,
+  "margin": 0.386,
+  "title": "In the Quarry. Motif from Switzerland",
+  "artist": "Axel Jungstedt",
+  "confident": true
+ },
+ "스웨덴국립미술관_수정/0044.jpg": {
+  "original": "In_the_Stockholm_Archipelago_(J.A.G._Acke_(eg._Johan_Axel_Gustaf_Andersson))_-_Nationalmuseum_-_18746.tif",
+  "score": 0.844,
+  "margin": 0.244,
+  "title": "In the Stockholm Archipelago (J.A.G. Acke (eg. Johan Axel Gustaf Andersson))",
+  "artist": "",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0000.jpg": {
+  "original": "Edward Lear, 1812–1888, British, The Marble Rocks — Nerbudda Jubbolpore.tif",
+  "score": 0.415,
+  "margin": 0.018,
+  "title": "The Marble Rocks — Nerbudda Jubbolpore",
+  "artist": "Edward Lear",
+  "confident": false
+ },
+ "예일센터브리티시아트_수정/0001.jpg": {
+  "original": "Attributed to John Constable, 1776–1837, British, Flatford Mill.tif",
+  "score": 0.996,
+  "margin": 0.269,
+  "title": "Flatford Mill",
+  "artist": "John Constable",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0002.jpg": {
+  "original": "Attributed to John Constable, 1776–1837, British, Summer - Evening Landscape.tif",
+  "score": 0.997,
+  "margin": 0.105,
+  "title": "Summer - Evening Landscape",
+  "artist": "John Constable",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0003.jpg": {
+  "original": "Canaletto, 1697–1768, Venetian, active in Britain (1746–55), Warwick Castle.tif",
+  "score": 0.998,
+  "margin": 0.13,
+  "title": "Warwick Castle",
+  "artist": "Canaletto",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0004.jpg": {
+  "original": "David Roberts, 1796–1864, British, The Giudecca, Venice.tif",
+  "score": 0.997,
+  "margin": 0.183,
+  "title": "Venice",
+  "artist": "David Roberts",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0005.jpg": {
+  "original": "Edward Lear, 1812–1888, British, Kangchenjunga from Darjeeling.tif",
+  "score": 0.998,
+  "margin": 0.219,
+  "title": "Kangchenjunga from Darjeeling",
+  "artist": "Edward Lear",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0006.jpg": {
+  "original": "Edward Lear, 1812–1888, British, Philae, Egypt.tif",
+  "score": 0.998,
+  "margin": 0.237,
+  "title": "Egypt",
+  "artist": "Edward Lear",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0007.jpg": {
+  "original": "Edward Lear, 1812–1888, British, Temple of Venus and Rome, Rome.tif",
+  "score": 0.999,
+  "margin": 0.225,
+  "title": "Rome",
+  "artist": "Edward Lear",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0008.jpg": {
+  "original": "Francis Danby, 1793–1861, Irish, Boat Building near Dinan, Brittany.tif",
+  "score": 0.998,
+  "margin": 0.183,
+  "title": "Brittany",
+  "artist": "Francis Danby",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0009.jpg": {
+  "original": "Francis Danby, 1793–1861, Irish, Shipwreck.tif",
+  "score": 0.996,
+  "margin": 0.423,
+  "title": "Shipwreck",
+  "artist": "Francis Danby",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0010.jpg": {
+  "original": "Francis Danby, 1793–1861, Irish, The Painter's Holiday.tif",
+  "score": 0.999,
+  "margin": 0.165,
+  "title": "The Painter's Holiday",
+  "artist": "Francis Danby",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0011.jpg": {
+  "original": "George Clausen, 1852–1944, British, Schoolgirls.tif",
+  "score": 0.996,
+  "margin": 0.595,
+  "title": "Schoolgirls",
+  "artist": "George Clausen",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0012.jpg": {
+  "original": "George Stubbs, 1724–1806, British, Lustre, held by a Groom.tif",
+  "score": 0.998,
+  "margin": 0.418,
+  "title": "held by a Groom",
+  "artist": "George Stubbs",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0013.jpg": {
+  "original": "George Stubbs, 1724–1806, British, Newmarket Heath, with the King's stables rubbing house at the finish of the Beacon Course.tif",
+  "score": 0.999,
+  "margin": 0.156,
+  "title": "with the King's stables rubbing house at the finish of the Beacon Course",
+  "artist": "George Stubbs",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0014.jpg": {
+  "original": "George Stubbs, 1724–1806, British, The Countess of Coningsby in the Costume of the Charlton Hunt.tif",
+  "score": 0.997,
+  "margin": 0.421,
+  "title": "The Countess of Coningsby in the Costume of the Charlton Hunt",
+  "artist": "George Stubbs",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0015.jpg": {
+  "original": "George Stubbs, 1724–1806, British, Turf, with Jockey up, at Newmarket, ca. 1766.tif",
+  "score": 0.998,
+  "margin": 0.183,
+  "title": "ca. 1766",
+  "artist": "George Stubbs",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0016.jpg": {
+  "original": "Harold Gilman, 1876–1919, British, Interior Scene, Possibly in Norway.tif",
+  "score": 0.982,
+  "margin": 0.576,
+  "title": "Possibly in Norway",
+  "artist": "Harold Gilman",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0017.jpg": {
+  "original": "Harold Gilman, 1876–1919, British, Sylvia Darning.tif",
+  "score": 0.996,
+  "margin": 0.295,
+  "title": "Sylvia Darning",
+  "artist": "Harold Gilman",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0018.jpg": {
+  "original": "James Holland, 1799–1870, British, Torre Dos Clerigos, Oporto, Portugal.tif",
+  "score": 0.998,
+  "margin": 0.371,
+  "title": "Portugal",
+  "artist": "James Holland",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0019.jpg": {
+  "original": "James Smetham, 1821–1889, British, Lovers in Richmond Park.tif",
+  "score": 0.996,
+  "margin": 0.406,
+  "title": "Lovers in Richmond Park",
+  "artist": "James Smetham",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0020.jpg": {
+  "original": "John Constable, 1776–1837, British, Barge below Flatford Lock.tif",
+  "score": 0.998,
+  "margin": 0.172,
+  "title": "Barge below Flatford Lock",
+  "artist": "John Constable",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0021.jpg": {
+  "original": "John Constable, 1776–1837, British, Extensive Landscape with Grey Clouds.tif",
+  "score": 0.996,
+  "margin": 0.543,
+  "title": "Extensive Landscape with Grey Clouds",
+  "artist": "John Constable",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0022.jpg": {
+  "original": "John Constable, 1776–1837, British, Flatford Mill.tif",
+  "score": 0.993,
+  "margin": 0.357,
+  "title": "Flatford Mill",
+  "artist": "John Constable",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0023.jpg": {
+  "original": "John Constable, 1776–1837, British, Half-size Sketch for The Opening of Waterloo Bridge .tif",
+  "score": 0.998,
+  "margin": 0.187,
+  "title": "Half-size Sketch for The Opening of Waterloo Bridge",
+  "artist": "John Constable",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0024.jpg": {
+  "original": "John Constable, 1776–1837, British, Harwich The Low Lighthouse and Beacon Hill.tif",
+  "score": 0.998,
+  "margin": 0.199,
+  "title": "Harwich The Low Lighthouse and Beacon Hill",
+  "artist": "John Constable",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0025.jpg": {
+  "original": "John Constable, 1776–1837, British, Mary Freer.tif",
+  "score": 0.999,
+  "margin": 0.283,
+  "title": "Mary Freer",
+  "artist": "John Constable",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0026.jpg": {
+  "original": "John Constable, 1776–1837, British, Sir Richard Steele's Cottage, Hampstead.tif",
+  "score": 0.998,
+  "margin": 0.186,
+  "title": "Hampstead",
+  "artist": "John Constable",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0027.jpg": {
+  "original": "John William Inchbold, 1830–1888, British, Ariccia, near Rome, Italy.tif",
+  "score": 0.984,
+  "margin": 0.382,
+  "title": "Italy",
+  "artist": "John William Inchbold",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0028.jpg": {
+  "original": "Joseph Mallord William Turner, 1775–1851, British, Dort or Dordrecht The Dort Packet-Boat from Rotterdam Becalmed, 1818.tif",
+  "score": 0.998,
+  "margin": 0.257,
+  "title": "1818",
+  "artist": "Joseph Mallord William Turner",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0029.jpg": {
+  "original": "Joseph Mallord William Turner, 1775–1851, British, Inverary Pier, Loch Fyne Morning, ca. 1845.tif",
+  "score": 0.998,
+  "margin": 0.245,
+  "title": "ca. 1845",
+  "artist": "Joseph Mallord William Turner",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0030.jpg": {
+  "original": "Philip Hermogenes Calderon, 1833–1898, British, Lord, Thy Will Be Done.tif",
+  "score": 0.998,
+  "margin": 0.487,
+  "title": "Thy Will Be Done",
+  "artist": "Philip Hermogenes Calderon",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0031.jpg": {
+  "original": "Richard Parkes Bonington, 1802–1828, British, Beached Vessels and a Wagon near Trouville.tif",
+  "score": 0.997,
+  "margin": 0.284,
+  "title": "Beached Vessels and a Wagon near Trouville",
+  "artist": "Richard Parkes Bonington",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0032.jpg": {
+  "original": "Richard Parkes Bonington, 1802–1828, British, Calais Jetty, France.tif",
+  "score": 0.999,
+  "margin": 0.225,
+  "title": "France",
+  "artist": "Richard Parkes Bonington",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0033.jpg": {
+  "original": "Richard Parkes Bonington, 1802–1828, British, Corso Sant'Anastasia, Verona.tif",
+  "score": 0.999,
+  "margin": 0.345,
+  "title": "Verona",
+  "artist": "Richard Parkes Bonington",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0034.jpg": {
+  "original": "Robert Polhill Bevan, 1865–1925, British, A Morning at Tattersall's.tif",
+  "score": 0.996,
+  "margin": 0.475,
+  "title": "A Morning at Tattersall's",
+  "artist": "Robert Polhill Bevan",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0035.jpg": {
+  "original": "Robert Polhill Bevan, 1865–1925, British, Aldwych.tif",
+  "score": 0.997,
+  "margin": 0.38,
+  "title": "Aldwych",
+  "artist": "Robert Polhill Bevan",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0036.jpg": {
+  "original": "Robert Polhill Bevan, 1865–1925, British, Hay Carts, Cumberland Market.tif",
+  "score": 0.994,
+  "margin": 0.578,
+  "title": "Cumberland Market",
+  "artist": "Robert Polhill Bevan",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0037.jpg": {
+  "original": "Robert Polhill Bevan, 1865–1925, British, Quiet with all Road Nuisances.tif",
+  "score": 0.994,
+  "margin": 0.364,
+  "title": "Quiet with all Road Nuisances",
+  "artist": "Robert Polhill Bevan",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0038.jpg": {
+  "original": "Robert Polhill Bevan, 1865–1925, British, The Caller at the Mill.tif",
+  "score": 0.995,
+  "margin": 0.284,
+  "title": "The Caller at the Mill",
+  "artist": "Robert Polhill Bevan",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0039.jpg": {
+  "original": "Robert Polhill Bevan, 1865–1925, British, The Ford.tif",
+  "score": 0.996,
+  "margin": 0.39,
+  "title": "The Ford",
+  "artist": "Robert Polhill Bevan",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0040.jpg": {
+  "original": "Robert Polhill Bevan, 1865–1925, British, The Horse Mart.tif",
+  "score": 0.996,
+  "margin": 0.658,
+  "title": "The Horse Mart",
+  "artist": "Robert Polhill Bevan",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0041.jpg": {
+  "original": "Robert Polhill Bevan, 1865–1925, British, The Turn Rice-Plough, Sussex.tif",
+  "score": 0.997,
+  "margin": 0.315,
+  "title": "Sussex",
+  "artist": "Robert Polhill Bevan",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0042.jpg": {
+  "original": "Robert Polhill Bevan, 1865–1925, British, The Weigh House, Cumberland Market.tif",
+  "score": 0.985,
+  "margin": 0.55,
+  "title": "Cumberland Market",
+  "artist": "Robert Polhill Bevan",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0043.jpg": {
+  "original": "Samuel Palmer, 1805–1881, British, active in Italy (1837–39), The Harvest Moon.tif",
+  "score": 0.976,
+  "margin": 0.479,
+  "title": "The Harvest Moon",
+  "artist": "Samuel Palmer",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0044.jpg": {
+  "original": "Sir Lawrence Alma-Tadema, 1836–1912, Dutch, active in Britain (from 1870), Sunny Days.tif",
+  "score": 0.802,
+  "margin": 0.3,
+  "title": "Sunny Days",
+  "artist": "Sir Lawrence Alma-Tadema",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0045.jpg": {
+  "original": "Spencer Frederick Gore, 1878–1914, British, Tennis at Hertingfordbur.tif",
+  "score": 0.975,
+  "margin": 0.42,
+  "title": "Tennis at Hertingfordbur",
+  "artist": "Spencer Frederick Gore",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0046.jpg": {
+  "original": "Thomas Malton the Younger, 1748–1804, British, High Street, Oxford.tif",
+  "score": 0.997,
+  "margin": 0.324,
+  "title": "Oxford",
+  "artist": "Thomas Malton the Younger",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0047.jpg": {
+  "original": "William Henry Millais, 1828–1899, British, Hayes Common.tif",
+  "score": 0.984,
+  "margin": 0.475,
+  "title": "Hayes Common",
+  "artist": "William Henry Millais",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0048.jpg": {
+  "original": "William Tasker, 1808–1852, British, Lord Westminster's Cardinal Puff, with Sam Darling Up, Winning the Tradesman's Plate, Cheste.tif",
+  "score": 0.998,
+  "margin": 0.107,
+  "title": "Cheste",
+  "artist": "William Tasker",
+  "confident": true
+ },
+ "예일센터브리티시아트_수정/0049.jpg": {
+  "original": "William Tasker, 1808–1852, British, The Liverpool and National Steeplechase at Aintree.tif",
+  "score": 0.99,
+  "margin": 0.199,
+  "title": "The Liverpool and National Steeplechase at Aintree",
+  "artist": "William Tasker",
+  "confident": true
+ }
+}
