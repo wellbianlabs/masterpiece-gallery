@@ -241,7 +241,8 @@ function exRow(ex) {
       <textarea class="f-intro" rows="2">${ex.intro || ''}</textarea>
       <div class="row1">
         <button class="btn primary f-save">저장</button>
-        <button class="btn f-cover">표지 선택</button>
+        <label class="btn" style="cursor:pointer" title="작품과 별개로 보관되는 전용 대표 표지">🖼 표지 업로드<input type="file" class="f-coverfile" accept="image/jpeg,image/png,image/webp" style="display:none"></label>
+        <button class="btn f-cover" title="기존 작품 중에서 표지로 지정">작품에서 표지 선택</button>
         <button class="btn f-works">작품 관리 ▾</button>
         <label class="btn" style="cursor:pointer">+ 작품 업로드<input type="file" class="f-upload" multiple accept="image/*" style="display:none"></label>
         <div class="spacer"></div>
@@ -259,6 +260,7 @@ function exRow(ex) {
     error ? toast('오류: ' + error.message) : toast('저장됨');
   };
   row.querySelector('.f-cover').onclick = () => pickCover(ex);
+  row.querySelector('.f-coverfile').onchange = e => { if (e.target.files[0]) startCoverCrop(ex, e.target.files[0]); e.target.value = ''; };
   row.querySelector('.f-works').onclick = () => { OPEN_EX = ex.id; renderWorks(ex.id); };
   row.querySelector('.f-upload').onchange = e => startCropQueue(ex, [...e.target.files]);
   row.querySelector('.f-del').onclick = async () => {
@@ -348,6 +350,41 @@ async function pickCover(ex) {
 
 /* ───────── 크롭 큐 (브라우저 캔버스 크롭 → 업로드) ───────── */
 const cropState = { mode: 'upload', ex: null, artwork: null, exId: null, queue: [], file: null, img: null, scale: 1, box: { x: 0, y: 0, w: 0, h: 0 } };
+
+/* ── 전용 대표 표지 업로드: 작품과 분리된 covers/ 공간에 저장 ── */
+function startCoverCrop(ex, file) {
+  cropState.mode = 'cover';
+  cropState.ex = ex;
+  cropState.file = file;
+  $('#crop-queue').textContent = '대표 표지 — ' + ex.name;
+  $('#m-title').value = ''; $('#m-artist').value = ''; $('#m-year').value = '';
+  $('#keep-original').parentElement.style.display = 'none';
+  $('#crop-modal').classList.add('open');
+  const img = $('#crop-img');
+  img.onload = () => { cropState.imgW = img.naturalWidth; cropState.imgH = img.naturalHeight; initCropBox(); };
+  img.src = URL.createObjectURL(file);
+}
+async function saveCover() {
+  const img = $('#crop-img');
+  const s = cropState.scale, b = cropState.box;
+  const crop = { x: b.x * s, y: b.y * s, w: b.w * s, h: b.h * s };
+  const blob = await canvasBlob(img, crop, 1920, 1080, 0.9);
+  const ex = cropState.ex;
+  const coverPath = `covers/${ex.id}_${uid().slice(0, 8)}.jpg`;
+  const up = await sb.storage.from('gallery-art').upload(coverPath, blob, { contentType: 'image/jpeg' });
+  if (up.error) throw new Error(up.error.message);
+  const { error } = await sb.from('gallery_exhibitions').update({ cover_path: coverPath }).eq('id', ex.id);
+  if (error) throw new Error(error.message);
+  // 이전 전용 표지 정리 (covers/ 파일이면서 다른 전시가 안 쓰는 경우만)
+  if (ex.cover_path && ex.cover_path.startsWith('covers/')) {
+    const { data: others } = await sb.from('gallery_exhibitions').select('id').eq('cover_path', ex.cover_path).neq('id', ex.id);
+    if (!others || !others.length) await sb.storage.from('gallery-art').remove([ex.cover_path]);
+  }
+  URL.revokeObjectURL(img.src);
+  $('#crop-modal').classList.remove('open');
+  toast('대표 표지 적용됨: ' + ex.name);
+  renderExhibit();
+}
 
 /* ── 기존 작품 재크롭: 보관 원본(비공개 버킷) 또는 로컬 원본 파일에서 ── */
 async function recropArtwork(a, exId) {
@@ -501,7 +538,7 @@ function clampBox() {
 })();
 $('#crop-reset').onclick = initCropBox;
 $('#crop-skip').onclick = () => {
-  if (cropState.mode === 'recrop') { $('#crop-modal').classList.remove('open'); return; }
+  if (cropState.mode === 'recrop' || cropState.mode === 'cover') { $('#crop-modal').classList.remove('open'); return; }
   nextCrop();
 };
 
@@ -517,8 +554,8 @@ function canvasBlob(imgEl, crop, w, h, q) {
 $('#crop-save').onclick = async () => {
   const btn = $('#crop-save');
   btn.disabled = true; btn.textContent = '업로드 중…';
-  if (cropState.mode === 'recrop') {
-    try { await saveRecrop(); }
+  if (cropState.mode === 'recrop' || cropState.mode === 'cover') {
+    try { cropState.mode === 'cover' ? await saveCover() : await saveRecrop(); }
     catch (e) { toast('오류: ' + e.message); }
     btn.disabled = false; btn.textContent = '✓ 업로드 (1920×1080)';
     return;
