@@ -6,7 +6,7 @@ const md5 = s => crypto.createHash('md5').update(s).digest('hex');
 const ADMIN_PW = process.env.ADMIN_PW;
 if (!ADMIN_PW) { console.error('ADMIN_PW 필요'); process.exit(1); }
 const sb = createClient('https://cdlmkleujbxzrunudtvu.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNkbG1rbGV1amJ4enJ1bnVkdHZ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgwNzMzOTgsImV4cCI6MjA5MzY0OTM5OH0.G26w_yE4ErRXCsHmWPphN4TccVmiivdd5OoPjv2dPdo');
-const MATCHES = JSON.parse(fs.readFileSync(__dirname + '/content-matches.json', 'utf8'));
+const MATCHES = JSON.parse(fs.readFileSync(__dirname + '/' + (process.env.MATCH_FILE || 'content-matches.json'), 'utf8'));
 
 (async () => {
   const { error: le } = await sb.auth.signInWithPassword({ email: 'gallery-admin@wellbianlabs.io', password: ADMIN_PW });
@@ -30,7 +30,7 @@ const MATCHES = JSON.parse(fs.readFileSync(__dirname + '/content-matches.json', 
     const key = md5(relKey).slice(0, 16);
     const a = byKey.get(key);
     if (!a) { miss++; continue; }
-    const year = (v.title.match(/\b(1[4-9]\d{2}|20[0-2]\d)\b/) || [])[1] || '';
+    const year = v.year || (v.title.match(/\b(1[4-9]\d{2}|20[0-2]\d)\b/) || [])[1] || '';
     const { error } = await sb.from('gallery_artworks').update({
       title: v.title.slice(0, 300), artist: v.artist.slice(0, 200), year,
     }).eq('id', a.id);

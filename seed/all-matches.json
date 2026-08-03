@@ -1,0 +1,4842 @@
+{
+ "Thielska Galleriet_수정/0000.jpg": {
+  "original": "Evening-Hjalmar Linde.jpg",
+  "score": 0.529,
+  "margin": 0.004,
+  "confident": false,
+  "title": "Evening",
+  "artist": "Hjalmar Linde",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0001.jpg": {
+  "original": "Among Artists-Viggo Johansen.jpg",
+  "score": 0.997,
+  "margin": 0.243,
+  "confident": true,
+  "title": "Among Artists",
+  "artist": "Viggo Johansen",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0002.jpg": {
+  "original": "At Dusk-Eugène Jansson.jpg",
+  "score": 0.988,
+  "margin": 0.365,
+  "confident": true,
+  "title": "At Dusk",
+  "artist": "Eugène Jansson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0003.jpg": {
+  "original": "Beach, Öland-Helge Johansson.jpg",
+  "score": 0.99,
+  "margin": 0.394,
+  "confident": true,
+  "title": "Beach, Öland",
+  "artist": "Helge Johansson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0004.jpg": {
+  "original": "Beer Café-Axel Erdmann.jpg",
+  "score": 0.997,
+  "margin": 0.549,
+  "confident": true,
+  "title": "Beer Café",
+  "artist": "Axel Erdmann",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0005.jpg": {
+  "original": "Black Grouse Courting-Bruno Liljefors.jpg",
+  "score": 0.931,
+  "margin": 0.521,
+  "confident": true,
+  "title": "Black Grouse Courting",
+  "artist": "Bruno Liljefors",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0006.jpg": {
+  "original": "Black-throated Divers-Bruno Liljefors.jpg",
+  "score": 0.994,
+  "margin": 0.616,
+  "confident": true,
+  "title": "Black-throated Divers",
+  "artist": "Bruno Liljefors",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0007.jpg": {
+  "original": "Brood of Partridges-Bruno Liljefors.jpg",
+  "score": 0.997,
+  "margin": 0.223,
+  "confident": true,
+  "title": "Brood of Partridges",
+  "artist": "Bruno Liljefors",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0008.jpg": {
+  "original": "Clouds-Bror Lindh.jpg",
+  "score": 0.986,
+  "margin": 0.35,
+  "confident": true,
+  "title": "Clouds",
+  "artist": "Bror Lindh",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0009.jpg": {
+  "original": "Döbelnsgatan-Eugène Jansson.jpg",
+  "score": 0.991,
+  "margin": 0.413,
+  "confident": true,
+  "title": "Döbelnsgatan",
+  "artist": "Eugène Jansson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0010.jpg": {
+  "original": "Eider Ducks Flying in Formation-Bruno Liljefors.jpg",
+  "score": 0.995,
+  "margin": 0.205,
+  "confident": true,
+  "title": "Eider Ducks Flying in Formation",
+  "artist": "Bruno Liljefors",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0011.jpg": {
+  "original": "Eiders on the Skerry-Bruno Liljefors.jpg",
+  "score": 0.998,
+  "margin": 0.52,
+  "confident": true,
+  "title": "Eiders on the Skerry",
+  "artist": "Bruno Liljefors",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0012.jpg": {
+  "original": "Evening Landscape-Bruno Liljefors.jpg",
+  "score": 0.998,
+  "margin": 0.093,
+  "confident": true,
+  "title": "Evening Landscape",
+  "artist": "Bruno Liljefors",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0013.jpg": {
+  "original": "Evening Landscape-Herman Norrman.jpg",
+  "score": 0.98,
+  "margin": 0.273,
+  "confident": true,
+  "title": "Evening Landscape",
+  "artist": "Herman Norrman",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0014.jpg": {
+  "original": "Evening-Hjalmar Linde.jpg",
+  "score": 0.999,
+  "margin": 0.18,
+  "confident": true,
+  "title": "Evening",
+  "artist": "Hjalmar Linde",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0015.jpg": {
+  "original": "Field and Forest-Ester Almqvist.jpg",
+  "score": 0.998,
+  "margin": 0.262,
+  "confident": true,
+  "title": "Field and Forest",
+  "artist": "Ester Almqvist",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0016.jpg": {
+  "original": "Field in Snow-Edvard Munch.jpg",
+  "score": 0.989,
+  "margin": 0.607,
+  "confident": true,
+  "title": "Field in Snow",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0017.jpg": {
+  "original": "Forest Mere-Helmer Hertzhoff.jpg",
+  "score": 0.967,
+  "margin": 0.702,
+  "confident": true,
+  "title": "Forest Mere",
+  "artist": "Helmer Hertzhoff",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0018.jpg": {
+  "original": "Fox in Winter-Bruno Liljefors.jpg",
+  "score": 0.99,
+  "margin": 0.562,
+  "confident": true,
+  "title": "Fox in Winter",
+  "artist": "Bruno Liljefors",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0019.jpg": {
+  "original": "Fresh Breeze-Bruno Liljefors.jpg",
+  "score": 0.995,
+  "margin": 0.226,
+  "confident": true,
+  "title": "Fresh Breeze",
+  "artist": "Bruno Liljefors",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0020.jpg": {
+  "original": "From Dovrefjäll-Gustaf Fjæstad.jpg",
+  "score": 0.991,
+  "margin": 0.295,
+  "confident": true,
+  "title": "From Dovrefjäll",
+  "artist": "Gustaf Fjæstad",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0021.jpg": {
+  "original": "From Grèz-Karl Nordström.jpg",
+  "score": 0.997,
+  "margin": 0.286,
+  "confident": true,
+  "title": "From Grèz",
+  "artist": "Karl Nordström",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0022.jpg": {
+  "original": "From Les Halles, Paris-Gerda Wallander.jpg",
+  "score": 0.991,
+  "margin": 0.516,
+  "confident": true,
+  "title": "From Les Halles, Paris",
+  "artist": "Gerda Wallander",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0023.jpg": {
+  "original": "From Öland-Helge Johansson.jpg",
+  "score": 0.993,
+  "margin": 0.226,
+  "confident": true,
+  "title": "From Öland",
+  "artist": "Helge Johansson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0024.jpg": {
+  "original": "Grazing Horse-Nils Kreuger.jpg",
+  "score": 0.993,
+  "margin": 0.55,
+  "confident": true,
+  "title": "Grazing Horse",
+  "artist": "Nils Kreuger",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0025.jpg": {
+  "original": "Gulls-Bruno Liljefors.jpg",
+  "score": 0.992,
+  "margin": 0.538,
+  "confident": true,
+  "title": "Gulls",
+  "artist": "Bruno Liljefors",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0026.jpg": {
+  "original": "Hepatica-Eugène Jansson.jpg",
+  "score": 0.99,
+  "margin": 0.533,
+  "confident": true,
+  "title": "Hepatica",
+  "artist": "Eugène Jansson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0027.jpg": {
+  "original": "Hoar-Frost on Ice-Gustaf Fjæstad.jpg",
+  "score": 0.997,
+  "margin": 0.392,
+  "confident": true,
+  "title": "Hoar-Frost on Ice",
+  "artist": "Gustaf Fjæstad",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0028.jpg": {
+  "original": "Home Farm-Herman Norrman.jpg",
+  "score": 0.997,
+  "margin": 0.302,
+  "confident": true,
+  "title": "Home Farm",
+  "artist": "Herman Norrman",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0029.jpg": {
+  "original": "Hornsgatan-Eugène Jansson.jpg",
+  "score": 0.992,
+  "margin": 0.304,
+  "confident": true,
+  "title": "Hornsgatan",
+  "artist": "Eugène Jansson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0030.jpg": {
+  "original": "Horse Racing-Gösta von Hennigs.jpg",
+  "score": 0.996,
+  "margin": 0.515,
+  "confident": true,
+  "title": "Horse Racing",
+  "artist": "Gösta von Hennigs",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0031.jpg": {
+  "original": "Hunter and Fox-Bruno Liljefors.jpg",
+  "score": 0.987,
+  "margin": 0.477,
+  "confident": true,
+  "title": "Hunter and Fox",
+  "artist": "Bruno Liljefors",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0032.jpg": {
+  "original": "I. Self-portrait-Eugène Jansson.jpg",
+  "score": 0.988,
+  "margin": 0.457,
+  "confident": true,
+  "title": "I. Self-portrait",
+  "artist": "Eugène Jansson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0033.jpg": {
+  "original": "Interior-Jakob Kulle.jpg",
+  "score": 0.991,
+  "margin": 0.554,
+  "confident": true,
+  "title": "Interior",
+  "artist": "Jakob Kulle",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0034.jpg": {
+  "original": "Interior-Thorvald Erichsen.jpg",
+  "score": 0.996,
+  "margin": 0.38,
+  "confident": true,
+  "title": "Interior",
+  "artist": "Thorvald Erichsen",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0035.jpg": {
+  "original": "Kaskaivo, Kvikkjokk-Elis Åslund.jpg",
+  "score": 0.996,
+  "margin": 0.223,
+  "confident": true,
+  "title": "Kaskaivo, Kvikkjokk",
+  "artist": "Elis Åslund",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0036.jpg": {
+  "original": "La Gitana-Ignacio Zuloaga.jpg",
+  "score": 0.998,
+  "margin": 0.389,
+  "confident": true,
+  "title": "La Gitana",
+  "artist": "Ignacio Zuloaga",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0037.jpg": {
+  "original": "Lake Hammarby-Knut Janson.jpg",
+  "score": 0.92,
+  "margin": 0.228,
+  "confident": true,
+  "title": "Lake Hammarby",
+  "artist": "Knut Janson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0038.jpg": {
+  "original": "Landscape Study-Bruno Liljefors.jpg",
+  "score": 0.995,
+  "margin": 0.396,
+  "confident": true,
+  "title": "Landscape Study",
+  "artist": "Bruno Liljefors",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0039.jpg": {
+  "original": "Landscape, Huskvarna-Hugo Almgren.jpg",
+  "score": 0.996,
+  "margin": 0.365,
+  "confident": true,
+  "title": "Landscape, Huskvarna",
+  "artist": "Hugo Almgren",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0040.jpg": {
+  "original": "Landscape-Jens Ferdinand Willumsen.jpg",
+  "score": 0.997,
+  "margin": 0.339,
+  "confident": true,
+  "title": "Landscape",
+  "artist": "Jens Ferdinand Willumsen",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0041.jpg": {
+  "original": "Landscape-Knut Janson.jpg",
+  "score": 0.987,
+  "margin": 0.513,
+  "confident": true,
+  "title": "Landscape",
+  "artist": "Knut Janson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0042.jpg": {
+  "original": "Lunar Halo-Olof Ågren.jpg",
+  "score": 0.979,
+  "margin": 0.452,
+  "confident": true,
+  "title": "Lunar Halo",
+  "artist": "Olof Ågren",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0043.jpg": {
+  "original": "Moon Rising on Öland-Nils Kreuger .jpg",
+  "score": 0.991,
+  "margin": 0.198,
+  "confident": true,
+  "title": "Moon Rising on Öland",
+  "artist": "Nils Kreuger",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0044.jpg": {
+  "original": "Morning-Bruno Liljefors.jpg",
+  "score": 0.997,
+  "margin": 0.233,
+  "confident": true,
+  "title": "Morning",
+  "artist": "Bruno Liljefors",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0045.jpg": {
+  "original": "Nevers-André Lhote.jpg",
+  "score": 0.639,
+  "margin": 0.437,
+  "confident": true,
+  "title": "Nevers",
+  "artist": "André Lhote",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0046.jpg": {
+  "original": "Night Café-Axel Törneman.jpg",
+  "score": 0.994,
+  "margin": 0.393,
+  "confident": true,
+  "title": "Night Café",
+  "artist": "Axel Törneman",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0047.jpg": {
+  "original": "Nocturne-Eugène Jansson.jpg",
+  "score": 0.983,
+  "margin": 0.308,
+  "confident": true,
+  "title": "Nocturne",
+  "artist": "Eugène Jansson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0048.jpg": {
+  "original": "Norrbro-Axel Erdmann.jpg",
+  "score": 0.998,
+  "margin": 0.281,
+  "confident": true,
+  "title": "Norrbro",
+  "artist": "Axel Erdmann",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0049.jpg": {
+  "original": "Öland-Helge Johansson.jpg",
+  "score": 0.986,
+  "margin": 0.602,
+  "confident": true,
+  "title": "Öland",
+  "artist": "Helge Johansson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0050.jpg": {
+  "original": "On the Bridge-Edvard Munch.jpg",
+  "score": 0.997,
+  "margin": 0.405,
+  "confident": true,
+  "title": "On the Bridge",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0051.jpg": {
+  "original": "Österlånggatan-Eugène Jansson.jpg",
+  "score": 0.987,
+  "margin": 0.395,
+  "confident": true,
+  "title": "Österlånggatan",
+  "artist": "Eugène Jansson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0052.jpg": {
+  "original": "Promontory, Öland-Helge Johansson.jpg",
+  "score": 0.997,
+  "margin": 0.396,
+  "confident": true,
+  "title": "Promontory, Öland",
+  "artist": "Helge Johansson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0053.jpg": {
+  "original": "Rainbow-Nils Kreuger.jpg",
+  "score": 0.991,
+  "margin": 0.306,
+  "confident": true,
+  "title": "Rainbow",
+  "artist": "Nils Kreuger",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0054.jpg": {
+  "original": "Roslagsgatan-Eugène Jansson.jpg",
+  "score": 0.986,
+  "margin": 0.313,
+  "confident": true,
+  "title": "Roslagsgatan",
+  "artist": "Eugène Jansson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0055.jpg": {
+  "original": "Route de Paris II-Carl Fredrik Hill.jpg",
+  "score": 0.998,
+  "margin": 0.286,
+  "confident": true,
+  "title": "Route de Paris II",
+  "artist": "Carl Fredrik Hill",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0056.jpg": {
+  "original": "Saturday Evening-Carl Wilhelmson.jpg",
+  "score": 0.993,
+  "margin": 0.534,
+  "confident": true,
+  "title": "Saturday Evening",
+  "artist": "Carl Wilhelmson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0057.jpg": {
+  "original": "Seascape-Johan Axel Gustaf.jpg",
+  "score": 0.971,
+  "margin": 0.214,
+  "confident": true,
+  "title": "Seascape",
+  "artist": "Johan Axel Gustaf",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0058.jpg": {
+  "original": "Short Cuts-Eugène Jansson.jpg",
+  "score": 0.988,
+  "margin": 0.343,
+  "confident": true,
+  "title": "Short Cuts",
+  "artist": "Eugène Jansson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0059.jpg": {
+  "original": "Snowfall-Karl Nordström.jpg",
+  "score": 0.988,
+  "margin": 0.431,
+  "confident": true,
+  "title": "Snowfall",
+  "artist": "Karl Nordström",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0060.jpg": {
+  "original": "Snowy Landscape-Herman Norrman.jpg",
+  "score": 0.983,
+  "margin": 0.276,
+  "confident": true,
+  "title": "Snowy Landscape",
+  "artist": "Herman Norrman",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0061.jpg": {
+  "original": "St. Cloud-Helge Johansson.jpg",
+  "score": 0.995,
+  "margin": 0.471,
+  "confident": true,
+  "title": "St. Cloud",
+  "artist": "Helge Johansson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0062.jpg": {
+  "original": "Summer Night, Ducks Lifting of-Bruno Liljefors.jpg",
+  "score": 0.998,
+  "margin": 0.318,
+  "confident": true,
+  "title": "Summer Night, Ducks Lifting of",
+  "artist": "Bruno Liljefors",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0063.jpg": {
+  "original": "Sun over Southern Mountains-Jens Ferdinand Willumsen.jpg",
+  "score": 0.998,
+  "margin": 0.471,
+  "confident": true,
+  "title": "Sun over Southern Mountains",
+  "artist": "Jens Ferdinand Willumsen",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0064.jpg": {
+  "original": "Swans in Reeds-Bruno Liljefors.jpg",
+  "score": 0.998,
+  "margin": 0.445,
+  "confident": true,
+  "title": "Swans in Reeds",
+  "artist": "Bruno Liljefors",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0065.jpg": {
+  "original": "Swans-Bruno Liljefors.jpg",
+  "score": 0.992,
+  "margin": 0.536,
+  "confident": true,
+  "title": "Swans",
+  "artist": "Bruno Liljefors",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0066.jpg": {
+  "original": "Sweeping Leaves-Knut Janson.jpg",
+  "score": 0.996,
+  "margin": 0.522,
+  "confident": true,
+  "title": "Sweeping Leaves",
+  "artist": "Knut Janson",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0067.jpg": {
+  "original": "The Entrance-Artur Bianchini.jpg",
+  "score": 0.996,
+  "margin": 0.498,
+  "confident": true,
+  "title": "The Entrance",
+  "artist": "Artur Bianchini",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0068.jpg": {
+  "original": "The Heath-Bengt Hedberg.jpg",
+  "score": 0.998,
+  "margin": 0.158,
+  "confident": true,
+  "title": "The Heath",
+  "artist": "Bengt Hedberg",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0069.jpg": {
+  "original": "The Manor-Gottfrid Kallstenius.jpg",
+  "score": 0.997,
+  "margin": 0.321,
+  "confident": true,
+  "title": "The Manor",
+  "artist": "Gottfrid Kallstenius",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0070.jpg": {
+  "original": "The Oak-Edvard Munch.jpg",
+  "score": 0.99,
+  "margin": 0.666,
+  "confident": true,
+  "title": "The Oak",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0071.jpg": {
+  "original": "The Rumour-Ivar Arosenius.jpg",
+  "score": 0.998,
+  "margin": 0.487,
+  "confident": true,
+  "title": "The Rumour",
+  "artist": "Ivar Arosenius",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0072.jpg": {
+  "original": "The Sick Child-Edvard Munch.jpg",
+  "score": 0.997,
+  "margin": 0.441,
+  "confident": true,
+  "title": "The Sick Child",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0073.jpg": {
+  "original": "Tunåsen-Tore Wahlström.jpg",
+  "score": 0.999,
+  "margin": 0.184,
+  "confident": true,
+  "title": "Tunåsen",
+  "artist": "Tore Wahlström",
+  "year": ""
+ },
+ "Thielska Galleriet_수정/0074.jpg": {
+  "original": "Winter's Day at Uggleviken-Karl Nordström.jpg",
+  "score": 0.997,
+  "margin": 0.335,
+  "confident": true,
+  "title": "Winter's Day at Uggleviken",
+  "artist": "Karl Nordström",
+  "year": ""
+ },
+ "wienmuseum_수정/0001.jpg": {
+  "original": "Alt-Ober-St. Veit-F. Wiesinger.jpg",
+  "score": 0.949,
+  "margin": 0.2,
+  "confident": true,
+  "title": "Alt-Ober-St. Veit",
+  "artist": "F. Wiesinger",
+  "year": ""
+ },
+ "wienmuseum_수정/0002.jpg": {
+  "original": "Am Hochweg zum Stift Klosterneuburg-Carl Schubert (1795—1855).jpg",
+  "score": 0.902,
+  "margin": 0.095,
+  "confident": true,
+  "title": "Am Hochweg zum Stift Klosterneuburg",
+  "artist": "Carl Schubert",
+  "year": ""
+ },
+ "wienmuseum_수정/0003.jpg": {
+  "original": "Am Hof (Kirche, Kriegsministerium und Mariensäule mit Blumenmarkt )-Hans Wilt.jpg",
+  "score": 0.844,
+  "margin": 0.379,
+  "confident": true,
+  "title": "Am Hof (Kirche, Kriegsministerium und Mariensäule mit Blumenmarkt )",
+  "artist": "Hans Wilt",
+  "year": ""
+ },
+ "wienmuseum_수정/0004.jpg": {
+  "original": "Partie aus dem Val Lagarina-Robert Russ.jpg",
+  "score": 0.521,
+  "margin": 0.008,
+  "confident": false,
+  "title": "Partie aus dem Val Lagarina",
+  "artist": "Robert Russ",
+  "year": ""
+ },
+ "wienmuseum_수정/0005.jpg": {
+  "original": "Ansicht von Altheim (OÖ)-Melchior Fritsch.jpg",
+  "score": 0.989,
+  "margin": 0.184,
+  "confident": true,
+  "title": "Ansicht von Altheim (OÖ)",
+  "artist": "Melchior Fritsch",
+  "year": ""
+ },
+ "wienmuseum_수정/0006.jpg": {
+  "original": "Hochgebirgslandschaft-Leopold Heinrich Voescher (1830—1877).jpg",
+  "score": 0.419,
+  "margin": 0.018,
+  "confident": false,
+  "title": "Hochgebirgslandschaft",
+  "artist": "Leopold Heinrich Voescher",
+  "year": ""
+ },
+ "wienmuseum_수정/0007.jpg": {
+  "original": "Australischer Urwald-Josef Selleny.jpg",
+  "score": 0.775,
+  "margin": 0.279,
+  "confident": true,
+  "title": "Australischer Urwald",
+  "artist": "Josef Selleny",
+  "year": ""
+ },
+ "wienmuseum_수정/0008.jpg": {
+  "original": "Bau der Ferdinandsbrücke über den Donaukanal-Franz Malek von Werthenfels.jpg",
+  "score": 0.897,
+  "margin": 0.647,
+  "confident": true,
+  "title": "Bau der Ferdinandsbrücke über den Donaukanal",
+  "artist": "Franz Malek von Werthenfels",
+  "year": ""
+ },
+ "wienmuseum_수정/0009.jpg": {
+  "original": "Bau der Marienbrücke-Karl Julius Heinrich Revy (Heinrich von Greißing).jpg",
+  "score": 0.7,
+  "margin": 0.383,
+  "confident": true,
+  "title": "Bau der Marienbrücke",
+  "artist": "Karl Julius Heinrich Revy",
+  "year": ""
+ },
+ "wienmuseum_수정/0010.jpg": {
+  "original": "bez. Klatsch (Original title)-Emil Strecker.jpg",
+  "score": 0.902,
+  "margin": 0.458,
+  "confident": true,
+  "title": "bez. Klatsch (Original title)",
+  "artist": "Emil Strecker",
+  "year": ""
+ },
+ "wienmuseum_수정/0011.jpg": {
+  "original": "Blick auf das Burgtor (von der Rampe des Kunsthistorischen Hofmuseums)-Anton H. Karlinsky.jpg",
+  "score": 0.925,
+  "margin": 0.172,
+  "confident": true,
+  "title": "Blick auf das Burgtor (von der Rampe des Kunsthistorischen Hofmuseums)",
+  "artist": "Anton H. Karlinsky",
+  "year": ""
+ },
+ "wienmuseum_수정/0012.jpg": {
+  "original": "Blick auf Wien vom Bisamberg-Friedrich Loos.jpg",
+  "score": 0.98,
+  "margin": 0.166,
+  "confident": true,
+  "title": "Blick auf Wien vom Bisamberg",
+  "artist": "Friedrich Loos",
+  "year": ""
+ },
+ "wienmuseum_수정/0013.jpg": {
+  "original": "Blick vom Belvedere auf die Innere Stadt-Carl (Karl) Moll.jpg",
+  "score": 0.984,
+  "margin": 0.216,
+  "confident": true,
+  "title": "Blick vom Belvedere auf die Innere Stadt",
+  "artist": "Carl",
+  "year": ""
+ },
+ "wienmuseum_수정/0014.jpg": {
+  "original": "Blumenmädchen-Josef Engelhart.jpg",
+  "score": 0.761,
+  "margin": 0.372,
+  "confident": true,
+  "title": "Blumenmädchen",
+  "artist": "Josef Engelhart",
+  "year": ""
+ },
+ "wienmuseum_수정/0015.jpg": {
+  "original": "Blumenstillleben mit Kaninchen-Franz Werner Tamm.jpg",
+  "score": 0.593,
+  "margin": 0.136,
+  "confident": true,
+  "title": "Blumenstillleben mit Kaninchen",
+  "artist": "Franz Werner Tamm",
+  "year": ""
+ },
+ "wienmuseum_수정/0016.jpg": {
+  "original": "Café im Freien-Franz Rumpler.jpg",
+  "score": 0.609,
+  "margin": 0.165,
+  "confident": true,
+  "title": "Café im Freien",
+  "artist": "Franz Rumpler",
+  "year": ""
+ },
+ "wienmuseum_수정/0017.jpg": {
+  "original": "Charlotte Wolter (1834-1897), als Messalina in Arria und Messalina von Adolf von Wilbrandt-Hans Makart.jpg",
+  "score": 0.921,
+  "margin": 0.378,
+  "confident": true,
+  "title": "Charlotte Wolter (1834-1897), als Messalina in Arria und Messalina von Adolf von Wilbrandt",
+  "artist": "Hans Makart",
+  "year": "1834"
+ },
+ "wienmuseum_수정/0018.jpg": {
+  "original": "Dame in Gelb-Max Kurzweil.jpg",
+  "score": 0.929,
+  "margin": 0.402,
+  "confident": true,
+  "title": "Dame in Gelb",
+  "artist": "Max Kurzweil",
+  "year": ""
+ },
+ "wienmuseum_수정/0019.jpg": {
+  "original": "Das Gartenhaus beim Landhaus von Johann Baptist Weis in Speising-Friedrich Loos.jpg",
+  "score": 0.817,
+  "margin": 0.177,
+  "confident": true,
+  "title": "Das Gartenhaus beim Landhaus von Johann Baptist Weis in Speising",
+  "artist": "Friedrich Loos",
+  "year": ""
+ },
+ "wienmuseum_수정/0020.jpg": {
+  "original": "Das Holländerdörfl am Hameau in Neuwaldegg.jpg",
+  "score": 0.731,
+  "margin": 0.258,
+  "confident": true,
+  "title": "Das Holländerdörfl am Hameau in Neuwaldegg",
+  "artist": "",
+  "year": ""
+ },
+ "wienmuseum_수정/0021.jpg": {
+  "original": "Das Kaiser- und Kronprinzenpaar in Laxenburg-Karl d. Ä. Schweninger.jpg",
+  "score": 0.896,
+  "margin": 0.374,
+  "confident": true,
+  "title": "Das Kaiser- und Kronprinzenpaar in Laxenburg",
+  "artist": "Karl d. Ä. Schweninger",
+  "year": ""
+ },
+ "wienmuseum_수정/0022.jpg": {
+  "original": "Der Augenarzt-Josef Danhauser.jpg",
+  "score": 0.782,
+  "margin": 0.343,
+  "confident": true,
+  "title": "Der Augenarzt",
+  "artist": "Josef Danhauser",
+  "year": ""
+ },
+ "wienmuseum_수정/0023.jpg": {
+  "original": "Der Donaueisstoß im Jänner 1880 mit dem Sperrschiff-Alexander Bensa.jpg",
+  "score": 0.95,
+  "margin": 0.476,
+  "confident": true,
+  "title": "Der Donaueisstoß im Jänner 1880 mit dem Sperrschiff",
+  "artist": "Alexander Bensa",
+  "year": "1880"
+ },
+ "wienmuseum_수정/0024.jpg": {
+  "original": "Der einsame Meister (Beethoven auf einem Spaziergang in der Nähe Wiens)-Otto Robert Nowak.jpg",
+  "score": 0.813,
+  "margin": 0.412,
+  "confident": true,
+  "title": "Der einsame Meister (Beethoven auf einem Spaziergang in der Nähe Wiens)",
+  "artist": "Otto Robert Nowak",
+  "year": ""
+ },
+ "wienmuseum_수정/0025.jpg": {
+  "original": "Der Graben im Jahr 1888 in Richtung Stock im Eisen-Ladislaus Eugen Petrovits (Petrowitsch).jpg",
+  "score": 0.834,
+  "margin": 0.307,
+  "confident": true,
+  "title": "Der Graben im Jahr 1888 in Richtung Stock im Eisen",
+  "artist": "Ladislaus Eugen Petrovits",
+  "year": "1888"
+ },
+ "wienmuseum_수정/0026.jpg": {
+  "original": "Der Neue Markt am Abend-Ferdinand Kruis.jpg",
+  "score": 0.922,
+  "margin": 0.299,
+  "confident": true,
+  "title": "Der Neue Markt am Abend",
+  "artist": "Ferdinand Kruis",
+  "year": ""
+ },
+ "wienmuseum_수정/0027.jpg": {
+  "original": "Die alte und die neue Gasbeleuchtung-Carl von Stur.jpg",
+  "score": 0.965,
+  "margin": 0.51,
+  "confident": true,
+  "title": "Die alte und die neue Gasbeleuchtung",
+  "artist": "Carl von Stur",
+  "year": ""
+ },
+ "wienmuseum_수정/0028.jpg": {
+  "original": "Die Ankunft vom Felde-Michael Neder.jpg",
+  "score": 0.88,
+  "margin": 0.413,
+  "confident": true,
+  "title": "Die Ankunft vom Felde",
+  "artist": "Michael Neder",
+  "year": ""
+ },
+ "wienmuseum_수정/0029.jpg": {
+  "original": "Die Brautwerbung-Karl Zewy.jpg",
+  "score": 0.892,
+  "margin": 0.249,
+  "confident": true,
+  "title": "Die Brautwerbung",
+  "artist": "Karl Zewy",
+  "year": ""
+ },
+ "wienmuseum_수정/0030.jpg": {
+  "original": "Die Dächer von Wien-Anton Faistauer.jpg",
+  "score": 0.799,
+  "margin": 0.278,
+  "confident": true,
+  "title": "Die Dächer von Wien",
+  "artist": "Anton Faistauer",
+  "year": ""
+ },
+ "wienmuseum_수정/0031.jpg": {
+  "original": "Die Ermordung Julius Caesars-Heinrich Friedrich Füger.jpg",
+  "score": 0.792,
+  "margin": 0.295,
+  "confident": true,
+  "title": "Die Ermordung Julius Caesars",
+  "artist": "Heinrich Friedrich Füger",
+  "year": ""
+ },
+ "wienmuseum_수정/0032.jpg": {
+  "original": "Die große Zeit-Ludwig Koch.jpg",
+  "score": 0.874,
+  "margin": 0.188,
+  "confident": true,
+  "title": "Die große Zeit",
+  "artist": "Ludwig Koch",
+  "year": ""
+ },
+ "wienmuseum_수정/0033.jpg": {
+  "original": "Die Jägerzeile mit dem Leopoldstädter Theater-Franz Scheyerer (Scheurer).jpg",
+  "score": 0.889,
+  "margin": 0.166,
+  "confident": true,
+  "title": "Die Jägerzeile mit dem Leopoldstädter Theater",
+  "artist": "Franz Scheyerer",
+  "year": ""
+ },
+ "wienmuseum_수정/0034.jpg": {
+  "original": "Die kaiserliche Familie um den Herzog von Reichstadt in einer Gartenlaube-Leopold Fertbauer.jpg",
+  "score": 0.827,
+  "margin": 0.481,
+  "confident": true,
+  "title": "Die kaiserliche Familie um den Herzog von Reichstadt in einer Gartenlaube",
+  "artist": "Leopold Fertbauer",
+  "year": ""
+ },
+ "wienmuseum_수정/0035.jpg": {
+  "original": "Die Kartenspieler-Josef Engelhart.jpg",
+  "score": 0.848,
+  "margin": 0.492,
+  "confident": true,
+  "title": "Die Kartenspieler",
+  "artist": "Josef Engelhart",
+  "year": ""
+ },
+ "wienmuseum_수정/0036.jpg": {
+  "original": "Die Lästerallee im Wiener Prater-Wilhelm Gause.jpg",
+  "score": 0.616,
+  "margin": 0.233,
+  "confident": true,
+  "title": "Die Lästerallee im Wiener Prater",
+  "artist": "Wilhelm Gause",
+  "year": ""
+ },
+ "wienmuseum_수정/0037.jpg": {
+  "original": "Die Wasserkunstbastei.jpg",
+  "score": 0.997,
+  "margin": 0.22,
+  "confident": true,
+  "title": "Die Wasserkunstbastei",
+  "artist": "",
+  "year": ""
+ },
+ "wienmuseum_수정/0038.jpg": {
+  "original": "Dorflandschaft (Rendek bei RechnitzGüns)-August Schaeffer (Schäffer) von Wienwald.jpg",
+  "score": 0.994,
+  "margin": 0.259,
+  "confident": true,
+  "title": "Dorflandschaft (Rendek bei RechnitzGüns)",
+  "artist": "August Schaeffer",
+  "year": ""
+ },
+ "wienmuseum_수정/0039.jpg": {
+  "original": "Ein Ball auf der Hängstatt-Josef Engelhart.jpg",
+  "score": 0.723,
+  "margin": 0.472,
+  "confident": true,
+  "title": "Ein Ball auf der Hängstatt",
+  "artist": "Josef Engelhart",
+  "year": ""
+ },
+ "wienmuseum_수정/0040.jpg": {
+  "original": "Ein Schubertabend in einem Wiener Bürgerhause-Julius Schmid.jpg",
+  "score": 0.83,
+  "margin": 0.294,
+  "confident": true,
+  "title": "Ein Schubertabend in einem Wiener Bürgerhause",
+  "artist": "Julius Schmid",
+  "year": ""
+ },
+ "wienmuseum_수정/0041.jpg": {
+  "original": "Franziskanerplatz-Franz Scheyerer (Scheurer).jpg",
+  "score": 0.894,
+  "margin": 0.186,
+  "confident": true,
+  "title": "Franziskanerplatz",
+  "artist": "Franz Scheyerer",
+  "year": ""
+ },
+ "wienmuseum_수정/0042.jpg": {
+  "original": "Friedensfeier der Nationalitäten Österreichs vor der Büste Franz II.-Johann Josef Schindler.jpg",
+  "score": 0.934,
+  "margin": 0.196,
+  "confident": true,
+  "title": "Friedensfeier der Nationalitäten Österreichs vor der Büste Franz II.",
+  "artist": "Johann Josef Schindler",
+  "year": ""
+ },
+ "wienmuseum_수정/0043.jpg": {
+  "original": "Gartenpartie im Greinerschloß-Wilhelm Legler (1875—1951).jpg",
+  "score": 0.737,
+  "margin": 0.098,
+  "confident": true,
+  "title": "Gartenpartie im Greinerschloß",
+  "artist": "Wilhelm Legler",
+  "year": ""
+ },
+ "wienmuseum_수정/0044.jpg": {
+  "original": "Gasthausszene-Alois Greil.jpg",
+  "score": 0.664,
+  "margin": 0.241,
+  "confident": true,
+  "title": "Gasthausszene",
+  "artist": "Alois Greil",
+  "year": ""
+ },
+ "wienmuseum_수정/0045.jpg": {
+  "original": "Hochgebirgslandschaft-Leopold Heinrich Voescher (1830—1877).jpg",
+  "score": 0.926,
+  "margin": 0.134,
+  "confident": true,
+  "title": "Hochgebirgslandschaft",
+  "artist": "Leopold Heinrich Voescher",
+  "year": ""
+ },
+ "wienmuseum_수정/0046.jpg": {
+  "original": "In der Krieau (Praterpartie im Frühling)-Tina Blau.jpg",
+  "score": 0.637,
+  "margin": 0.123,
+  "confident": true,
+  "title": "In der Krieau (Praterpartie im Frühling)",
+  "artist": "Tina Blau",
+  "year": ""
+ },
+ "wienmuseum_수정/0047.jpg": {
+  "original": "K.k. Holzverschleißamt beim 2. Kanalhafen des Wiener Neustädter Kanals (heute Ziakplatz im 3. Bezirk), im Hintergrund Arsenal-Hans Klement.jpg",
+  "score": 0.986,
+  "margin": 0.221,
+  "confident": true,
+  "title": "K.k. Holzverschleißamt beim 2. Kanalhafen des Wiener Neustädter Kanals (heute Ziakplatz im 3. Bezirk), im Hintergrund Arsenal",
+  "artist": "Hans Klement",
+  "year": ""
+ },
+ "wienmuseum_수정/0048.jpg": {
+  "original": "Kaiser Franz Joseph I. in seinem Arbeitszimmer in Schönbrunn-Franz von Matsch.jpg",
+  "score": 0.737,
+  "margin": 0.178,
+  "confident": true,
+  "title": "Kaiser Franz Joseph I. in seinem Arbeitszimmer in Schönbrunn",
+  "artist": "Franz von Matsch",
+  "year": ""
+ },
+ "wienmuseum_수정/0049.jpg": {
+  "original": "Klosterneuburg im Winter-Friedrich Loos.jpg",
+  "score": 0.777,
+  "margin": 0.299,
+  "confident": true,
+  "title": "Klosterneuburg im Winter",
+  "artist": "Friedrich Loos",
+  "year": ""
+ },
+ "wienmuseum_수정/0050.jpg": {
+  "original": "Ländliche Szene (Schäferszene).jpg",
+  "score": 0.933,
+  "margin": 0.132,
+  "confident": true,
+  "title": "Ländliche Szene (Schäferszene)",
+  "artist": "",
+  "year": ""
+ },
+ "wienmuseum_수정/0051.jpg": {
+  "original": "Landschaft an der Donau-Joseph Mössmer.jpg",
+  "score": 0.992,
+  "margin": 0.209,
+  "confident": true,
+  "title": "Landschaft an der Donau",
+  "artist": "Joseph Mössmer",
+  "year": ""
+ },
+ "wienmuseum_수정/0052.jpg": {
+  "original": "Landschaft mit weidenden Kühen-Jakob Alt.jpg",
+  "score": 0.971,
+  "margin": 0.264,
+  "confident": true,
+  "title": "Landschaft mit weidenden Kühen",
+  "artist": "Jakob Alt",
+  "year": ""
+ },
+ "wienmuseum_수정/0053.jpg": {
+  "original": "Maximiliansplatz (mit Votivkirche)-Karl Friedrich Gsur.jpg",
+  "score": 0.975,
+  "margin": 0.241,
+  "confident": true,
+  "title": "Maximiliansplatz (mit Votivkirche)",
+  "artist": "Karl Friedrich Gsur",
+  "year": ""
+ },
+ "wienmuseum_수정/0054.jpg": {
+  "original": "Mühlsturzhorn am Hintersee, Oberbayern-Theodor Hörmann von Hörbach.jpg",
+  "score": 0.898,
+  "margin": 0.239,
+  "confident": true,
+  "title": "Mühlsturzhorn am Hintersee, Oberbayern",
+  "artist": "Theodor Hörmann von Hörbach",
+  "year": ""
+ },
+ "wienmuseum_수정/0055.jpg": {
+  "original": "Musikanten im Gasthaus (In der Schenke)-Michael Neder.jpg",
+  "score": 0.784,
+  "margin": 0.261,
+  "confident": true,
+  "title": "Musikanten im Gasthaus (In der Schenke)",
+  "artist": "Michael Neder",
+  "year": ""
+ },
+ "wienmuseum_수정/0056.jpg": {
+  "original": "Mutter und Kind bei Tisch (Beim Frühstück)-Carl (Karl) Moll.jpg",
+  "score": 0.897,
+  "margin": 0.401,
+  "confident": true,
+  "title": "Mutter und Kind bei Tisch (Beim Frühstück)",
+  "artist": "Carl",
+  "year": ""
+ },
+ "wienmuseum_수정/0057.jpg": {
+  "original": "Öffentlicher Einzug des französischen Botschafters Marquis de Mirepoix in Wien am 12.Oktober 1738.jpg",
+  "score": 0.907,
+  "margin": 0.123,
+  "confident": true,
+  "title": "Öffentlicher Einzug des französischen Botschafters Marquis de Mirepoix in Wien am 12.Oktober 1738",
+  "artist": "",
+  "year": ""
+ },
+ "wienmuseum_수정/0058.jpg": {
+  "original": "Partie aus dem Val Lagarina-Robert Russ.jpg",
+  "score": 0.792,
+  "margin": 0.2,
+  "confident": true,
+  "title": "Partie aus dem Val Lagarina",
+  "artist": "Robert Russ",
+  "year": ""
+ },
+ "wienmuseum_수정/0059.jpg": {
+  "original": "Partie bei Neunkirchen-Franz Barbarini.jpg",
+  "score": 0.96,
+  "margin": 0.176,
+  "confident": true,
+  "title": "Partie bei Neunkirchen",
+  "artist": "Franz Barbarini",
+  "year": ""
+ },
+ "wienmuseum_수정/0060.jpg": {
+  "original": "Peripherie der Großstadt-Maximilian Reinitz.jpg",
+  "score": 0.932,
+  "margin": 0.28,
+  "confident": true,
+  "title": "Peripherie der Großstadt",
+  "artist": "Maximilian Reinitz",
+  "year": ""
+ },
+ "wienmuseum_수정/0061.jpg": {
+  "original": "Praterfahrt mit Bürgermeister Karl Lueger-Wilhelm Gause.jpg",
+  "score": 0.92,
+  "margin": 0.552,
+  "confident": true,
+  "title": "Praterfahrt mit Bürgermeister Karl Lueger",
+  "artist": "Wilhelm Gause",
+  "year": ""
+ },
+ "wienmuseum_수정/0062.jpg": {
+  "original": "Praterfahrt-Alexander Bensa.jpg",
+  "score": 0.89,
+  "margin": 0.219,
+  "confident": true,
+  "title": "Praterfahrt",
+  "artist": "Alexander Bensa",
+  "year": ""
+ },
+ "wienmuseum_수정/0063.jpg": {
+  "original": "Praterfahrt-Maximilian Lenz.jpg",
+  "score": 0.962,
+  "margin": 0.574,
+  "confident": true,
+  "title": "Praterfahrt",
+  "artist": "Maximilian Lenz",
+  "year": ""
+ },
+ "wienmuseum_수정/0064.jpg": {
+  "original": "Rote Karte-Anton H. Karlinsky.jpg",
+  "score": 0.993,
+  "margin": 0.213,
+  "confident": true,
+  "title": "Rote Karte",
+  "artist": "Anton H. Karlinsky",
+  "year": ""
+ },
+ "wienmuseum_수정/0065.jpg": {
+  "original": "Schneelandschaft-Bernhard Fiedler.jpg",
+  "score": 0.955,
+  "margin": 0.342,
+  "confident": true,
+  "title": "Schneelandschaft",
+  "artist": "Bernhard Fiedler",
+  "year": ""
+ },
+ "wienmuseum_수정/0066.jpg": {
+  "original": "Sirk-Ecke (Ringstraße)-Maximilian Lenz.jpg",
+  "score": 0.646,
+  "margin": 0.288,
+  "confident": true,
+  "title": "Sirk-Ecke (Ringstraße)",
+  "artist": "Maximilian Lenz",
+  "year": ""
+ },
+ "wienmuseum_수정/0067.jpg": {
+  "original": "Sitzung des Makartdenkmalkomitees im Makartzimmer des Palais Dumba-Hans Temple.jpg",
+  "score": 0.827,
+  "margin": 0.417,
+  "confident": true,
+  "title": "Sitzung des Makartdenkmalkomitees im Makartzimmer des Palais Dumba",
+  "artist": "Hans Temple",
+  "year": ""
+ },
+ "wienmuseum_수정/0068.jpg": {
+  "original": "Sommermorgen am Franz Josephs-Quai-Wilhelm Bernatzik 1902.jpg",
+  "score": 0.886,
+  "margin": 0.201,
+  "confident": true,
+  "title": "Sommermorgen am Franz Josephs-Quai",
+  "artist": "Wilhelm Bernatzik 1902",
+  "year": ""
+ },
+ "wienmuseum_수정/0069.jpg": {
+  "original": "Turnier in Laxenburg-Melchior Seltzam.jpg",
+  "score": 0.894,
+  "margin": 0.161,
+  "confident": true,
+  "title": "Turnier in Laxenburg",
+  "artist": "Melchior Seltzam",
+  "year": ""
+ },
+ "wienmuseum_수정/0070.jpg": {
+  "original": "Waldblumen an einer Quelle-Franz Xaver Petter.jpg",
+  "score": 0.638,
+  "margin": 0.262,
+  "confident": true,
+  "title": "Waldblumen an einer Quelle",
+  "artist": "Franz Xaver Petter",
+  "year": ""
+ },
+ "wienmuseum_수정/0071.jpg": {
+  "original": "Warten auf den 2er (Straßenbahnhaltestelle)-Josef Engelhart.jpg",
+  "score": 0.783,
+  "margin": 0.253,
+  "confident": true,
+  "title": "Warten auf den 2er (Straßenbahnhaltestelle)",
+  "artist": "Josef Engelhart",
+  "year": ""
+ },
+ "wienmuseum_수정/0072.jpg": {
+  "original": "Weidende Pferde-Otto von Thoren.jpg",
+  "score": 0.913,
+  "margin": 0.192,
+  "confident": true,
+  "title": "Weidende Pferde",
+  "artist": "Otto von Thoren",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0000.jpg": {
+  "original": "RENOIR Auguste, La Lecture du rôle.jpg",
+  "score": 0.488,
+  "margin": 0.083,
+  "confident": false,
+  "title": "La Lecture du rôle",
+  "artist": "Renoir Auguste",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0001.jpg": {
+  "original": "ANONYME HOLLANDAIS 16ème siècle, Paysage.jpg",
+  "score": 0.998,
+  "margin": 0.163,
+  "confident": true,
+  "title": "Paysage",
+  "artist": "Anonyme Hollandais 16ème Siècle",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0002.jpg": {
+  "original": "ANONYME, Nature morte aux fleurs.jpg",
+  "score": 0.974,
+  "margin": 0.653,
+  "confident": true,
+  "title": "Nature morte aux fleurs",
+  "artist": "Anonyme",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0003.jpg": {
+  "original": "BARAU Émile, Jardinage d'automne.jpg",
+  "score": 0.996,
+  "margin": 0.295,
+  "confident": true,
+  "title": "Jardinage d'automne",
+  "artist": "Barau Émile",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0004.jpg": {
+  "original": "BARAU Émile, Soleil d'octobre.jpg",
+  "score": 0.99,
+  "margin": 0.691,
+  "confident": true,
+  "title": "Soleil d'octobre",
+  "artist": "Barau Émile",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0005.jpg": {
+  "original": "BARAU Émile, Vue prise du Parc Pommery en 1894.jpg",
+  "score": 0.999,
+  "margin": 0.145,
+  "confident": true,
+  "title": "Vue prise du Parc Pommery en 1894",
+  "artist": "Barau Émile",
+  "year": "1894"
+ },
+ "musees-reims_수정/musees-reims_0006.jpg": {
+  "original": "BONNARD Pierre, La Femme au chien.jpg",
+  "score": 0.935,
+  "margin": 0.476,
+  "confident": true,
+  "title": "La Femme au chien",
+  "artist": "Bonnard Pierre",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0007.jpg": {
+  "original": "BOUDIN Eugène, Berck  le départ des barques.jpg",
+  "score": 0.991,
+  "margin": 0.327,
+  "confident": true,
+  "title": "Berck  le départ des barques",
+  "artist": "Boudin Eugène",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0008.jpg": {
+  "original": "BOUDIN Eugène, Berck  le retour des barques.jpg",
+  "score": 0.996,
+  "margin": 0.398,
+  "confident": true,
+  "title": "Berck  le retour des barques",
+  "artist": "Boudin Eugène",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0009.jpg": {
+  "original": "BOUDIN Eugène, Une ferme bretonne.jpg",
+  "score": 0.993,
+  "margin": 0.585,
+  "confident": true,
+  "title": "Une ferme bretonne",
+  "artist": "Boudin Eugène",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0010.jpg": {
+  "original": "COROT Camille, Mantes (le soir).jpg",
+  "score": 0.997,
+  "margin": 0.365,
+  "confident": true,
+  "title": "Mantes (le soir)",
+  "artist": "Corot Camille",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0011.jpg": {
+  "original": "COROT Camille, Printemps. La Saulaie.jpg",
+  "score": 0.998,
+  "margin": 0.364,
+  "confident": true,
+  "title": "Printemps. La Saulaie",
+  "artist": "Corot Camille",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0012.jpg": {
+  "original": "COROT Camille, Souvenir du lac d'Albano.jpg",
+  "score": 0.997,
+  "margin": 0.326,
+  "confident": true,
+  "title": "Souvenir du lac d'Albano",
+  "artist": "Corot Camille",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0013.jpg": {
+  "original": "DECAMPS Alexandre-Gabriel, Souvenir de Turquie d'Asie (Environs de Smyrne).jpg",
+  "score": 0.998,
+  "margin": 0.185,
+  "confident": true,
+  "title": "Souvenir de Turquie d'Asie (Environs de Smyrne)",
+  "artist": "Decamps Alexandre-gabriel",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0014.jpg": {
+  "original": "DESNOS Robert, Sans titre.jpg",
+  "score": 0.701,
+  "margin": 0.254,
+  "confident": true,
+  "title": "Sans titre",
+  "artist": "Desnos Robert",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0015.jpg": {
+  "original": "DIAZ DE LA PENA Narcisse, Forêt de Fontainebleau.jpg",
+  "score": 0.987,
+  "margin": 0.513,
+  "confident": true,
+  "title": "Forêt de Fontainebleau",
+  "artist": "Diaz De La Pena Narcisse",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0016.jpg": {
+  "original": "DINET Étienne, La Balançoire.jpg",
+  "score": 0.995,
+  "margin": 0.592,
+  "confident": true,
+  "title": "La Balançoire",
+  "artist": "Dinet Étienne",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0017.jpg": {
+  "original": "DORÉ Gustave, L'aube  souvenir des Alpes, Reims, Musée des Beaux-Arts.jpg",
+  "score": 0.998,
+  "margin": 0.142,
+  "confident": true,
+  "title": "L'aube  souvenir des Alpes, Reims, Musée des Beaux-Arts",
+  "artist": "Doré Gustave",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0018.jpg": {
+  "original": "DUPRÉ Victor, Animaux à l'abreuvoir.jpg",
+  "score": 0.998,
+  "margin": 0.231,
+  "confident": true,
+  "title": "Animaux à l'abreuvoir",
+  "artist": "Dupré Victor",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0019.jpg": {
+  "original": "FRICOTEAU Vincent, Vue du château d'eau de Reims, cour de la Foulerie.jpg",
+  "score": 0.994,
+  "margin": 0.493,
+  "confident": true,
+  "title": "Vue du château d'eau de Reims, cour de la Foulerie",
+  "artist": "Fricoteau Vincent",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0020.jpg": {
+  "original": "FROMENTIN Eugène, Arabes chassant le faucon.jpg",
+  "score": 0.928,
+  "margin": 0.117,
+  "confident": true,
+  "title": "Arabes chassant le faucon",
+  "artist": "Fromentin Eugène",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0021.jpg": {
+  "original": "FRÈRE Théodore, Caravane traversant le désert.jpg",
+  "score": 0.938,
+  "margin": 0.448,
+  "confident": true,
+  "title": "Caravane traversant le désert",
+  "artist": "Frère Théodore",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0022.jpg": {
+  "original": "GERMAIN Jean-Baptiste-Louis, Entrée de Charles VII et Jeanne d'Arc à Reims.jpg",
+  "score": 0.991,
+  "margin": 0.539,
+  "confident": true,
+  "title": "Entrée de Charles VII et Jeanne d'Arc à Reims",
+  "artist": "Germain Jean-baptiste-louis",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0023.jpg": {
+  "original": "GOULDEN Jean, Les Fils barbelés (sous Craonne).jpg",
+  "score": 0.885,
+  "margin": 0.26,
+  "confident": true,
+  "title": "Les Fils barbelés (sous Craonne)",
+  "artist": "Goulden Jean",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0024.jpg": {
+  "original": "GUELDRY Ferdinand-Joseph, L'Éclusée.jpg",
+  "score": 0.986,
+  "margin": 0.622,
+  "confident": true,
+  "title": "L'Éclusée",
+  "artist": "Gueldry Ferdinand-joseph",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0025.jpg": {
+  "original": "GUÉNIOT Arthur, Point de vue d'Alger.jpg",
+  "score": 0.623,
+  "margin": 0.206,
+  "confident": true,
+  "title": "Point de vue d'Alger",
+  "artist": "Guéniot Arthur",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0026.jpg": {
+  "original": "GUÉRY Armand, La brasserie de Pontgivart.jpg",
+  "score": 0.858,
+  "margin": 0.448,
+  "confident": true,
+  "title": "La brasserie de Pontgivart",
+  "artist": "Guéry Armand",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0027.jpg": {
+  "original": "GUÉRY Armand, Reims, les bords du canal animés.jpg",
+  "score": 0.708,
+  "margin": 0.167,
+  "confident": true,
+  "title": "Reims, les bords du canal animés",
+  "artist": "Guéry Armand",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0028.jpg": {
+  "original": "LAMBINET Émile, Chaumière au bord de l'eau.jpg",
+  "score": 0.996,
+  "margin": 0.31,
+  "confident": true,
+  "title": "Chaumière au bord de l'eau",
+  "artist": "Lambinet Émile",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0029.jpg": {
+  "original": "MAILLOL Aristide, Jeune paysanne en buste.jpg",
+  "score": 0.964,
+  "margin": 0.456,
+  "confident": true,
+  "title": "Jeune paysanne en buste",
+  "artist": "Maillol Aristide",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0030.jpg": {
+  "original": "MARQUET Albert, Le quai des Grands Augustins.jpg",
+  "score": 0.956,
+  "margin": 0.414,
+  "confident": true,
+  "title": "Le quai des Grands Augustins",
+  "artist": "Marquet Albert",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0031.jpg": {
+  "original": "MARTIN Henri, Jeune fille assise.jpg",
+  "score": 0.996,
+  "margin": 0.513,
+  "confident": true,
+  "title": "Jeune fille assise",
+  "artist": "Martin Henri",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0032.jpg": {
+  "original": "MARTIN Henri, La Vallée du Vert au crépuscule.jpg",
+  "score": 0.967,
+  "margin": 0.151,
+  "confident": true,
+  "title": "La Vallée du Vert au crépuscule",
+  "artist": "Martin Henri",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0033.jpg": {
+  "original": "MARTIN Henri, La Vieille maison aux derniers rayons.jpg",
+  "score": 0.988,
+  "margin": 0.598,
+  "confident": true,
+  "title": "La Vieille maison aux derniers rayons",
+  "artist": "Martin Henri",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0034.jpg": {
+  "original": "MARTIN Henri, Les Chaumières au soir.jpg",
+  "score": 0.957,
+  "margin": 0.197,
+  "confident": true,
+  "title": "Les Chaumières au soir",
+  "artist": "Martin Henri",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0035.jpg": {
+  "original": "MAUFRA Maxime, Féérie nocturne  Exposition Universelle Paris 1900.jpg",
+  "score": 0.741,
+  "margin": 0.216,
+  "confident": true,
+  "title": "Féérie nocturne  Exposition Universelle Paris 1900",
+  "artist": "Maufra Maxime",
+  "year": "1900"
+ },
+ "musees-reims_수정/musees-reims_0036.jpg": {
+  "original": "MAUFRA Maxime, Le soir avant la pluie.jpg",
+  "score": 0.998,
+  "margin": 0.389,
+  "confident": true,
+  "title": "Le soir avant la pluie",
+  "artist": "Maufra Maxime",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0037.jpg": {
+  "original": "MICHEL Georges, Chaumière à la lisière d'un bois.jpg",
+  "score": 0.998,
+  "margin": 0.211,
+  "confident": true,
+  "title": "Chaumière à la lisière d'un bois",
+  "artist": "Michel Georges",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0038.jpg": {
+  "original": "MILLET Jean-François, Hameau Cousin à Gréville, Reims, Musée des Beaux-Arts.jpg",
+  "score": 0.997,
+  "margin": 0.389,
+  "confident": true,
+  "title": "Hameau Cousin à Gréville, Reims, Musée des Beaux-Arts",
+  "artist": "Millet Jean-françois",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0039.jpg": {
+  "original": "MONET Claude, Les Ravins de la Creuse.jpg",
+  "score": 0.99,
+  "margin": 0.305,
+  "confident": true,
+  "title": "Les Ravins de la Creuse",
+  "artist": "Monet Claude",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0040.jpg": {
+  "original": "MONET Claude, Les Rochers de Belle-Ile, Reims, Musée des Beaux-Arts.jpg",
+  "score": 0.994,
+  "margin": 0.31,
+  "confident": true,
+  "title": "Les Rochers de Belle-Ile, Reims, Musée des Beaux-Arts",
+  "artist": "Monet Claude",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0041.jpg": {
+  "original": "MOREAU DE TOURS Georges, Les Fascinés de la Charité.jpg",
+  "score": 0.791,
+  "margin": 0.287,
+  "confident": true,
+  "title": "Les Fascinés de la Charité",
+  "artist": "Moreau De Tours Georges",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0042.jpg": {
+  "original": "MORET Henry, Brume sur la rivière à Pont-Aven.jpg",
+  "score": 0.879,
+  "margin": 0.308,
+  "confident": true,
+  "title": "Brume sur la rivière à Pont-Aven",
+  "artist": "Moret Henry",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0043.jpg": {
+  "original": "PISSARRO Camille, L'Avenue de l'Opéra.jpg",
+  "score": 0.76,
+  "margin": 0.299,
+  "confident": true,
+  "title": "L'Avenue de l'Opéra",
+  "artist": "Pissarro Camille",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0044.jpg": {
+  "original": "PÉRIN-SALBREUX Lié Louis, Portrait de Madame Sophie dit la Petite Reine.jpg",
+  "score": 0.995,
+  "margin": 0.573,
+  "confident": true,
+  "title": "Portrait de Madame Sophie dit la Petite Reine",
+  "artist": "Périn-salbreux Lié Louis",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0045.jpg": {
+  "original": "RENOIR Auguste, La Lecture du rôle.jpg",
+  "score": 0.999,
+  "margin": 0.37,
+  "confident": true,
+  "title": "La Lecture du rôle",
+  "artist": "Renoir Auguste",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0046.jpg": {
+  "original": "RENOIR Auguste, Paysage.jpg",
+  "score": 0.924,
+  "margin": 0.246,
+  "confident": true,
+  "title": "Paysage",
+  "artist": "Renoir Auguste",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0047.jpg": {
+  "original": "RICHET Léon, Paysage avec marais.jpg",
+  "score": 0.963,
+  "margin": 0.147,
+  "confident": true,
+  "title": "Paysage avec marais",
+  "artist": "Richet Léon",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0048.jpg": {
+  "original": "ROUSSEAU Théodore, L'Abreuvoir.jpg",
+  "score": 0.998,
+  "margin": 0.234,
+  "confident": true,
+  "title": "L'Abreuvoir",
+  "artist": "Rousseau Théodore",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0049.jpg": {
+  "original": "ROUSSEAU Théodore.jpg",
+  "score": 0.995,
+  "margin": 0.385,
+  "confident": true,
+  "title": "ROUSSEAU Théodore",
+  "artist": "",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0050.jpg": {
+  "original": "SISLEY Alfred, La rade de Cardiff.jpg",
+  "score": 0.989,
+  "margin": 0.397,
+  "confident": true,
+  "title": "La rade de Cardiff",
+  "artist": "Sisley Alfred",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0051.jpg": {
+  "original": "VAN VALCKENBORCH Lucas 1er, Vue de Liège.jpg",
+  "score": 0.996,
+  "margin": 0.301,
+  "confident": true,
+  "title": "Vue de Liège",
+  "artist": "Van Valckenborch Lucas 1er",
+  "year": ""
+ },
+ "musees-reims_수정/musees-reims_0052.jpg": {
+  "original": "ZIEM Félix, Vue d'Italie.jpg",
+  "score": 0.968,
+  "margin": 0.219,
+  "confident": true,
+  "title": "Vue d'Italie",
+  "artist": "Ziem Félix",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0001.jpg": {
+  "original": "0001_Adam og Eva.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Adam og Eva",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0002.jpg": {
+  "original": "0002_Akerselva mot Slåmotgangen.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Akerselva mot Slåmotgangen",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0003.jpg": {
+  "original": "0003_Akerselva.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Akerselva",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0004.jpg": {
+  "original": "0004_Andreas Munch studerer anatomi.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Andreas Munch studerer anatomi",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0005.jpg": {
+  "original": "0005_Barn og ender.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Barn og ender",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0006.jpg": {
+  "original": "0006_Begjær.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Begjær",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0007.jpg": {
+  "original": "0007_Bergens havn.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Bergens havn",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0008.jpg": {
+  "original": "0008_Bohemens bryllup.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Bohemens bryllup",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0009.jpg": {
+  "original": "0009_Døden i sykeværelset.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Døden i sykeværelset",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0010.jpg": {
+  "original": "0010_Drikkelag.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Drikkelag",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0011.jpg": {
+  "original": "0011_Erotikk i sommerkvelden.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Erotikk i sommerkvelden",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0012.jpg": {
+  "original": "0012_Fruktbarhet.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Fruktbarhet",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0013.jpg": {
+  "original": "0013_Grønt tre ved landevei.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Grønt tre ved landevei",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0014.jpg": {
+  "original": "0014_Hage i Kragerø.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Hage i Kragerø",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0015.jpg": {
+  "original": "0015_Heinrich C. Hudtwalcker.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Heinrich C. Hudtwalcker",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0016.jpg": {
+  "original": "0016_Høyonn.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Høyonn",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0017.jpg": {
+  "original": "0017_Huset brenner!.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Huset brenner!",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0018.jpg": {
+  "original": "0018_I friluft.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "I friluft",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0019.jpg": {
+  "original": "0019_Kabaret.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Kabaret",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0020.jpg": {
+  "original": "0020_Kålåker.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Kålåker",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0021.jpg": {
+  "original": "0021_Karl Johan i spasertiden.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Karl Johan i spasertiden",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0022.jpg": {
+  "original": "0022_Kurtise i parken.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Kurtise i parken",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0023.jpg": {
+  "original": "0023_Kvinne med peoner.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Kvinne med peoner",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0024.jpg": {
+  "original": "0024_Liklukt.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Liklukt",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0025.jpg": {
+  "original": "0025_Løpsk hest i gate.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Løpsk hest i gate",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0026.jpg": {
+  "original": "0026_Morgen i hagen.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Morgen i hagen",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0027.jpg": {
+  "original": "0027_Nysnø.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Nysnø",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0028.jpg": {
+  "original": "0028_Pariser-boulevard.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Pariser-boulevard",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0029.jpg": {
+  "original": "0029_Regnværsdag på Karl Johan.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Regnværsdag på Karl Johan",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0030.jpg": {
+  "original": "0030_Sakrament.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Sakrament",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0031.jpg": {
+  "original": "0031_Sceneutkast til «Gjengangere».jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Sceneutkast til «Gjengangere»",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0032.jpg": {
+  "original": "0032_Skog.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Skog",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0033.jpg": {
+  "original": "0033_Skrik.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Skrik",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0034.jpg": {
+  "original": "0034_Snekke med tre gutter.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Snekke med tre gutter",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0035.jpg": {
+  "original": "0035_Solen.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Solen",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0036.jpg": {
+  "original": "0036_Sommer i hagen (Linde-frisen).jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Sommer i hagen (Linde-frisen)",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0037.jpg": {
+  "original": "0037_Sommer på Ekely.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Sommer på Ekely",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0038.jpg": {
+  "original": "0038_St. Hanskveld.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "St. Hanskveld",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0039.jpg": {
+  "original": "0039_Strand.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Strand",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0040.jpg": {
+  "original": "0040_Stuen til frøknene Munch i Pilestredet 61.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Stuen til frøknene Munch i Pilestredet 61",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0041.jpg": {
+  "original": "0041_Taarbæk havn.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Taarbæk havn",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0042.jpg": {
+  "original": "0042_To barn på vei til eventyrskogen.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "To barn på vei til eventyrskogen",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0043.jpg": {
+  "original": "0043_To kvinner i hagen.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "To kvinner i hagen",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0044.jpg": {
+  "original": "0044_Togrøyk.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Togrøyk",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0045.jpg": {
+  "original": "0045_Under de røde epler.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Under de røde epler",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0046.jpg": {
+  "original": "0046_Vandrende mennesker i hagen.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Vandrende mennesker i hagen",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0047.jpg": {
+  "original": "0047_Vår i almeskogen.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Vår i almeskogen",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0048.jpg": {
+  "original": "0048_Vår på Ekely.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Vår på Ekely",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0049.jpg": {
+  "original": "0049_Vårpromenade.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Vårpromenade",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0050.jpg": {
+  "original": "0050_Ved aftensbordet.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Ved aftensbordet",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "Munchmuseet Billedarkiv_수정/0051.jpg": {
+  "original": "0051_Ved flygelet.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Ved flygelet",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0001.jpg": {
+  "original": "a_city_of_fantasy_1967.20.3.jpg",
+  "score": 0.995,
+  "margin": 0.371,
+  "confident": true,
+  "title": "A City Of Fantasy",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0002.jpg": {
+  "original": "a_summer_landscape_2014.18.52.jpg",
+  "score": 0.992,
+  "margin": 0.547,
+  "confident": true,
+  "title": "A Summer Landscape",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0003.jpg": {
+  "original": "a_view_of_mount_vernon_1953.5.89.jpg",
+  "score": 0.992,
+  "margin": 0.544,
+  "confident": true,
+  "title": "A View Of Mount Vernon",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0004.jpg": {
+  "original": "at_the_races_1942.9.41.jpg",
+  "score": 0.987,
+  "margin": 0.721,
+  "confident": true,
+  "title": "At The Races",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0005.jpg": {
+  "original": "banks_of_the_seine,_vetheuil_1963.10.177.jpg",
+  "score": 0.985,
+  "margin": 0.47,
+  "confident": true,
+  "title": "Banks Of The Seine, Vetheuil",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0006.jpg": {
+  "original": "bathers_(study_for__bathers_at_asnieres_)_2014.18.54.jpg",
+  "score": 0.984,
+  "margin": 0.653,
+  "confident": true,
+  "title": "Bathers (study For Bathers At Asnieres )",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0007.jpg": {
+  "original": "bazille_and_camille_(study_for__dejeuner_sur_l'herbe_)_1970.17.41.jpg",
+  "score": 0.995,
+  "margin": 0.62,
+  "confident": true,
+  "title": "Bazille And Camille (study For Dejeuner Sur L'herbe )",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0008.jpg": {
+  "original": "beach_scene_1983.1.13.jpg",
+  "score": 0.994,
+  "margin": 0.403,
+  "confident": true,
+  "title": "Beach Scene",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0009.jpg": {
+  "original": "beach_scene_at_trouville_1983.1.14.jpg",
+  "score": 0.975,
+  "margin": 0.367,
+  "confident": true,
+  "title": "Beach Scene At Trouville",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0010.jpg": {
+  "original": "boulevard_heloise,_argenteuil_1970.17.82.jpg",
+  "score": 0.994,
+  "margin": 0.459,
+  "confident": true,
+  "title": "Boulevard Heloise, Argenteuil",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0011.jpg": {
+  "original": "bridge_at_argenteuil_on_a_gray_day_1970.17.44.jpg",
+  "score": 0.996,
+  "margin": 0.307,
+  "confident": true,
+  "title": "Bridge At Argenteuil On A Gray Day",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0012.jpg": {
+  "original": "cliffs_at_pourville_1985.64.27.jpg",
+  "score": 0.997,
+  "margin": 0.118,
+  "confident": true,
+  "title": "Cliffs At Pourville",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0013.jpg": {
+  "original": "concert_at_the_casino_of_deauville_1985.64.3.jpg",
+  "score": 0.996,
+  "margin": 0.477,
+  "confident": true,
+  "title": "Concert At The Casino Of Deauville",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0014.jpg": {
+  "original": "en_route_pour_la_peche_(setting_out_to_fish)_2014.79.32.jpg",
+  "score": 0.996,
+  "margin": 0.426,
+  "confident": true,
+  "title": "En Route Pour La Peche (setting Out To Fish)",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0015.jpg": {
+  "original": "festival_in_the_harbor_of_honfleur_1983.1.10.jpg",
+  "score": 0.993,
+  "margin": 0.274,
+  "confident": true,
+  "title": "Festival In The Harbor Of Honfleur",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0016.jpg": {
+  "original": "flood_at_port-marly_1985.64.38.jpg",
+  "score": 0.996,
+  "margin": 0.446,
+  "confident": true,
+  "title": "Flood At Port-marly",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0017.jpg": {
+  "original": "hunting_scene_with_a_pond_1970.17.102.jpg",
+  "score": 0.999,
+  "margin": 0.135,
+  "confident": true,
+  "title": "Hunting Scene With A Pond",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0018.jpg": {
+  "original": "lake_george_and_the_village_of_caldwell_1966.13.1.jpg",
+  "score": 0.997,
+  "margin": 0.391,
+  "confident": true,
+  "title": "Lake George And The Village Of Caldwell",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0019.jpg": {
+  "original": "landscape_at_les_patis,_pontoise_1991.101.1.jpg",
+  "score": 0.997,
+  "margin": 0.33,
+  "confident": true,
+  "title": "Landscape At Les Patis, Pontoise",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0020.jpg": {
+  "original": "landscape_with_buildings_1956.13.10.jpg",
+  "score": 0.998,
+  "margin": 0.404,
+  "confident": true,
+  "title": "Landscape With Buildings",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0021.jpg": {
+  "original": "leverett_pond_1978.80.5.jpg",
+  "score": 0.938,
+  "margin": 0.254,
+  "confident": true,
+  "title": "Leverett Pond",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0022.jpg": {
+  "original": "lexington_battle_monument_1953.5.88.jpg",
+  "score": 0.993,
+  "margin": 0.62,
+  "confident": true,
+  "title": "Lexington Battle Monument",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0023.jpg": {
+  "original": "marion_feasting_the_british_officer_on_sweet_potatoes_1967.20.1.jpg",
+  "score": 0.997,
+  "margin": 0.494,
+  "confident": true,
+  "title": "Marion Feasting The British Officer On Sweet Potatoes",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0024.jpg": {
+  "original": "mount_auburn_cemetery_1958.5.1.jpg",
+  "score": 0.989,
+  "margin": 0.601,
+  "confident": true,
+  "title": "Mount Auburn Cemetery",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0025.jpg": {
+  "original": "mount_vernon_1956.13.6.jpg",
+  "score": 0.997,
+  "margin": 0.332,
+  "confident": true,
+  "title": "Mount Vernon",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0026.jpg": {
+  "original": "new_england_farm_in_winter_1953.5.87.jpg",
+  "score": 0.992,
+  "margin": 0.544,
+  "confident": true,
+  "title": "New England Farm In Winter",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0027.jpg": {
+  "original": "oarsmen_at_chatou_1951.5.2.jpg",
+  "score": 0.989,
+  "margin": 0.37,
+  "confident": true,
+  "title": "Oarsmen At Chatou",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0028.jpg": {
+  "original": "orchard_in_bloom,_louveciennes_1970.17.51.jpg",
+  "score": 0.988,
+  "margin": 0.265,
+  "confident": true,
+  "title": "Orchard In Bloom, Louveciennes",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0029.jpg": {
+  "original": "picking_flowers_1970.17.61.jpg",
+  "score": 0.989,
+  "margin": 0.563,
+  "confident": true,
+  "title": "Picking Flowers",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0030.jpg": {
+  "original": "race_course_at_longchamps_1970.17.114.jpg",
+  "score": 0.991,
+  "margin": 0.285,
+  "confident": true,
+  "title": "Race Course At Longchamps",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0031.jpg": {
+  "original": "ralph_wheelock's_farm_1965.15.3.jpg",
+  "score": 0.997,
+  "margin": 0.223,
+  "confident": true,
+  "title": "Ralph Wheelock's Farm",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0032.jpg": {
+  "original": "sainte-adresse_1990.59.1.jpg",
+  "score": 0.989,
+  "margin": 0.499,
+  "confident": true,
+  "title": "Sainte-adresse",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0033.jpg": {
+  "original": "still_life_1963.10.146.jpg",
+  "score": 0.997,
+  "margin": 0.573,
+  "confident": true,
+  "title": "Still Life",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0034.jpg": {
+  "original": "the_banks_of_the_oise_1963.10.214.jpg",
+  "score": 0.996,
+  "margin": 0.245,
+  "confident": true,
+  "title": "The Banks Of The Oise",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0035.jpg": {
+  "original": "the_beach_at_villerville_1963.10.4.jpg",
+  "score": 0.997,
+  "margin": 0.332,
+  "confident": true,
+  "title": "The Beach At Villerville",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0036.jpg": {
+  "original": "the_bridge_at_argenteuil_1983.1.24.jpg",
+  "score": 0.993,
+  "margin": 0.367,
+  "confident": true,
+  "title": "The Bridge At Argenteuil",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0037.jpg": {
+  "original": "the_dance_lesson_1995.47.6.jpg",
+  "score": 0.992,
+  "margin": 0.498,
+  "confident": true,
+  "title": "The Dance Lesson",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0038.jpg": {
+  "original": "the_fence_1985.64.31.jpg",
+  "score": 0.985,
+  "margin": 0.373,
+  "confident": true,
+  "title": "The Fence",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0039.jpg": {
+  "original": "the_grave_of_william_penn_1980.62.12.jpg",
+  "score": 0.853,
+  "margin": 0.262,
+  "confident": true,
+  "title": "The Grave Of William Penn",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0040.jpg": {
+  "original": "the_mother_and_sister_of_the_artist_1963.10.186.jpg",
+  "score": 0.997,
+  "margin": 0.396,
+  "confident": true,
+  "title": "The Mother And Sister Of The Artist",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0041.jpg": {
+  "original": "the_riders_2014.18.7.jpg",
+  "score": 0.995,
+  "margin": 0.526,
+  "confident": true,
+  "title": "The Riders",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0042.jpg": {
+  "original": "the_sargent_family_1953.5.49.jpg",
+  "score": 0.996,
+  "margin": 0.466,
+  "confident": true,
+  "title": "The Sargent Family",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0043.jpg": {
+  "original": "the_start_of_the_hunt_1953.5.98.jpg",
+  "score": 0.997,
+  "margin": 0.314,
+  "confident": true,
+  "title": "The Start Of The Hunt",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0044.jpg": {
+  "original": "the_towpath_2006.128.22.jpg",
+  "score": 0.993,
+  "margin": 0.366,
+  "confident": true,
+  "title": "The Towpath",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0045.jpg": {
+  "original": "the_trotter_1953.5.95.jpg",
+  "score": 0.998,
+  "margin": 0.214,
+  "confident": true,
+  "title": "The Trotter",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0046.jpg": {
+  "original": "the_willows_2015.19.65.jpg",
+  "score": 0.984,
+  "margin": 0.387,
+  "confident": true,
+  "title": "The Willows",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0047.jpg": {
+  "original": "twenty-two_houses_and_a_church_1958.9.13.jpg",
+  "score": 0.983,
+  "margin": 0.563,
+  "confident": true,
+  "title": "Twenty-two Houses And A Church",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0048.jpg": {
+  "original": "two_women_chatting_by_the_sea,_st._thomas_1985.64.30.jpg",
+  "score": 0.997,
+  "margin": 0.228,
+  "confident": true,
+  "title": "Two Women Chatting By The Sea, St. Thomas",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0049.jpg": {
+  "original": "view_of_monte_carlo_from_cap_martin_2014.136.60.jpg",
+  "score": 0.993,
+  "margin": 0.374,
+  "confident": true,
+  "title": "View Of Monte Carlo From Cap Martin",
+  "artist": "",
+  "year": ""
+ },
+ "National Gallery of Art_수정/National Gallery of Art_0050.jpg": {
+  "original": "washerwoman_near_trouville_1983.1.15.jpg",
+  "score": 0.989,
+  "margin": 0.448,
+  "confident": true,
+  "title": "Washerwoman Near Trouville",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-001.jpg": {
+  "original": "Field of Lupin.jpg",
+  "score": 0.321,
+  "margin": 0.003,
+  "confident": false,
+  "title": "Field of Lupin",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-002.jpg": {
+  "original": "Apple-Trees.jpg",
+  "score": 0.988,
+  "margin": 0.68,
+  "confident": true,
+  "title": "Apple-Trees",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-003.jpg": {
+  "original": "Apples.jpg",
+  "score": 0.99,
+  "margin": 0.512,
+  "confident": true,
+  "title": "Apples",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-004.jpg": {
+  "original": "Asters.jpg",
+  "score": 0.994,
+  "margin": 0.344,
+  "confident": true,
+  "title": "Asters",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-005.jpg": {
+  "original": "Autumn Pasturage.jpg",
+  "score": 0.998,
+  "margin": 0.32,
+  "confident": true,
+  "title": "Autumn Pasturage",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-006.jpg": {
+  "original": "Beehives in the Ukraine.jpg",
+  "score": 0.994,
+  "margin": 0.426,
+  "confident": true,
+  "title": "Beehives in the Ukraine",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-007.jpg": {
+  "original": "Beet-Lifting.jpg",
+  "score": 0.993,
+  "margin": 0.421,
+  "confident": true,
+  "title": "Beet-Lifting",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-008.jpg": {
+  "original": "Blessing of Easter Food.jpg",
+  "score": 0.998,
+  "margin": 0.289,
+  "confident": true,
+  "title": "Blessing of Easter Food",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-009.jpg": {
+  "original": "Coast at Połąga.jpg",
+  "score": 0.992,
+  "margin": 0.384,
+  "confident": true,
+  "title": "Coast at Połąga",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-010.jpg": {
+  "original": "Corn-Field.jpg",
+  "score": 0.998,
+  "margin": 0.362,
+  "confident": true,
+  "title": "Corn-Field",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-011.jpg": {
+  "original": "Country of a Ukrainian Country Town.jpg",
+  "score": 0.998,
+  "margin": 0.431,
+  "confident": true,
+  "title": "Country of a Ukrainian Country Town",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-012.jpg": {
+  "original": "Cowherd.jpg",
+  "score": 0.998,
+  "margin": 0.21,
+  "confident": true,
+  "title": "Cowherd",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-013.jpg": {
+  "original": "Czarny Staw (The Blake Lake) – Blizzard.jpg",
+  "score": 0.996,
+  "margin": 0.308,
+  "confident": true,
+  "title": "Czarny Staw (The Blake Lake) – Blizzard",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-014.jpg": {
+  "original": "Dawn (1).jpg",
+  "score": 0.998,
+  "margin": 0.103,
+  "confident": true,
+  "title": "Dawn (1)",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-015.jpg": {
+  "original": "Ducks over Swamps.jpg",
+  "score": 0.998,
+  "margin": 0.097,
+  "confident": true,
+  "title": "Ducks over Swamps",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-016.jpg": {
+  "original": "Evening on the Seine.jpg",
+  "score": 0.995,
+  "margin": 0.431,
+  "confident": true,
+  "title": "Evening on the Seine",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-017.jpg": {
+  "original": "Evening Prayer of a Farmer.jpg",
+  "score": 1,
+  "margin": 0.241,
+  "confident": true,
+  "title": "Evening Prayer of a Farmer",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-018.jpg": {
+  "original": "Field of Lupin.jpg",
+  "score": 0.993,
+  "margin": 0.474,
+  "confident": true,
+  "title": "Field of Lupin",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-019.jpg": {
+  "original": "The Florists_Olga Boznańska (polska 1965 - 1940).jpg",
+  "score": 0.995,
+  "margin": 0,
+  "confident": true,
+  "title": "The Florists_Olga Boznańska (polska 1965 - 1940)",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-020.jpg": {
+  "original": "Forest Landscape.jpg",
+  "score": 0.988,
+  "margin": 0.364,
+  "confident": true,
+  "title": "Forest Landscape",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-021.jpg": {
+  "original": "Forest Truck.jpg",
+  "score": 0.995,
+  "margin": 0.255,
+  "confident": true,
+  "title": "Forest Truck",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-022.jpg": {
+  "original": "Forest.jpg",
+  "score": 0.998,
+  "margin": 0.716,
+  "confident": true,
+  "title": "Forest",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-023.jpg": {
+  "original": "Harbour at Saint-Tropez.jpg",
+  "score": 0.984,
+  "margin": 0.581,
+  "confident": true,
+  "title": "Harbour at Saint-Tropez",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-024.jpg": {
+  "original": "In the Garden (1).jpg",
+  "score": 0.99,
+  "margin": 0.527,
+  "confident": true,
+  "title": "In the Garden (1)",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-025.jpg": {
+  "original": "In the Garden.jpg",
+  "score": 0.977,
+  "margin": 0.36,
+  "confident": true,
+  "title": "In the Garden",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-026.jpg": {
+  "original": "Lajkonik in the Main Market Square in Krakow.jpg",
+  "score": 0.986,
+  "margin": 0.271,
+  "confident": true,
+  "title": "Lajkonik in the Main Market Square in Krakow",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-027.jpg": {
+  "original": "Lake with Water-Lilies.jpg",
+  "score": 0.999,
+  "margin": 0.156,
+  "confident": true,
+  "title": "Lake with Water-Lilies",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-028.jpg": {
+  "original": "Landscape from the Vincity of Krakow.jpg",
+  "score": 0.999,
+  "margin": 0.04,
+  "confident": true,
+  "title": "Landscape from the Vincity of Krakow",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-029.jpg": {
+  "original": "Moonrise.jpg",
+  "score": 0.997,
+  "margin": 0.197,
+  "confident": true,
+  "title": "Moonrise",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-030.jpg": {
+  "original": "Morning Star.jpg",
+  "score": 1,
+  "margin": 0.063,
+  "confident": true,
+  "title": "Morning Star",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-031.jpg": {
+  "original": "Neapolitan Fishermen.jpg",
+  "score": 0.99,
+  "margin": 0.641,
+  "confident": true,
+  "title": "Neapolitan Fishermen",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-032.jpg": {
+  "original": "Old Library.jpg",
+  "score": 0.984,
+  "margin": 0.647,
+  "confident": true,
+  "title": "Old Library",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-033.jpg": {
+  "original": "Plowing in the Ukraine.jpg",
+  "score": 0.998,
+  "margin": 0.112,
+  "confident": true,
+  "title": "Plowing in the Ukraine",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-034.jpg": {
+  "original": "Red Umbrella.jpg",
+  "score": 0.995,
+  "margin": 0.41,
+  "confident": true,
+  "title": "Red Umbrella",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-035.jpg": {
+  "original": "Rodzina Mikołajczyków.jpg",
+  "score": 0.998,
+  "margin": 0.493,
+  "confident": true,
+  "title": "Rodzina Mikołajczyków",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-036.jpg": {
+  "original": "Spring Landscape with a Pond.jpg",
+  "score": 0.996,
+  "margin": 0.22,
+  "confident": true,
+  "title": "Spring Landscape with a Pond",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-037.jpg": {
+  "original": "Spring Mist.jpg",
+  "score": 0.997,
+  "margin": 0.267,
+  "confident": true,
+  "title": "Spring Mist",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-038.jpg": {
+  "original": "Sunset on the Sea.jpg",
+  "score": 0.997,
+  "margin": 0.456,
+  "confident": true,
+  "title": "Sunset on the Sea",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-039.jpg": {
+  "original": "Sunset over Tobolsk.jpg",
+  "score": 0.998,
+  "margin": 0.349,
+  "confident": true,
+  "title": "Sunset over Tobolsk",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-040.jpg": {
+  "original": "Thaw.jpg",
+  "score": 0.991,
+  "margin": 0.523,
+  "confident": true,
+  "title": "Thaw",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-041.jpg": {
+  "original": "The Artist’s Family.jpg",
+  "score": 0.997,
+  "margin": 0.51,
+  "confident": true,
+  "title": "The Artist’s Family",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-042.jpg": {
+  "original": "Ukrainian Lanscape.jpg",
+  "score": 0.997,
+  "margin": 0.146,
+  "confident": true,
+  "title": "Ukrainian Lanscape",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-043.jpg": {
+  "original": "Villa Borghese in Rome.jpg",
+  "score": 0.998,
+  "margin": 0.376,
+  "confident": true,
+  "title": "Villa Borghese in Rome",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-044.jpg": {
+  "original": "Wilanów.jpg",
+  "score": 0.996,
+  "margin": 0.329,
+  "confident": true,
+  "title": "Wilanów",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-045.jpg": {
+  "original": "Winter Landscape (1).jpg",
+  "score": 0.997,
+  "margin": 0.399,
+  "confident": true,
+  "title": "Winter Landscape (1)",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum in Krakow선별수정/01크라쿠프 국립미술관-046.jpg": {
+  "original": "Winter Landscape (2).jpg",
+  "score": 0.986,
+  "margin": 0.616,
+  "confident": true,
+  "title": "Winter Landscape (2)",
+  "artist": "",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0001.jpg": {
+  "original": "A Harbour of Refuge-Nikolai Ulfsten.jpg",
+  "score": 0.996,
+  "margin": 0.326,
+  "confident": true,
+  "title": "A Harbour of Refuge",
+  "artist": "Nikolai Ulfsten",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0002.jpg": {
+  "original": "Albertine to See the Police Surgeon-Christian Krohg.jpg",
+  "score": 0.992,
+  "margin": 0.429,
+  "confident": true,
+  "title": "Albertine to See the Police Surgeon",
+  "artist": "Christian Krohg",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0003.jpg": {
+  "original": "At the Piano-Harriet Backer.jpg",
+  "score": 0.997,
+  "margin": 0.395,
+  "confident": true,
+  "title": "At the Piano",
+  "artist": "Harriet Backer",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0004.jpg": {
+  "original": "Autumn, Strålsjøhaugen-Harriet Backer.jpg",
+  "score": 0.997,
+  "margin": 0.14,
+  "confident": true,
+  "title": "Autumn, Strålsjøhaugen",
+  "artist": "Harriet Backer",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0005.jpg": {
+  "original": "Bedroom, Einabu in Folldal-Harriet Backer.jpg",
+  "score": 0.991,
+  "margin": 0.503,
+  "confident": true,
+  "title": "Bedroom, Einabu in Folldal",
+  "artist": "Harriet Backer",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0006.jpg": {
+  "original": "Birch Trees in Autumn-Gerhard Munthe.jpg",
+  "score": 0.987,
+  "margin": 0.444,
+  "confident": true,
+  "title": "Birch Trees in Autumn",
+  "artist": "Gerhard Munthe",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0007.jpg": {
+  "original": "Blue Interior-ArtistHarriet Backer.jpg",
+  "score": 0.997,
+  "margin": 0.435,
+  "confident": true,
+  "title": "Blue Interior",
+  "artist": "ArtistHarriet Backer",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0008.jpg": {
+  "original": "Card Players (sketch)-Harriet Backer.jpg",
+  "score": 0.995,
+  "margin": 0.735,
+  "confident": true,
+  "title": "Card Players (sketch)",
+  "artist": "Harriet Backer",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0009.jpg": {
+  "original": "Chez moi-Harriet Backer.jpg",
+  "score": 0.997,
+  "margin": 0.397,
+  "confident": true,
+  "title": "Chez moi",
+  "artist": "Harriet Backer",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0010.jpg": {
+  "original": "Christening in Tanum Church-Harriet Backer.jpg",
+  "score": 0.995,
+  "margin": 0.606,
+  "confident": true,
+  "title": "Christening in Tanum Church",
+  "artist": "Harriet Backer",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0011.jpg": {
+  "original": "Coastal Landscape-Peder Balke.jpg",
+  "score": 0.997,
+  "margin": 0.344,
+  "confident": true,
+  "title": "Coastal Landscape",
+  "artist": "Peder Balke",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0012.jpg": {
+  "original": "Farmhouse Interior, Skotta,Bærum-Harriet Backer.jpg",
+  "score": 0.993,
+  "margin": 0.482,
+  "confident": true,
+  "title": "Farmhouse Interior, Skotta,Bærum",
+  "artist": "Harriet Backer",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0013.jpg": {
+  "original": "Fisherman from Rügen-Hans Gude.jpg",
+  "score": 0.998,
+  "margin": 0.22,
+  "confident": true,
+  "title": "Fisherman from Rügen",
+  "artist": "Hans Gude",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0014.jpg": {
+  "original": "From Seljord-Oluf Wold-Torne.jpg",
+  "score": 0.821,
+  "margin": 0.459,
+  "confident": true,
+  "title": "From Seljord-Oluf Wold",
+  "artist": "Torne",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0015.jpg": {
+  "original": "Guitar and Glass-Pablo Picasso.jpg",
+  "score": 0.997,
+  "margin": 0.662,
+  "confident": true,
+  "title": "Guitar and Glass",
+  "artist": "Pablo Picasso",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0016.jpg": {
+  "original": "Holy Communion in Stange Church-Harriet Backer.jpg",
+  "score": 0.992,
+  "margin": 0.319,
+  "confident": true,
+  "title": "Holy Communion in Stange Church",
+  "artist": "Harriet Backer",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0017.jpg": {
+  "original": "Landscape from Bærum-Harriet Backer.jpg",
+  "score": 0.999,
+  "margin": 0.15,
+  "confident": true,
+  "title": "Landscape from Bærum",
+  "artist": "Harriet Backer",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0018.jpg": {
+  "original": "Landscape from Foldalen-Harriet Backer.jpg",
+  "score": 0.997,
+  "margin": 0.188,
+  "confident": true,
+  "title": "Landscape from Foldalen",
+  "artist": "Harriet Backer",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0019.jpg": {
+  "original": "Lesende kvinne på hagebenk-Sofie Werenskiold.jpg",
+  "score": 0.989,
+  "margin": 0.426,
+  "confident": true,
+  "title": "Lesende kvinne på hagebenk",
+  "artist": "Sofie Werenskiold",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0020.jpg": {
+  "original": "Music, Interior from Kristiania-Harriet Backer.jpg",
+  "score": 0.995,
+  "margin": 0.568,
+  "confident": true,
+  "title": "Music, Interior from Kristiania",
+  "artist": "Harriet Backer",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0021.jpg": {
+  "original": "Music, Interior from Paris-Harriet Backer.jpg",
+  "score": 0.996,
+  "margin": 0.546,
+  "confident": true,
+  "title": "Music, Interior from Paris",
+  "artist": "Harriet Backer",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0022.jpg": {
+  "original": "On the Veranda-Edvard Munch.jpg",
+  "score": 0.993,
+  "margin": 0.53,
+  "confident": true,
+  "title": "On the Veranda",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0023.jpg": {
+  "original": "Peisestuen fra kunstnerens hjem Leveld på Lysaker-Gerhard Munthe.jpg",
+  "score": 0.984,
+  "margin": 0.571,
+  "confident": true,
+  "title": "Peisestuen fra kunstnerens hjem Leveld på Lysaker",
+  "artist": "Gerhard Munthe",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0024.jpg": {
+  "original": "Riesengebirge Landscape-Caspar David Friedrich.jpg",
+  "score": 0.969,
+  "margin": 0.094,
+  "confident": true,
+  "title": "Riesengebirge Landscape",
+  "artist": "Caspar David Friedrich",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0025.jpg": {
+  "original": "River Sandvikselven-Harriet Backer (assumed certain).jpg",
+  "score": 0.995,
+  "margin": 0.343,
+  "confident": true,
+  "title": "River Sandvikselven",
+  "artist": "Harriet Backer",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0026.jpg": {
+  "original": "Spring-Edvard Munch.jpg",
+  "score": 0.998,
+  "margin": 0.343,
+  "confident": true,
+  "title": "Spring",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0027.jpg": {
+  "original": "Springtime on the Ile de La Grande Jatte-Claude Monet.jpg",
+  "score": 0.988,
+  "margin": 0.443,
+  "confident": true,
+  "title": "Springtime on the Ile de La Grande Jatte",
+  "artist": "Claude Monet",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0028.jpg": {
+  "original": "Still Life-Harriet Backer.jpg",
+  "score": 0.997,
+  "margin": 0.556,
+  "confident": true,
+  "title": "Still Life",
+  "artist": "Harriet Backer",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0029.jpg": {
+  "original": "Still life-Paul Cezanne.jpg",
+  "score": 0.993,
+  "margin": 0.531,
+  "confident": true,
+  "title": "Still life",
+  "artist": "Paul Cezanne",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0030.jpg": {
+  "original": "Terrace with Oak, Sorrento-Thomas Fearnley.jpg",
+  "score": 0.993,
+  "margin": 0.309,
+  "confident": true,
+  "title": "Terrace with Oak, Sorrento",
+  "artist": "Thomas Fearnley",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0031.jpg": {
+  "original": "The Artist's Wife in the Arbour-Gerhard Munthe.jpg",
+  "score": 0.987,
+  "margin": 0.563,
+  "confident": true,
+  "title": "The Artist's Wife in the Arbour",
+  "artist": "Gerhard Munthe",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0032.jpg": {
+  "original": "The Courtyard at Kongsvoll-Gerhard Munthe.jpg",
+  "score": 0.991,
+  "margin": 0.685,
+  "confident": true,
+  "title": "The Courtyard at Kongsvoll",
+  "artist": "Gerhard Munthe",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0033.jpg": {
+  "original": "The Fairytale Forest-Edvard Munch.jpg",
+  "score": 0.987,
+  "margin": 0.677,
+  "confident": true,
+  "title": "The Fairytale Forest",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0034.jpg": {
+  "original": "The Farewell-Harriet Backer.jpg",
+  "score": 0.996,
+  "margin": 0.573,
+  "confident": true,
+  "title": "The Farewell",
+  "artist": "Harriet Backer",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0035.jpg": {
+  "original": "The Farm Gulsvik in Hallingdal-Adolph Tidemand.jpg",
+  "score": 0.997,
+  "margin": 0.374,
+  "confident": true,
+  "title": "The Farm Gulsvik in Hallingdal",
+  "artist": "Adolph Tidemand",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0036.jpg": {
+  "original": "The Letter-carrier-Pieter Janssens.jpg",
+  "score": 0.992,
+  "margin": 0.625,
+  "confident": true,
+  "title": "The Letter-carrier",
+  "artist": "Pieter Janssens",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0037.jpg": {
+  "original": "View from Bastei-Johan Christian Dahl.jpg",
+  "score": 0.999,
+  "margin": 0.151,
+  "confident": true,
+  "title": "View from Bastei",
+  "artist": "Johan Christian Dahl",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0038.jpg": {
+  "original": "View from Bærum-Gerhard Munthe.jpg",
+  "score": 0.991,
+  "margin": 0.476,
+  "confident": true,
+  "title": "View from Bærum",
+  "artist": "Gerhard Munthe",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0039.jpg": {
+  "original": "View from my Balcony, Hansteensgate 2-Harriet Backer.jpg",
+  "score": 0.996,
+  "margin": 0.225,
+  "confident": true,
+  "title": "View from my Balcony, Hansteensgate 2",
+  "artist": "Harriet Backer",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0040.jpg": {
+  "original": "View from Peckel's Estate in Pilestredet, Oslo-Johannes Flintoe.jpg",
+  "score": 0.998,
+  "margin": 0.196,
+  "confident": true,
+  "title": "View from Peckel's Estate in Pilestredet, Oslo",
+  "artist": "Johannes Flintoe",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0041.jpg": {
+  "original": "View from Ulvik in Hardanger-Bernt Lund.jpg",
+  "score": 0.999,
+  "margin": 0.109,
+  "confident": true,
+  "title": "View from Ulvik in Hardanger",
+  "artist": "Bernt Lund",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0042.jpg": {
+  "original": "View of Nevlunghavn-Gerhard Munthe.jpg",
+  "score": 0.988,
+  "margin": 0.346,
+  "confident": true,
+  "title": "View of Nevlunghavn",
+  "artist": "Gerhard Munthe",
+  "year": ""
+ },
+ "National Museum, Norway_수정/National Museum_0043.jpg": {
+  "original": "Woman Sewing by Lamplight-Harriet Backer.jpg",
+  "score": 0.999,
+  "margin": 0.328,
+  "confident": true,
+  "title": "Woman Sewing by Lamplight",
+  "artist": "Harriet Backer",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0001.jpg": {
+  "original": "0001_Alexej von Jawlensky, Murnauer Landschaft.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Murnauer Landschaft",
+  "artist": "Alexej von Jawlensky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0002.jpg": {
+  "original": "0002_August Macke, Blumen im Garten, Clivia und Pelargonien.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Blumen im Garten, Clivia und Pelargonien",
+  "artist": "August Macke",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0003.jpg": {
+  "original": "0003_August Macke, Hutladen.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Hutladen",
+  "artist": "August Macke",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0004.jpg": {
+  "original": "0004_August Macke, Promenade.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Promenade",
+  "artist": "August Macke",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0005.jpg": {
+  "original": "0005_August Macke, Zoologischer Garten I.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Zoologischer Garten I",
+  "artist": "August Macke",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0006.jpg": {
+  "original": "0006_Erma Bossi, Zirkus.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Zirkus",
+  "artist": "Erma Bossi",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0007.jpg": {
+  "original": "0007_Franz Marc, Das Äffchen.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Das Äffchen",
+  "artist": "Franz Marc",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0008.jpg": {
+  "original": "0008_Franz Marc, Kühe, rot, grün, gelb.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Kühe, rot, grün, gelb",
+  "artist": "Franz Marc",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0009.jpg": {
+  "original": "0009_Franz Marc, Reh im Klostergarten.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Reh im Klostergarten",
+  "artist": "Franz Marc",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0010.jpg": {
+  "original": "0010_Franz Marc, Rehe im Schnee II.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Rehe im Schnee II",
+  "artist": "Franz Marc",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0011.jpg": {
+  "original": "0011_Franz Marc, Rotes und blaues Pferd.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Rotes und blaues Pferd",
+  "artist": "Franz Marc",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0012.jpg": {
+  "original": "0012_Franz Marc, Tiger.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Tiger",
+  "artist": "Franz Marc",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0013.jpg": {
+  "original": "0013_Franz Marc, Weidende Pferde I.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Weidende Pferde I",
+  "artist": "Franz Marc",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0014.jpg": {
+  "original": "0014_G_9582_BuechtgerR_POL_ONLINE.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "G_9582_BuechtgerR_POL_ONLINE",
+  "artist": "",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0015.jpg": {
+  "original": "0015_Marianne von Werefkin, In die Nacht hinein.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "In die Nacht hinein",
+  "artist": "Marianne von Werefkin",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0016.jpg": {
+  "original": "0016_Marianne von Werefkin, Wäscherinnen, um.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Wäscherinnen, um",
+  "artist": "Marianne von Werefkin",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0017.jpg": {
+  "original": "0017_Paul Klee, Botanisches Theater.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Botanisches Theater",
+  "artist": "Paul Klee",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0018.jpg": {
+  "original": "0018_Paul Klee, Klippen am Meer.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Klippen am Meer",
+  "artist": "Paul Klee",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0019.jpg": {
+  "original": "0019_Paul Klee, Rosengarten.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Rosengarten",
+  "artist": "Paul Klee",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0020.jpg": {
+  "original": "0020_Paul Klee, Stadt R.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Stadt R",
+  "artist": "Paul Klee",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0021.jpg": {
+  "original": "0021_Wassily Kandinsky, Allerheiligen II.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Allerheiligen II",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0022.jpg": {
+  "original": "0022_Wassily Kandinsky, Berg.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Berg",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0023.jpg": {
+  "original": "0023_Wassily Kandinsky, Die Kuh.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Die Kuh",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0024.jpg": {
+  "original": "0024_Wassily Kandinsky, Eisenbahn bei Murnau.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Eisenbahn bei Murnau",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0025.jpg": {
+  "original": "0025_Wassily Kandinsky, Im Park von St. Cloud – Herbst II.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Im Park von St. Cloud – Herbst II",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0026.jpg": {
+  "original": "0026_Wassily Kandinsky, Impression III (Konzert).jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Impression III (Konzert)",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0027.jpg": {
+  "original": "0027_Wassily Kandinsky, Impression IV (Gendarme).jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Impression IV (Gendarme)",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0028.jpg": {
+  "original": "0028_Wassily Kandinsky, Improvisation 26 (Rudern).jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Improvisation 26 (Rudern)",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0029.jpg": {
+  "original": "0029_Wassily Kandinsky, Improvisation Klamm.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Improvisation Klamm",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0030.jpg": {
+  "original": "0030_Wassily Kandinsky, Improvisation.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Improvisation",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0031.jpg": {
+  "original": "0031_Wassily Kandinsky, Interieur (Mein Esszimmer).jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Interieur (Mein Esszimmer)",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0032.jpg": {
+  "original": "0032_Wassily Kandinsky, Kallmünz – Gabriele Münter beim Malen I, Sommer.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Kallmünz – Gabriele Münter beim Malen I, Sommer",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0033.jpg": {
+  "original": "0033_Wassily Kandinsky, Kallmünz – Gabriele Münter beim Malen II.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Kallmünz – Gabriele Münter beim Malen II",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0034.jpg": {
+  "original": "0034_Wassily Kandinsky, Kochel – Gerade Straße.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Kochel – Gerade Straße",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0035.jpg": {
+  "original": "0035_Wassily Kandinsky, Murnau – Blick aus dem Fenster des Griesbräu.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Murnau – Blick aus dem Fenster des Griesbräu",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0036.jpg": {
+  "original": "0036_Wassily Kandinsky, Murnau – Grüngasse.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Murnau – Grüngasse",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0037.jpg": {
+  "original": "0037_Wassily Kandinsky, Murnau – Schloss und Kirche.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Murnau – Schloss und Kirche",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0038.jpg": {
+  "original": "0038_Wassily Kandinsky, Reitendes Paar.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Reitendes Paar",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0039.jpg": {
+  "original": "0039_Wassily Kandinsky, Romantische Landschaft.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Romantische Landschaft",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0040.jpg": {
+  "original": "0040_Wassily Kandinsky, Roter Fleck II.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "Roter Fleck II",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Lenbachhaus_수정/0041.jpg": {
+  "original": "0041_Wassily Kandinsky, St. Georg III.jpg",
+  "score": 1,
+  "confident": true,
+  "title": "St. Georg III",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "Nivaagaard_수정/Nivaagaard_0000.jpg": {
+  "original": "C. W. Eckersberg-Seascape with the island of Hjelm and the coast of Jutland, 1827-45.jpg",
+  "score": 0.454,
+  "margin": 0.059,
+  "confident": false,
+  "title": "Seascape with the island of Hjelm and the coast of Jutland",
+  "artist": "C. W. Eckersberg",
+  "year": "1827"
+ },
+ "Nivaagaard_수정/Nivaagaard_0001.jpg": {
+  "original": "Anton Melbye-Quiet night, 1847.jpg",
+  "score": 0.995,
+  "margin": 0.404,
+  "confident": true,
+  "title": "Quiet night",
+  "artist": "Anton Melbye",
+  "year": "1847"
+ },
+ "Nivaagaard_수정/Nivaagaard_0002.jpg": {
+  "original": "C. W. Eckersberg-Rainbow at Sea and a Crossing Hunt with other Ships, 1836.jpg",
+  "score": 0.993,
+  "margin": 0.52,
+  "confident": true,
+  "title": "Rainbow at Sea and a Crossing Hunt with other Ships",
+  "artist": "C. W. Eckersberg",
+  "year": "1836"
+ },
+ "Nivaagaard_수정/Nivaagaard_0003.jpg": {
+  "original": "C. W. Eckersberg-Seascape with the island of Hjelm and the coast of Jutland, 1827-45.jpg",
+  "score": 0.997,
+  "margin": 0.195,
+  "confident": true,
+  "title": "Seascape with the island of Hjelm and the coast of Jutland",
+  "artist": "C. W. Eckersberg",
+  "year": "1827"
+ },
+ "Nivaagaard_수정/Nivaagaard_0004.jpg": {
+  "original": "C. W. Eckersberg-The Corvette Najaden under Sail, ca. 1834.jpg",
+  "score": 0.995,
+  "margin": 0.357,
+  "confident": true,
+  "title": "The Corvette Najaden under Sail, ca.",
+  "artist": "C. W. Eckersberg",
+  "year": "1834"
+ },
+ "Nivaagaard_수정/Nivaagaard_0005.jpg": {
+  "original": "C. W. Eckersberg-Vesta Temple in Rome, 1814-1816.jpg",
+  "score": 0.989,
+  "margin": 0.53,
+  "confident": true,
+  "title": "Vesta Temple in Rome",
+  "artist": "C. W. Eckersberg",
+  "year": "1814"
+ },
+ "Nivaagaard_수정/Nivaagaard_0006.jpg": {
+  "original": "Carl Neumann-t. Giorgio Maggiore in Venice, n.d..jpg",
+  "score": 0.99,
+  "margin": 0.519,
+  "confident": true,
+  "title": "t. Giorgio Maggiore in Venice, n.d",
+  "artist": "Carl Neumann",
+  "year": ""
+ },
+ "Nivaagaard_수정/Nivaagaard_0007.jpg": {
+  "original": "Christen Købke-Section near the Lime Kiln with a View towards Copenhagen, 1836.jpg",
+  "score": 0.995,
+  "margin": 0.212,
+  "confident": true,
+  "title": "Section near the Lime Kiln with a View towards Copenhagen",
+  "artist": "Christen Købke",
+  "year": "1836"
+ },
+ "Nivaagaard_수정/Nivaagaard_0008.jpg": {
+  "original": "Ernst Meyer-he first steps, n.d..tif",
+  "score": 0.995,
+  "margin": 0.392,
+  "confident": true,
+  "title": "he first steps, n.d",
+  "artist": "Ernst Meyer",
+  "year": ""
+ },
+ "Nivaagaard_수정/Nivaagaard_0009.jpg": {
+  "original": "Fritz Petzholdt-Italian mountainscape, 1831.jpg",
+  "score": 0.996,
+  "margin": 0.358,
+  "confident": true,
+  "title": "Italian mountainscape",
+  "artist": "Fritz Petzholdt",
+  "year": "1831"
+ },
+ "Nivaagaard_수정/Nivaagaard_0010.jpg": {
+  "original": "Harald Foss-Summer morning, 1873.jpg",
+  "score": 0.995,
+  "margin": 0.283,
+  "confident": true,
+  "title": "Summer morning",
+  "artist": "Harald Foss",
+  "year": "1873"
+ },
+ "Nivaagaard_수정/Nivaagaard_0011.jpg": {
+  "original": "Heinrich Hansen-Interior from Scoula St. Rocco, Venice, 1852.jpg",
+  "score": 0.993,
+  "margin": 0.501,
+  "confident": true,
+  "title": "Interior from Scoula St. Rocco, Venice",
+  "artist": "Heinrich Hansen",
+  "year": "1852"
+ },
+ "Nivaagaard_수정/Nivaagaard_0012.jpg": {
+  "original": "Heinrich Hansen-The Great Hall at Frederiksborg Castle during the Reign of Christian IV, 1859.jpg",
+  "score": 0.982,
+  "margin": 0.556,
+  "confident": true,
+  "title": "The Great Hall at Frederiksborg Castle during the Reign of Christian IV",
+  "artist": "Heinrich Hansen",
+  "year": "1859"
+ },
+ "Nivaagaard_수정/Nivaagaard_0013.jpg": {
+  "original": "J. Th. Lundbye-Outside the cowshed, 1847.jpg",
+  "score": 0.991,
+  "margin": 0.522,
+  "confident": true,
+  "title": "Outside the cowshed",
+  "artist": "J. Th. Lundbye",
+  "year": "1847"
+ },
+ "Nivaagaard_수정/Nivaagaard_0014.jpg": {
+  "original": "J. Th. Lundbye-Winter landscape with Northern Zealand character, 1841.jpg",
+  "score": 0.987,
+  "margin": 0.565,
+  "confident": true,
+  "title": "Winter landscape with Northern Zealand character",
+  "artist": "J. Th. Lundbye",
+  "year": "1841"
+ },
+ "Nivaagaard_수정/Nivaagaard_0015.jpg": {
+  "original": "J.C. Dahl-Frederiksborg Castle by moonlight.jpg",
+  "score": 0.998,
+  "margin": 0.179,
+  "confident": true,
+  "title": "Frederiksborg Castle by moonlight",
+  "artist": "J.C. Dahl",
+  "year": ""
+ },
+ "Nivaagaard_수정/Nivaagaard_0016.jpg": {
+  "original": "J.C. Dahl-“Skovlyst”. A forester’s house, Hillerød, 1812-1813.tif",
+  "score": 0.992,
+  "margin": 0.373,
+  "confident": true,
+  "title": "“Skovlyst”. A forester’s house, Hillerød",
+  "artist": "J.C. Dahl",
+  "year": "1812"
+ },
+ "Nivaagaard_수정/Nivaagaard_0017.jpg": {
+  "original": "J.L. Jensen-Flowers in a centrepiece on a marble windowsill with a beech branch, 1846.jpg",
+  "score": 0.992,
+  "margin": 0.51,
+  "confident": true,
+  "title": "Flowers in a centrepiece on a marble windowsill with a beech branch",
+  "artist": "J.L. Jensen",
+  "year": "1846"
+ },
+ "Nivaagaard_수정/Nivaagaard_0018.jpg": {
+  "original": "Janus la Cour-Castle by Lake Geneva.jpg",
+  "score": 0.985,
+  "margin": 0.144,
+  "confident": true,
+  "title": "Castle by Lake Geneva",
+  "artist": "Janus la Cour",
+  "year": ""
+ },
+ "Nivaagaard_수정/Nivaagaard_0019.jpg": {
+  "original": "Jørgen Roed-scene from the Garden of Villa Borghese in Rome, c. 1839.jpg",
+  "score": 0.989,
+  "margin": 0.648,
+  "confident": true,
+  "title": "scene from the Garden of Villa Borghese in Rome",
+  "artist": "Jørgen Roed",
+  "year": "1839"
+ },
+ "Nivaagaard_수정/Nivaagaard_0020.jpg": {
+  "original": "Jørgen Roed-Selecting Trees for Felling, n.d..jpg",
+  "score": 0.989,
+  "margin": 0.66,
+  "confident": true,
+  "title": "Selecting Trees for Felling, n.d",
+  "artist": "Jørgen Roed",
+  "year": ""
+ },
+ "Nivaagaard_수정/Nivaagaard_0021.jpg": {
+  "original": "Jørgen Sonne-Shepherds in the Roman Campagna, 1835.tif",
+  "score": 0.997,
+  "margin": 0.278,
+  "confident": true,
+  "title": "Shepherds in the Roman Campagna",
+  "artist": "Jørgen Sonne",
+  "year": "1835"
+ },
+ "Nivaagaard_수정/Nivaagaard_0022.jpg": {
+  "original": "Jørgen Sonne-Three riding campagnols, 1872.jpg",
+  "score": 0.996,
+  "margin": 0.516,
+  "confident": true,
+  "title": "Three riding campagnols",
+  "artist": "Jørgen Sonne",
+  "year": "1872"
+ },
+ "Nivaagaard_수정/Nivaagaard_0023.jpg": {
+  "original": "Kristian Zahrtmann-Palazzetto Farnese’s farm, 1883.jpg",
+  "score": 0.995,
+  "margin": 0.434,
+  "confident": true,
+  "title": "Palazzetto Farnese’s farm",
+  "artist": "Kristian Zahrtmann",
+  "year": "1883"
+ },
+ "Nivaagaard_수정/Nivaagaard_0024.jpg": {
+  "original": "Martinus Rørbye-Beach at Skagen Vesterby, 1847.jpg",
+  "score": 0.986,
+  "margin": 0.497,
+  "confident": true,
+  "title": "Beach at Skagen Vesterby",
+  "artist": "Martinus Rørbye",
+  "year": "1847"
+ },
+ "Nivaagaard_수정/Nivaagaard_0025.jpg": {
+  "original": "Martinus Rørbye-Portrait of the painter C. A. Lorentzen, 1827.jpg",
+  "score": 0.998,
+  "margin": 0.501,
+  "confident": true,
+  "title": "Portrait of the painter C. A. Lorentzen",
+  "artist": "Martinus Rørbye",
+  "year": "1827"
+ },
+ "Nivaagaard_수정/Nivaagaard_0026.jpg": {
+  "original": "Martinus Rørbye-Scene near Sorrento overlooking the Sea, 1835.jpg",
+  "score": 0.994,
+  "margin": 0.494,
+  "confident": true,
+  "title": "Scene near Sorrento overlooking the Sea",
+  "artist": "Martinus Rørbye",
+  "year": "1835"
+ },
+ "Nivaagaard_수정/Nivaagaard_0027.jpg": {
+  "original": "P. C. Skovgaard-Forested hills, 1864.jpg",
+  "score": 0.994,
+  "margin": 0.288,
+  "confident": true,
+  "title": "Forested hills",
+  "artist": "P. C. Skovgaard",
+  "year": "1864"
+ },
+ "Nivaagaard_수정/Nivaagaard_0028.jpg": {
+  "original": "P. C. Skovgaard-Olive Trees near Olevano, 1869.jpg",
+  "score": 0.996,
+  "margin": 0.191,
+  "confident": true,
+  "title": "Olive Trees near Olevano",
+  "artist": "P. C. Skovgaard",
+  "year": "1869"
+ },
+ "Nivaagaard_수정/Nivaagaard_0029.jpg": {
+  "original": "P. C. Skovgaard-Summer afternoon by a lake, 1859.jpg",
+  "score": 0.998,
+  "margin": 0.268,
+  "confident": true,
+  "title": "Summer afternoon by a lake",
+  "artist": "P. C. Skovgaard",
+  "year": "1859"
+ },
+ "Nivaagaard_수정/Nivaagaard_0030.jpg": {
+  "original": "P. C. Skovgaard-View from Monte Pincio Hill in Rome, 1861.jpg",
+  "score": 0.999,
+  "margin": 0.37,
+  "confident": true,
+  "title": "View from Monte Pincio Hill in Rome",
+  "artist": "P. C. Skovgaard",
+  "year": "1861"
+ },
+ "Nivaagaard_수정/Nivaagaard_0031.jpg": {
+  "original": "P. C. Skovgaard-View towards Kullen from a garden terrace with statues.jpg",
+  "score": 0.997,
+  "margin": 0.409,
+  "confident": true,
+  "title": "View towards Kullen from a garden terrace with statues",
+  "artist": "P. C. Skovgaard",
+  "year": ""
+ },
+ "Nivaagaard_수정/Nivaagaard_0032.jpg": {
+  "original": "Thorvald Niss- country lane in Northern Jutland, 1876.jpg",
+  "score": 0.997,
+  "margin": 0.167,
+  "confident": true,
+  "title": "country lane in Northern Jutland",
+  "artist": "Thorvald Niss",
+  "year": "1876"
+ },
+ "Nivaagaard_수정/Nivaagaard_0033.jpg": {
+  "original": "Thorvald Niss-inter landscape of forests near Hillerød, n.d. , u.å..jpg",
+  "score": 0.981,
+  "margin": 0.493,
+  "confident": true,
+  "title": "inter landscape of forests near Hillerød, n.d. , u.å",
+  "artist": "Thorvald Niss",
+  "year": ""
+ },
+ "Nivaagaard_수정/Nivaagaard_0034.jpg": {
+  "original": "Viggo Pedersen-ashing clothes by a creek in Brittany, 1882.jpg",
+  "score": 0.992,
+  "margin": 0.579,
+  "confident": true,
+  "title": "ashing clothes by a creek in Brittany",
+  "artist": "Viggo Pedersen",
+  "year": "1882"
+ },
+ "Nivaagaard_수정/Nivaagaard_0035.jpg": {
+  "original": "Wilhelm Marstrand-cene from Ludvig Holberg’s “Maternity Room”, n.d..tif",
+  "score": 0.995,
+  "margin": 0.573,
+  "confident": true,
+  "title": "cene from Ludvig Holberg’s “Maternity Room”, n.d",
+  "artist": "Wilhelm Marstrand",
+  "year": ""
+ },
+ "Nivaagaard_수정/Nivaagaard_0036.jpg": {
+  "original": "Wilhelm Marstrand-Dance in an Osteria, c. 1860.jpg",
+  "score": 0.99,
+  "margin": 0.608,
+  "confident": true,
+  "title": "Dance in an Osteria",
+  "artist": "Wilhelm Marstrand",
+  "year": "1860"
+ },
+ "Nivaagaard_수정/Nivaagaard_0037.jpg": {
+  "original": "Wilhelm Marstrand-Moving Day Scene, 1831.jpg",
+  "score": 0.915,
+  "margin": 0.648,
+  "confident": true,
+  "title": "Moving Day Scene",
+  "artist": "Wilhelm Marstrand",
+  "year": "1831"
+ },
+ "Nivaagaard_수정/Nivaagaard_0038.jpg": {
+  "original": "Wilhelm Marstrand-Neapolitan way of life. Study, c. 1839.jpg",
+  "score": 0.989,
+  "margin": 0.509,
+  "confident": true,
+  "title": "Neapolitan way of life. Study",
+  "artist": "Wilhelm Marstrand",
+  "year": "1839"
+ },
+ "Nivaagaard_수정/Nivaagaard_0039.jpg": {
+  "original": "Wilhelm Marstrand-Romans Gathered for Merriment at an Osteria, 1839.jpg",
+  "score": 0.991,
+  "margin": 0.547,
+  "confident": true,
+  "title": "Romans Gathered for Merriment at an Osteria",
+  "artist": "Wilhelm Marstrand",
+  "year": "1839"
+ },
+ "Nivaagaard_수정/Nivaagaard_0040.jpg": {
+  "original": "Willem Johan Boogaard-Horses in a stable.tif",
+  "score": 0.99,
+  "margin": 0.529,
+  "confident": true,
+  "title": "Horses in a stable",
+  "artist": "Willem Johan Boogaard",
+  "year": ""
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-001.jpg": {
+  "original": "Landscape with the Castle of Massa di Carrara_1827_Leo von Klenze (German, 1784 - 1864).jpg",
+  "score": 0.568,
+  "margin": 0.027,
+  "confident": false,
+  "title": "Landscape with the Castle of Massa di Carrara",
+  "artist": "Leo von Klenze",
+  "year": "1827"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-002.jpg": {
+  "original": "A Calm at a Mediterranean Port_1770_Claude-Joseph Vernet (French, 1714 - 1789).jpg",
+  "score": 0.998,
+  "margin": 0.157,
+  "confident": true,
+  "title": "A Calm at a Mediterranean Port",
+  "artist": "Claude-Joseph Vernet",
+  "year": "1770"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-003.jpg": {
+  "original": "A Centennial of Independence_1892_Henri Rousseau (French, 1844 - 1910).jpg",
+  "score": 0.988,
+  "margin": 0.557,
+  "confident": true,
+  "title": "A Centennial of Independence",
+  "artist": "Henri Rousseau",
+  "year": "1892"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-004.jpg": {
+  "original": "A Formal Garden_1766_Johannes Janson (Dutch, 1729 - 1784).jpg",
+  "score": 0.993,
+  "margin": 0.47,
+  "confident": true,
+  "title": "A Formal Garden",
+  "artist": "Johannes Janson",
+  "year": "1766"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-005.jpg": {
+  "original": "A Hermit Praying in the Ruins of a Roman Temple_about 1760_Hubert Robert (French, 1733 - 1808).jpg",
+  "score": 0.911,
+  "margin": 0.351,
+  "confident": true,
+  "title": "A Hermit Praying in the Ruins of a Roman Temple",
+  "artist": "Hubert Robert",
+  "year": "1760"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-006.jpg": {
+  "original": "A View of Paris from the Pont Neuf_1763_Jean-Baptiste Raguenet (French, 1715 - 1793).jpg",
+  "score": 0.994,
+  "margin": 0.211,
+  "confident": true,
+  "title": "A View of Paris from the Pont Neuf",
+  "artist": "Jean-Baptiste Raguenet",
+  "year": "1763"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-007.jpg": {
+  "original": "A View of Place Louis XV_about 1775–1787_Attributed to Alexandre-Jean Noël (French, 1752 - 1834).jpg",
+  "score": 0.998,
+  "margin": 0.142,
+  "confident": true,
+  "title": "A View of Place Louis XV",
+  "artist": "Attributed to Alexandre-Jean Noël",
+  "year": "1775"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-008.jpg": {
+  "original": "Christ's Entry into Brussels in 1889_1888_James Ensor (Belgian, 1860 - 1949)_On view at Getty Center, Museum West Pavilion, Gallery W103.jpg",
+  "score": 0.987,
+  "margin": 0.699,
+  "confident": true,
+  "title": "Christ's Entry into Brussels in 1889",
+  "artist": "James Ensor",
+  "year": "1888"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-009.jpg": {
+  "original": "Classical Landscape with Figures and Sculpture_1788_Pierre-Henri de Valenciennes (French, 1750 - 1819).jpg",
+  "score": 0.998,
+  "margin": 0.403,
+  "confident": true,
+  "title": "Classical Landscape with Figures and Sculpture",
+  "artist": "Pierre-Henri de Valenciennes",
+  "year": "1788"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-010.jpg": {
+  "original": "Demolition of the Château of Meudon_1806_Hubert Robert (French, 1733 - 1808).jpg",
+  "score": 0.997,
+  "margin": 0.269,
+  "confident": true,
+  "title": "Demolition of the Château of Meudon",
+  "artist": "Hubert Robert",
+  "year": "1806"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-011.jpg": {
+  "original": "Entrance to the Jardin Turc_1812_Louis-Léopold Boilly (French, 1761 - 1845).jpg",
+  "score": 0.991,
+  "margin": 0.52,
+  "confident": true,
+  "title": "Entrance to the Jardin Turc",
+  "artist": "Louis-Léopold Boilly",
+  "year": "1812"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-012.jpg": {
+  "original": "Houses near Orléans (Maisons aux Environs d'Orléans)_about 1830_Jean-Baptiste-Camille Corot (French, 1796 - 1875).jpg",
+  "score": 0.997,
+  "margin": 0.307,
+  "confident": true,
+  "title": "Houses near Orléans (Maisons aux Environs d'Orléans)",
+  "artist": "Jean-Baptiste-Camille Corot",
+  "year": "1830"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-013.jpg": {
+  "original": "Interior of Roman Building with Figures_late 19th century_Ettore Forti (Italian, active late 19th century - early 20th century).jpg",
+  "score": 0.993,
+  "margin": 0.488,
+  "confident": true,
+  "title": "Interior of Roman Building with Figures",
+  "artist": "Ettore Forti",
+  "year": ""
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-014.jpg": {
+  "original": "Irises_1889_Vincent van Gogh (Dutch, 1853 - 1890).jpg",
+  "score": 0.952,
+  "margin": 0.707,
+  "confident": true,
+  "title": "Irises",
+  "artist": "Vincent van Gogh",
+  "year": "1889"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-015.jpg": {
+  "original": "Landscape at Louveciennes (Autumn) 1870 Camille Pissarro (French, 1830 - 1903).jpg",
+  "score": 0.675,
+  "margin": 0.144,
+  "confident": true,
+  "title": "Landscape at Louveciennes (Autumn) 1870 Camille Pissarro (French, 1830 - 1903)",
+  "artist": "",
+  "year": ""
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-016.jpg": {
+  "original": "Landscape with Lake and Boatman_1839_Jean-Baptiste-Camille Corot (French, 1796 - 1875).jpg",
+  "score": 0.996,
+  "margin": 0.216,
+  "confident": true,
+  "title": "Landscape with Lake and Boatman",
+  "artist": "Jean-Baptiste-Camille Corot",
+  "year": "1839"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-017.jpg": {
+  "original": "Landscape with the Castle of Massa di Carrara_1827_Leo von Klenze (German, 1784 - 1864).jpg",
+  "score": 0.998,
+  "margin": 0.205,
+  "confident": true,
+  "title": "Landscape with the Castle of Massa di Carrara",
+  "artist": "Leo von Klenze",
+  "year": "1827"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-018.jpg": {
+  "original": "Landscape with the Education of Bacchus_1744_Francesco Zuccarelli (Italian, 1702 - 1778).jpg",
+  "score": 0.994,
+  "margin": 0.305,
+  "confident": true,
+  "title": "Landscape with the Education of Bacchus",
+  "artist": "Francesco Zuccarelli",
+  "year": "1744"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-019.jpg": {
+  "original": "Market Scene in an Imaginary Oriental Port_about 1764_Jean-Baptiste Pillement (French, 1728 - 1808).jpg",
+  "score": 0.986,
+  "margin": 0.476,
+  "confident": true,
+  "title": "Market Scene in an Imaginary Oriental Port",
+  "artist": "Jean-Baptiste Pillement",
+  "year": "1764"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-020.jpg": {
+  "original": "Mediterranean Harbor Scene_about 1763_Pierre-Jacques Volaire (French, 1729 - 1799).jpg",
+  "score": 0.998,
+  "margin": 0.233,
+  "confident": true,
+  "title": "Mediterranean Harbor Scene",
+  "artist": "Pierre-Jacques Volaire",
+  "year": "1763"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-021.jpg": {
+  "original": "Mountain Landscape with Road to Naples_about 1821–1825_Jean-Charles-Joseph Rémond (French, 1795 - 1875).jpg",
+  "score": 0.999,
+  "margin": 0.184,
+  "confident": true,
+  "title": "Mountain Landscape with Road to Naples",
+  "artist": "Jean-Charles-Joseph Rémond",
+  "year": "1821"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-022.jpg": {
+  "original": "Portrait of Leonilla, Princess of Sayn-Wittgenstein-Sayn_1843_Franz Xaver Winterhalter (German, 1805 - 1873).jpg",
+  "score": 0.935,
+  "margin": 0.339,
+  "confident": true,
+  "title": "Portrait of Leonilla, Princess of Sayn-Wittgenstein-Sayn",
+  "artist": "Franz Xaver Winterhalter",
+  "year": "1843"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-023.jpg": {
+  "original": "Spring in the Alps_1897_Giovanni Segantini (Italian, 1858 - 1899).jpg",
+  "score": 0.888,
+  "margin": 0.592,
+  "confident": true,
+  "title": "Spring in the Alps",
+  "artist": "Giovanni Segantini",
+  "year": "1897"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-024.jpg": {
+  "original": "Sunrise (Marine)_1872 or 1873_Claude Monet (French, 1840 - 1926).jpg",
+  "score": 0.985,
+  "margin": 0.505,
+  "confident": true,
+  "title": "Sunrise (Marine)",
+  "artist": "Claude Monet",
+  "year": "1872"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-025.jpg": {
+  "original": "The Age of Augustus, the Birth of Christ_about 1852–1854_Jean-Léon Gérôme (French, 1824 - 1904).jpg",
+  "score": 0.89,
+  "margin": 0.15,
+  "confident": true,
+  "title": "The Age of Augustus, the Birth of Christ",
+  "artist": "Jean-Léon Gérôme",
+  "year": "1852"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-026.jpg": {
+  "original": "The Forum, Pompeii, with Vesuvius in the Distance_1841_Christen Schjellerup Købke (Danish, 1810 - 1848).jpg",
+  "score": 0.998,
+  "margin": 0.183,
+  "confident": true,
+  "title": "The Forum, Pompeii, with Vesuvius in the Distance",
+  "artist": "Christen Schjellerup Købke",
+  "year": "1841"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-027.jpg": {
+  "original": "The Grand Canal in Venice with Palazzo Bembo_about 1768_Francesco Guardi (Italian, 1712 - 1793).jpg",
+  "score": 0.966,
+  "margin": 0.159,
+  "confident": true,
+  "title": "The Grand Canal in Venice with Palazzo Bembo",
+  "artist": "Francesco Guardi",
+  "year": "1768"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-028.jpg": {
+  "original": "The Promenade_1870_Pierre-Auguste Renoir (French, 1841 - 1919).jpg",
+  "score": 0.996,
+  "margin": 0.509,
+  "confident": true,
+  "title": "The Promenade",
+  "artist": "Pierre-Auguste Renoir",
+  "year": "1870"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-029.jpg": {
+  "original": "The Road from Versailles to Saint-Germain_1875_Alfred Sisley (English, 1839 - 1899).jpg",
+  "score": 0.994,
+  "margin": 0.253,
+  "confident": true,
+  "title": "The Road from Versailles to Saint-Germain",
+  "artist": "Alfred Sisley",
+  "year": "1875"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-030.jpg": {
+  "original": "The Rue Mosnier with Flags_1878_Édouard Manet (French, 1832 - 1883).jpg",
+  "score": 0.993,
+  "margin": 0.55,
+  "confident": true,
+  "title": "The Rue Mosnier with Flags",
+  "artist": "Édouard Manet",
+  "year": "1878"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-031.jpg": {
+  "original": "The Russian Cradle_about 1764–1765_Jean-Baptiste Le Prince (French, 1734 - 1781).jpg",
+  "score": 0.993,
+  "margin": 0.463,
+  "confident": true,
+  "title": "The Russian Cradle",
+  "artist": "Jean-Baptiste Le Prince",
+  "year": "1764"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-032.jpg": {
+  "original": "Van Tromp, going about to please his Masters, Ships a Sea, getting a Good Wetting_1844_Joseph Mallord William Turner (British, 1775 - 1851).jpg",
+  "score": 0.997,
+  "margin": 0.249,
+  "confident": true,
+  "title": "Van Tromp, going about to please his Masters, Ships a Sea, getting a Good Wetting",
+  "artist": "Joseph Mallord William Turner",
+  "year": "1844"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-033.jpg": {
+  "original": "View in the Île-de-France_about 1810–1813_Jean-Victor Bertin (French, 1767 - 1842).jpg",
+  "score": 0.998,
+  "margin": 0.276,
+  "confident": true,
+  "title": "View in the Île-de-France",
+  "artist": "Jean-Victor Bertin",
+  "year": "1810"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-034.jpg": {
+  "original": "View of Gaiola_about 1770–1790_Pierre-Jacques Volaire (French, 1729 - 1799).jpg",
+  "score": 0.983,
+  "margin": 0.155,
+  "confident": true,
+  "title": "View of Gaiola",
+  "artist": "Pierre-Jacques Volaire",
+  "year": "1770"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-035.jpg": {
+  "original": "View of the Bridge and Part of the Town of Cava, Kingdom of Naples_1785–1790_Jean-Joseph-Xavier Bidauld (French, 1758 - 1846).jpg",
+  "score": 0.999,
+  "margin": 0.114,
+  "confident": true,
+  "title": "View of the Bridge and Part of the Town of Cava, Kingdom of Naples",
+  "artist": "Jean-Joseph-Xavier Bidauld",
+  "year": "1785"
+ },
+ "J. Paul Getty Museum선별수정/02폴게티 미술관-036.jpg": {
+  "original": "View of the Grand Canal Santa Maria della Salute and the Dogana from Campo Santa Maria Zobenigo_about 1743 Bernardo_Bellotto (Italian, 1722 - 1780).jpg",
+  "score": 0.985,
+  "margin": 0.19,
+  "confident": true,
+  "title": "View of the Grand Canal Santa Maria della Salute and the Dogana from Campo Santa Maria Zobenigo",
+  "artist": "Bellotto",
+  "year": "1743"
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0001.jpg": {
+  "original": "Bernardo Bellotto (Italian, Venice, 1722–1780)-The Lock at Dolo.jpg",
+  "score": 0.994,
+  "margin": 0.231,
+  "confident": true,
+  "title": "The Lock at Dolo",
+  "artist": "Bernardo Bellotto",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0002.jpg": {
+  "original": "Claude Monet, French, 1840–1926 The Artist’s Garden in Giverny.tif",
+  "score": 0.983,
+  "margin": 0.715,
+  "confident": true,
+  "title": "Claude Monet, French, 1840–1926 The Artist’s Garden in Giverny",
+  "artist": "",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0003.jpg": {
+  "original": "Composition IV-Patrick Henry Bruce (American, 1881–1936).jpg",
+  "score": 0.995,
+  "margin": 0.796,
+  "confident": true,
+  "title": "Composition IV",
+  "artist": "Patrick Henry Bruce",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0004.jpg": {
+  "original": "Edgar Degas, French, 1834–1917 The Ballet Rehearsal.tif",
+  "score": 0.948,
+  "margin": 0.707,
+  "confident": true,
+  "title": "Edgar Degas, French, 1834–1917 The Ballet Rehearsal",
+  "artist": "",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0005.jpg": {
+  "original": "Edmund C. Coates (American, born England, 1816–1871)-Indians Playing Lacrosse on the Ice.jpg",
+  "score": 0.994,
+  "margin": 0.502,
+  "confident": true,
+  "title": "Indians Playing Lacrosse on the Ice",
+  "artist": "Edmund C. Coates",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0006.jpg": {
+  "original": "Édouard Manet, French, 1832–1883 Reclining Young Woman in Spanish Costume.tif",
+  "score": 0.998,
+  "margin": 0.495,
+  "confident": true,
+  "title": "Édouard Manet, French, 1832–1883 Reclining Young Woman in Spanish Costume",
+  "artist": "",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0007.jpg": {
+  "original": "Frederic Remington (American, 1861–1909, B.F.A. (Hon.) 1900)-The Scream of Shrapnel at San Juan Hill.jpg",
+  "score": 0.99,
+  "margin": 0.505,
+  "confident": true,
+  "title": "The Scream of Shrapnel at San Juan Hill",
+  "artist": "Frederic Remington",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0008.jpg": {
+  "original": "George Henry Durrie (American, 1820–1863)-Winter Scene in New England.jpg",
+  "score": 0.992,
+  "margin": 0.509,
+  "confident": true,
+  "title": "Winter Scene in New England",
+  "artist": "George Henry Durrie",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0009.jpg": {
+  "original": "Jean-Baptiste-Camille Corot, French, 1796–1875 The Harbor of La Rochelle.tif",
+  "score": 0.998,
+  "margin": 0.195,
+  "confident": true,
+  "title": "Jean-Baptiste",
+  "artist": "Camille Corot, French The Harbor of La Rochelle",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0010.jpg": {
+  "original": "Jean-François Millet, French, 1814–1875 Starry Night.tif",
+  "score": 0.998,
+  "margin": 0.365,
+  "confident": true,
+  "title": "Jean",
+  "artist": "François Millet, French Starry Night",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0011.jpg": {
+  "original": "John Henry Twachtman (American, 1853–1902)-My House.jpg",
+  "score": 0.995,
+  "margin": 0.594,
+  "confident": true,
+  "title": "My House",
+  "artist": "John Henry Twachtman",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0012.jpg": {
+  "original": "Landscape along a Country Road-Charles-François Daubigny (French, 1817–1878).jpg",
+  "score": 0.994,
+  "margin": 0.259,
+  "confident": true,
+  "title": "Landscape along a Country Road-Charles",
+  "artist": "François Daubigny",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0013.jpg": {
+  "original": "Landscape with Cottage-Gilbert Davis Munger (American, 1837–1903).jpg",
+  "score": 0.996,
+  "margin": 0.385,
+  "confident": true,
+  "title": "Landscape with Cottage",
+  "artist": "Gilbert Davis Munger",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0014.jpg": {
+  "original": "May Day Morning-Edwin Austin Abbey (American, 1852–1911, M.A. (Hon.) 1897).jpg",
+  "score": 0.971,
+  "margin": 0.268,
+  "confident": true,
+  "title": "May Day Morning",
+  "artist": "Edwin Austin Abbey",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0015.jpg": {
+  "original": "Paul Gauguin, French, 1848–1903 Parau Parau.tif",
+  "score": 0.995,
+  "margin": 0.498,
+  "confident": true,
+  "title": "Paul Gauguin, French, 1848–1903 Parau Parau",
+  "artist": "",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0016.jpg": {
+  "original": "Samuel Barnard (American, 1776–1858)-View along the East Battery, Charleston.jpg",
+  "score": 0.996,
+  "margin": 0.265,
+  "confident": true,
+  "title": "View along the East Battery, Charleston",
+  "artist": "Samuel Barnard",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0017.jpg": {
+  "original": "The Harbor of Le Havre-Eugène Louis Boudin (French, 1824–1898).jpg",
+  "score": 0.847,
+  "margin": 0.165,
+  "confident": true,
+  "title": "The Harbor of Le Havre",
+  "artist": "Eugène Louis Boudin",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0018.jpg": {
+  "original": "View of Capri-John Singer Sargent (American, born Italy, 1856–1925, LL.D. 1916).jpg",
+  "score": 0.999,
+  "margin": 0.378,
+  "confident": true,
+  "title": "View of Capri",
+  "artist": "John Singer Sargent",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0019.jpg": {
+  "original": "Village Children-John Singer Sargent (American, born Italy, 1856–1925, LL.D. 1916).jpg",
+  "score": 0.997,
+  "margin": 0.551,
+  "confident": true,
+  "title": "Village Children",
+  "artist": "John Singer Sargent",
+  "year": ""
+ },
+ "YALE UNIVERSITY ART GALLERY_수정/0020.jpg": {
+  "original": "Vincent van Gogh, Dutch, active France, 1853–1890 Le café de nuit (The Night Café).tif",
+  "score": 0.987,
+  "margin": 0.001,
+  "confident": true,
+  "title": "Vincent van Gogh, Dutch, active France, 1853–1890 Le café de nuit (The Night Café)",
+  "artist": "",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0001.jpg": {
+  "original": "12_121-ferdinand-hodler-der-genfersee-von-chexbres-aus_7aaac107.jpg",
+  "score": 0.993,
+  "margin": 0.406,
+  "confident": true,
+  "title": "Der Genfersee Von Chexbres Aus",
+  "artist": "Ferdinand Hodler",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0002.jpg": {
+  "original": "12_123-arnold-boecklin-die-toteninsel_83548225.jpg",
+  "score": 0.995,
+  "margin": 0.573,
+  "confident": true,
+  "title": "Die Toteninsel",
+  "artist": "Arnold Boecklin",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0003.jpg": {
+  "original": "12_129-paul-gauguin-ta-matete_f58945cd.jpg",
+  "score": 0.989,
+  "margin": 0.633,
+  "confident": true,
+  "title": "Ta Matete",
+  "artist": "Paul Gauguin",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0004.jpg": {
+  "original": "12_131-el-lissitzky-proun-1-d_4aad1460.jpg",
+  "score": 0.998,
+  "margin": 0.458,
+  "confident": true,
+  "title": "Proun 1 D",
+  "artist": "El Lissitzky",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0005.jpg": {
+  "original": "12_133-claude-monet-les-falaises-d-aval-avec-la-porte-et-l-aiguille_aa33f0a7.jpg",
+  "score": 0.993,
+  "margin": 0.335,
+  "confident": true,
+  "title": "Les Falaises D Aval Avec La Porte Et L Aiguille",
+  "artist": "Claude Monet",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0006.jpg": {
+  "original": "12_139-henri-rousseau-foret-vierge-au-soleil-couchant_7cbed3c4.jpg",
+  "score": 0.983,
+  "margin": 0.502,
+  "confident": true,
+  "title": "Foret Vierge Au Soleil Couchant",
+  "artist": "Henri Rousseau",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0007.jpg": {
+  "original": "12_157-marc-chagall-le-marchand-de-bestiaux_92e81216.jpg",
+  "score": 0.988,
+  "margin": 0.659,
+  "confident": true,
+  "title": "Le Marchand De Bestiaux",
+  "artist": "Marc Chagall",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0008.jpg": {
+  "original": "12_165-robert-delaunay-hommage-a-bleriot_a9d1f22b.jpg",
+  "score": 0.992,
+  "margin": 0.693,
+  "confident": true,
+  "title": "Hommage A Bleriot",
+  "artist": "Robert Delaunay",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0009.jpg": {
+  "original": "12_179-edvard-munch-strasse-in-aasgaardstrand_2078b8d1.jpg",
+  "score": 0.995,
+  "margin": 0.535,
+  "confident": true,
+  "title": "Strasse In Aasgaardstrand",
+  "artist": "Edvard Munch",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0010.jpg": {
+  "original": "12_183-felix-vallotton-la-mare_dde0785a.jpg",
+  "score": 0.994,
+  "margin": 0.267,
+  "confident": true,
+  "title": "La Mare",
+  "artist": "Felix Vallotton",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0011.jpg": {
+  "original": "12_215-wassily-kandinsky-improvisation-35_889191c4.jpg",
+  "score": 0.987,
+  "margin": 0.648,
+  "confident": true,
+  "title": "Improvisation 35",
+  "artist": "Wassily Kandinsky",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0012.jpg": {
+  "original": "12_219-cy-twombly-nini-s-painting_cabbc80d.jpg",
+  "score": 0.919,
+  "margin": 0.625,
+  "confident": true,
+  "title": "Nini S Painting",
+  "artist": "Cy Twombly",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0013.jpg": {
+  "original": "12_gw11-0001138-20160905-001_ae1e2116.jpg",
+  "score": 0.989,
+  "margin": 0.401,
+  "confident": true,
+  "title": "12_gw11-0001138-20160905-001_ae1e2116",
+  "artist": "",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0014.jpg": {
+  "original": "12_gw11-0001207-19930420-s01_0a1c0501.jpg",
+  "score": 0.991,
+  "margin": 0.475,
+  "confident": true,
+  "title": "12_gw11-0001207-19930420-s01_0a1c0501",
+  "artist": "",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0015.jpg": {
+  "original": "12_gw11-0001482-20170911-001_9be36c06.jpg",
+  "score": 0.966,
+  "margin": 0.628,
+  "confident": true,
+  "title": "12_gw11-0001482-20170911-001_9be36c06",
+  "artist": "",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0016.jpg": {
+  "original": "12_gw11-0001580-19911108-s01_43f67a04.jpg",
+  "score": 0.995,
+  "margin": 0.693,
+  "confident": true,
+  "title": "12_gw11-0001580-19911108-s01_43f67a04",
+  "artist": "",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0017.jpg": {
+  "original": "12_gw11-0002032-19941114-s01_f976a4e9.jpg",
+  "score": 0.995,
+  "margin": 0.36,
+  "confident": true,
+  "title": "12_gw11-0002032-19941114-s01_f976a4e9",
+  "artist": "",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0018.jpg": {
+  "original": "12_gw11-0039666-20200804-001_6e0a130c.jpg",
+  "score": 0.998,
+  "margin": 0.615,
+  "confident": true,
+  "title": "12_gw11-0039666-20200804-001_6e0a130c",
+  "artist": "",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0019.jpg": {
+  "original": "12_gw11-0040269-20170921-001_196b7720.jpg",
+  "score": 0.993,
+  "margin": 0.698,
+  "confident": true,
+  "title": "12_gw11-0040269-20170921-001_196b7720",
+  "artist": "",
+  "year": ""
+ },
+ "kunstmuseumbasel_수정/0020.jpg": {
+  "original": "12_kw51001335519961104s01_dde5e942.jpg",
+  "score": 0.996,
+  "margin": 0.154,
+  "confident": true,
+  "title": "12_kw51001335519961104s01_dde5e942",
+  "artist": "",
+  "year": ""
+ }
+}
