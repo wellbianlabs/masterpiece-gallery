@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>관리자 — 명화 디지털 갤러리</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
   --bg: #101014; --bg2: #17171d; --bg3: #1f1f27; --line: #2a2a35;
@@ -90,6 +93,18 @@ textarea { resize: vertical; }
 
 #toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: var(--bg3); border: 1px solid var(--accent); color: var(--fg); padding: 12px 24px; border-radius: 8px; display: none; z-index: 600; font-size: 13px; max-width: 90vw; }
 
+/* ── 표지 생성기 ── */
+#maker { position: fixed; inset: 0; background: rgba(8,8,10,.95); display: none; z-index: 140; align-items: center; justify-content: center; padding: 20px; }
+#maker.open { display: flex; }
+#maker-box { background: var(--bg2); border: 1px solid var(--line); border-radius: 14px; padding: 22px; width: 1060px; max-width: 100%; max-height: 96vh; overflow-y: auto; display: flex; gap: 20px; flex-wrap: wrap; }
+#maker-canvas { width: 640px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; display: block; }
+#maker-ctl { flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 12px; }
+#maker-ctl h3 { color: var(--accent); font-size: 17px; }
+#maker-ctl label.fld { display: flex; flex-direction: column; gap: 5px; font-size: 12px; color: var(--fg-dim); }
+#maker-ctl input[type=text] { width: 100%; }
+#maker-ctl input[type=range] { accent-color: var(--accent); width: 100%; }
+#maker-ctl .btns { display: flex; gap: 8px; margin-top: 6px; flex-wrap: wrap; }
+
 @media (max-width: 720px) { .ex-row { flex-direction: column; } .ex-row .cover { width: 100%; } }
 ::-webkit-scrollbar { width: 10px; } ::-webkit-scrollbar-thumb { background: var(--bg3); border-radius: 5px; }
 </style>
@@ -150,9 +165,39 @@ textarea { resize: vertical; }
 </div>
 
 <!-- 표지 선택 -->
+<!-- 표지 생성기 -->
+<div id="maker">
+  <div id="maker-box">
+    <div>
+      <canvas id="maker-canvas" width="1920" height="1080"></canvas>
+      <p style="color:var(--fg-dim);font-size:11.5px;margin-top:8px">미리보기 = 실제 저장본(1920×1080)</p>
+    </div>
+    <div id="maker-ctl">
+      <h3 class="serif">표지 생성기</h3>
+      <div class="btns">
+        <label class="btn" style="cursor:pointer">배경 파일 선택<input type="file" id="mk-bgfile" accept="image/jpeg,image/png,image/webp" style="display:none"></label>
+        <button class="btn" id="mk-bgart">작품에서 배경 선택</button>
+      </div>
+      <label class="fld">제목 (전시명)
+        <input type="text" id="mk-title" placeholder="예: 클라크 아트 인스티튜트">
+      </label>
+      <label class="fld">부제
+        <input type="text" id="mk-sub" value="소장 작품선">
+      </label>
+      <label class="fld">어둡기 <input type="range" id="mk-dim" min="0" max="75" value="42"></label>
+      <label class="fld">글자 크기 <input type="range" id="mk-size" min="60" max="160" value="104"></label>
+      <label class="fld">세로 위치 <input type="range" id="mk-y" min="25" max="80" value="50"></label>
+      <div class="btns" style="margin-top:auto">
+        <button class="btn" id="mk-cancel">취소</button>
+        <button class="btn primary" id="mk-save">✓ 표지로 저장</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div id="picker">
   <div class="head">
-    <h3 style="color:var(--accent)">표지로 사용할 작품 선택</h3>
+    <h3 style="color:var(--accent)" id="picker-title">표지로 사용할 작품 선택</h3>
     <button class="btn" onclick="document.getElementById('picker').classList.remove('open')">✕ 닫기</button>
   </div>
   <div class="body"><div class="grid" id="picker-grid"></div></div>
@@ -242,6 +287,7 @@ function exRow(ex) {
       <div class="row1">
         <button class="btn primary f-save">저장</button>
         <label class="btn" style="cursor:pointer" title="작품과 별개로 보관되는 전용 대표 표지">🖼 표지 업로드<input type="file" class="f-coverfile" accept="image/jpeg,image/png,image/webp" style="display:none"></label>
+        <button class="btn f-maker" title="배경+제목 합성으로 표지 생성">✏️ 표지 생성</button>
         <button class="btn f-cover" title="기존 작품 중에서 표지로 지정">작품에서 표지 선택</button>
         <button class="btn f-works">작품 관리 ▾</button>
         <label class="btn" style="cursor:pointer">+ 작품 업로드<input type="file" class="f-upload" multiple accept="image/*" style="display:none"></label>
@@ -260,6 +306,7 @@ function exRow(ex) {
     error ? toast('오류: ' + error.message) : toast('저장됨');
   };
   row.querySelector('.f-cover').onclick = () => pickCover(ex);
+  row.querySelector('.f-maker').onclick = () => openMaker(ex);
   row.querySelector('.f-coverfile').onchange = e => { if (e.target.files[0]) startCoverCrop(ex, e.target.files[0]); e.target.value = ''; };
   row.querySelector('.f-works').onclick = () => { OPEN_EX = ex.id; renderWorks(ex.id); };
   row.querySelector('.f-upload').onchange = e => startCropQueue(ex, [...e.target.files]);
@@ -329,23 +376,26 @@ async function renderWorks(exId) {
   box.innerHTML = arts.length ? '' : '<p style="color:var(--fg-dim);padding:8px 0">작품이 없습니다. [+ 작품 업로드]로 추가하세요.</p>';
   box.appendChild(g);
 }
-async function pickCover(ex) {
+async function pickArtwork(ex, onPick, title) {
   const { data: arts } = await sb.from('gallery_artworks').select('*').eq('exhibition_id', ex.id).order('created_at');
+  $('#picker-title').textContent = title || '작품 선택';
   const grid = $('#picker-grid');
   grid.innerHTML = '';
   for (const a of arts || []) {
     const c = document.createElement('div');
     c.className = 'card';
     c.innerHTML = `<div class="imgwrap"><img loading="lazy" src="${artUrl(a.thumb_path || a.image_path)}"></div>`;
-    c.onclick = async () => {
-      await sb.from('gallery_exhibitions').update({ cover_path: a.image_path }).eq('id', ex.id);
-      $('#picker').classList.remove('open');
-      toast('표지 변경됨');
-      renderExhibit();
-    };
+    c.onclick = () => { $('#picker').classList.remove('open'); onPick(a); };
     grid.appendChild(c);
   }
   $('#picker').classList.add('open');
+}
+function pickCover(ex) {
+  pickArtwork(ex, async a => {
+    await sb.from('gallery_exhibitions').update({ cover_path: a.image_path }).eq('id', ex.id);
+    toast('표지 변경됨');
+    renderExhibit();
+  }, '표지로 사용할 작품 선택');
 }
 
 /* ───────── 크롭 큐 (브라우저 캔버스 크롭 → 업로드) ───────── */
@@ -364,12 +414,7 @@ function startCoverCrop(ex, file) {
   img.onload = () => { cropState.imgW = img.naturalWidth; cropState.imgH = img.naturalHeight; initCropBox(); };
   img.src = URL.createObjectURL(file);
 }
-async function saveCover() {
-  const img = $('#crop-img');
-  const s = cropState.scale, b = cropState.box;
-  const crop = { x: b.x * s, y: b.y * s, w: b.w * s, h: b.h * s };
-  const blob = await canvasBlob(img, crop, 1920, 1080, 0.9);
-  const ex = cropState.ex;
+async function applyCoverBlob(ex, blob) {
   const coverPath = `covers/${ex.id}_${uid().slice(0, 8)}.jpg`;
   const up = await sb.storage.from('gallery-art').upload(coverPath, blob, { contentType: 'image/jpeg' });
   if (up.error) throw new Error(up.error.message);
@@ -380,11 +425,93 @@ async function saveCover() {
     const { data: others } = await sb.from('gallery_exhibitions').select('id').eq('cover_path', ex.cover_path).neq('id', ex.id);
     if (!others || !others.length) await sb.storage.from('gallery-art').remove([ex.cover_path]);
   }
-  URL.revokeObjectURL(img.src);
-  $('#crop-modal').classList.remove('open');
   toast('대표 표지 적용됨: ' + ex.name);
   renderExhibit();
 }
+async function saveCover() {
+  const img = $('#crop-img');
+  const s = cropState.scale, b = cropState.box;
+  const crop = { x: b.x * s, y: b.y * s, w: b.w * s, h: b.h * s };
+  const blob = await canvasBlob(img, crop, 1920, 1080, 0.9);
+  await applyCoverBlob(cropState.ex, blob);
+  URL.revokeObjectURL(img.src);
+  $('#crop-modal').classList.remove('open');
+}
+
+/* ───────── 표지 생성기 (배경 + 제목/부제 합성) ───────── */
+const MK = { ex: null, bg: null };
+function openMaker(ex) {
+  MK.ex = ex; MK.bg = null;
+  $('#mk-title').value = ex.name || '';
+  $('#mk-sub').value = '소장 작품선';
+  $('#maker').classList.add('open');
+  // 기본 배경: 현재 표지
+  if (ex.cover_path) loadMakerBg(artUrl(ex.cover_path));
+  else drawMaker();
+  document.fonts.load("600 104px 'Noto Serif KR'").then(drawMaker);
+}
+function loadMakerBg(url) {
+  const im = new Image();
+  im.crossOrigin = 'anonymous';
+  im.onload = () => { MK.bg = im; drawMaker(); };
+  im.onerror = () => toast('배경 이미지를 불러오지 못했습니다');
+  im.src = url;
+}
+function drawMaker() {
+  const cv = $('#maker-canvas'), ctx = cv.getContext('2d');
+  const W = 1920, H = 1080;
+  ctx.clearRect(0, 0, W, H);
+  ctx.fillStyle = '#101014'; ctx.fillRect(0, 0, W, H);
+  if (MK.bg) {
+    const im = MK.bg;
+    const r = Math.max(W / im.width, H / im.height);
+    const w = im.width * r, h = im.height * r;
+    ctx.drawImage(im, (W - w) / 2, (H - h) / 2, w, h);
+  }
+  const dim = (+$('#mk-dim').value) / 100;
+  ctx.fillStyle = `rgba(0,0,0,${dim})`; ctx.fillRect(0, 0, W, H);
+  const size = +$('#mk-size').value;
+  const cy = H * (+$('#mk-y').value) / 100;
+  const title = $('#mk-title').value, sub = $('#mk-sub').value;
+  ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  ctx.shadowColor = 'rgba(0,0,0,.55)'; ctx.shadowBlur = 18; ctx.shadowOffsetY = 3;
+  if (title) {
+    ctx.font = `600 ${size}px 'Noto Serif KR', serif`;
+    try { ctx.letterSpacing = Math.round(size * 0.06) + 'px'; } catch {}
+    ctx.fillStyle = '#ffffff';
+    ctx.fillText(title, W / 2, cy);
+  }
+  if (sub) {
+    ctx.font = `400 ${Math.round(size * 0.4)}px 'Noto Serif KR', serif`;
+    try { ctx.letterSpacing = Math.round(size * 0.12) + 'px'; } catch {}
+    ctx.fillStyle = '#e8e0d0';
+    ctx.fillText(sub, W / 2, cy + size * 0.85);
+  }
+  ctx.shadowBlur = 0; ctx.shadowOffsetY = 0;
+  try { ctx.letterSpacing = '0px'; } catch {}
+}
+['mk-title', 'mk-sub', 'mk-dim', 'mk-size', 'mk-y'].forEach(id => document.addEventListener('input', e => { if (e.target.id === id) drawMaker(); }));
+$('#mk-bgfile').onchange = e => {
+  const f = e.target.files[0];
+  if (f) loadMakerBg(URL.createObjectURL(f));
+  e.target.value = '';
+};
+$('#mk-bgart').onclick = () => {
+  if (!MK.ex) return;
+  pickArtwork(MK.ex, a => loadMakerBg(artUrl(a.image_path)), '배경으로 사용할 작품 선택');
+};
+$('#mk-cancel').onclick = () => $('#maker').classList.remove('open');
+$('#mk-save').onclick = async () => {
+  if (!MK.bg) return toast('배경 이미지를 먼저 선택하세요');
+  const btn = $('#mk-save');
+  btn.disabled = true; btn.textContent = '저장 중…';
+  try {
+    const blob = await new Promise(r => $('#maker-canvas').toBlob(r, 'image/jpeg', 0.9));
+    await applyCoverBlob(MK.ex, blob);
+    $('#maker').classList.remove('open');
+  } catch (e) { toast('오류: ' + e.message); }
+  btn.disabled = false; btn.textContent = '✓ 표지로 저장';
+};
 
 /* ── 기존 작품 재크롭: 보관 원본(비공개 버킷) 또는 로컬 원본 파일에서 ── */
 async function recropArtwork(a, exId) {
