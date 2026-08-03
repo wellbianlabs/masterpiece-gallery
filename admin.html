@@ -294,6 +294,7 @@ async function renderWorks(exId) {
       </div>
       <div class="acts">
         <button class="btn w-save">저장</button>
+        <button class="btn w-crop" title="${a.original_path ? '보관된 원본에서 다시 크롭' : '로컬 원본 파일을 선택해 다시 크롭'}">✂ 재크롭</button>
         <button class="btn w-dl">⬇</button>
         <button class="btn danger w-del">삭제</button>
       </div>`;
@@ -305,6 +306,7 @@ async function renderWorks(exId) {
       }).eq('id', a.id);
       error ? toast(error.message) : toast('저장됨');
     };
+    card.querySelector('.w-crop').onclick = () => recropArtwork(a, exId);
     card.querySelector('.w-dl').onclick = async () => {
       const res = await fetch(artUrl(a.image_path));
       const blob = await res.blob();
@@ -345,12 +347,87 @@ async function pickCover(ex) {
 }
 
 /* ───────── 크롭 큐 (브라우저 캔버스 크롭 → 업로드) ───────── */
-const cropState = { ex: null, queue: [], file: null, img: null, scale: 1, box: { x: 0, y: 0, w: 0, h: 0 } };
+const cropState = { mode: 'upload', ex: null, artwork: null, exId: null, queue: [], file: null, img: null, scale: 1, box: { x: 0, y: 0, w: 0, h: 0 } };
+
+/* ── 기존 작품 재크롭: 보관 원본(비공개 버킷) 또는 로컬 원본 파일에서 ── */
+async function recropArtwork(a, exId) {
+  let blob = null, file = null;
+  if (a.original_path) {
+    toast('보관된 원본 불러오는 중…');
+    const { data, error } = await sb.storage.from('gallery-originals').createSignedUrl(a.original_path, 3600);
+    if (error) return toast('원본 URL 실패: ' + error.message);
+    const res = await fetch(data.signedUrl);
+    if (!res.ok) return toast('원본 다운로드 실패 (' + res.status + ')');
+    blob = await res.blob();
+    if (/tiff?/i.test(blob.type)) return toast('TIF 원본은 브라우저에서 열 수 없습니다. JPG/PNG 원본 파일을 선택해 주세요.');
+  } else {
+    // 클라우드에 원본이 없음 → 로컬 원본 파일 선택
+    file = await new Promise(resolve => {
+      const inp = document.createElement('input');
+      inp.type = 'file'; inp.accept = 'image/jpeg,image/png,image/webp';
+      inp.onchange = () => resolve(inp.files[0] || null);
+      inp.click();
+    });
+    if (!file) return;
+    blob = file;
+  }
+  cropState.mode = 'recrop';
+  cropState.artwork = a;
+  cropState.exId = exId;
+  cropState.file = file; // 로컬 파일이면 원본 보관 옵션에 사용
+  $('#crop-queue').textContent = '재크롭 — ' + (a.title || '');
+  $('#m-title').value = a.title || '';
+  $('#m-artist').value = a.artist || '';
+  $('#m-year').value = a.year || '';
+  $('#keep-original').parentElement.style.display = (!a.original_path && file) ? '' : 'none';
+  $('#crop-modal').classList.add('open');
+  const img = $('#crop-img');
+  img.onload = () => { cropState.imgW = img.naturalWidth; cropState.imgH = img.naturalHeight; initCropBox(); };
+  img.src = URL.createObjectURL(blob);
+}
+async function saveRecrop() {
+  const img = $('#crop-img');
+  const s = cropState.scale, b = cropState.box;
+  const crop = { x: b.x * s, y: b.y * s, w: b.w * s, h: b.h * s };
+  const [edited, thumbB] = await Promise.all([
+    canvasBlob(img, crop, 1920, 1080, 0.92),
+    canvasBlob(img, crop, 480, 270, 0.8),
+  ]);
+  const a = cropState.artwork;
+  const id = uid();
+  const imagePath = `${cropState.exId}/${id}.jpg`;
+  const thumbPath = `${cropState.exId}/thumbs/${id}.jpg`;
+  let up = await sb.storage.from('gallery-art').upload(imagePath, edited, { contentType: 'image/jpeg' });
+  if (up.error) throw new Error(up.error.message);
+  await sb.storage.from('gallery-art').upload(thumbPath, thumbB, { contentType: 'image/jpeg' });
+  let originalPath = a.original_path || null;
+  if (!originalPath && cropState.file && $('#keep-original').checked) {
+    originalPath = `${cropState.exId}/${id}_${cropState.file.name}`;
+    const o = await sb.storage.from('gallery-originals').upload(originalPath, cropState.file, { contentType: cropState.file.type });
+    if (o.error) { toast('원본 보관 실패: ' + o.error.message); originalPath = null; }
+  }
+  const { error } = await sb.from('gallery_artworks').update({
+    title: $('#m-title').value, artist: $('#m-artist').value, year: $('#m-year').value,
+    image_path: imagePath, thumb_path: thumbPath, original_path: originalPath,
+  }).eq('id', a.id);
+  if (error) throw new Error(error.message);
+  // 전시 표지가 이 작품이었다면 표지 경로도 갱신
+  const { data: ex } = await sb.from('gallery_exhibitions').select('id, cover_path').eq('id', cropState.exId).single();
+  if (ex && ex.cover_path === a.image_path) await sb.from('gallery_exhibitions').update({ cover_path: imagePath }).eq('id', ex.id);
+  // 이전 파일 정리
+  await sb.storage.from('gallery-art').remove([a.image_path, a.thumb_path].filter(Boolean));
+  URL.revokeObjectURL(img.src);
+  $('#crop-modal').classList.remove('open');
+  toast('재크롭 완료: ' + ($('#m-title').value || ''));
+  renderWorks(cropState.exId);
+}
 function startCropQueue(ex, files) {
   const imgs = files.filter(f => /^image\//.test(f.type));
   if (!imgs.length) return;
+  cropState.mode = 'upload';
   cropState.ex = ex;
   cropState.queue = imgs;
+  $('#keep-original').parentElement.style.display = '';
   nextCrop();
 }
 function nextCrop() {
@@ -423,7 +500,10 @@ function clampBox() {
   }, { passive: false });
 })();
 $('#crop-reset').onclick = initCropBox;
-$('#crop-skip').onclick = () => nextCrop();
+$('#crop-skip').onclick = () => {
+  if (cropState.mode === 'recrop') { $('#crop-modal').classList.remove('open'); return; }
+  nextCrop();
+};
 
 function canvasBlob(imgEl, crop, w, h, q) {
   const cv = document.createElement('canvas');
@@ -437,6 +517,12 @@ function canvasBlob(imgEl, crop, w, h, q) {
 $('#crop-save').onclick = async () => {
   const btn = $('#crop-save');
   btn.disabled = true; btn.textContent = '업로드 중…';
+  if (cropState.mode === 'recrop') {
+    try { await saveRecrop(); }
+    catch (e) { toast('오류: ' + e.message); }
+    btn.disabled = false; btn.textContent = '✓ 업로드 (1920×1080)';
+    return;
+  }
   try {
     const img = $('#crop-img');
     const s = cropState.scale, b = cropState.box;
