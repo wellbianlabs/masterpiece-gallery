@@ -106,10 +106,10 @@ async function main() {
           buf = await sharp(buf, { limitInputPixels: 1e9 }).resize(1920, 1080, { fit: 'cover', position: 'attention' }).jpeg({ quality: 90 }).toBuffer();
         }
         const thumbBuf = await sharp(buf).resize(480, 270).jpeg({ quality: 80 }).toBuffer();
-        let up = await sb.storage.from('gallery-art').upload(imagePath, buf, { contentType: 'image/jpeg', upsert: true });
-        if (up.error) throw new Error(up.error.message);
-        up = await sb.storage.from('gallery-art').upload(thumbPath, thumbBuf, { contentType: 'image/jpeg', upsert: true });
-        if (up.error) throw new Error(up.error.message);
+        let up = await sb.storage.from('gallery-art').upload(imagePath, buf, { contentType: 'image/jpeg' });
+        if (up.error && !/already exists/i.test(up.error.message)) throw new Error(up.error.message);
+        up = await sb.storage.from('gallery-art').upload(thumbPath, thumbBuf, { contentType: 'image/jpeg' });
+        if (up.error && !/already exists/i.test(up.error.message)) throw new Error(up.error.message);
         // 메타: 로컬 오버라이드 우선
         const relKey = `03.수정/${folder}/${f}`;
         const override = (localDB.meta || {})[relKey];
