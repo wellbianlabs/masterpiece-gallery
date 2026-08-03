@@ -190,7 +190,7 @@ textarea { resize: vertical; }
       <label class="fld"><span>제목 크기 <b class="mk-val" data-for="mk-tsize" style="color:var(--accent)">104px</b></span><input type="range" id="mk-tsize" min="50" max="180" value="104"></label>
       <label class="fld"><span>부제 크기 <b class="mk-val" data-for="mk-ssize" style="color:var(--accent)">42px</b></span><input type="range" id="mk-ssize" min="20" max="90" value="42"></label>
       <label class="fld"><span>제목·부제 간격 <b class="mk-val" data-for="mk-gap" style="color:var(--accent)">92px</b></span><input type="range" id="mk-gap" min="40" max="260" value="92"></label>
-      <label class="fld"><span>세로 위치 <b class="mk-val" data-for="mk-y" style="color:var(--accent)">48%</b></span><input type="range" id="mk-y" min="25" max="80" value="48"></label>
+      <label class="fld"><span>글자 세로 위치 <b class="mk-val" data-for="mk-y" style="color:var(--accent)">48%</b></span><input type="range" id="mk-y" min="25" max="80" value="48"></label>
       <label class="pub-toggle" style="margin-top:4px" title="체크하면 현재 설정(띠/어둡기/크기/위치/부제)이 저장되어 다른 전시 표지를 만들 때도 기준값으로 적용됩니다">
         <input type="checkbox" id="mk-keep"> 이 설정을 기본값으로 유지
       </label>
@@ -512,14 +512,14 @@ function drawMaker() {
   const tSize = +$('#mk-tsize').value;
   const sSize = +$('#mk-ssize').value;
   const gap = +$('#mk-gap').value;                 // 제목 중심 ↔ 부제 중심 거리
-  const cy = H * (+$('#mk-y').value) / 100;        // 텍스트 블록·띠의 공통 중심
+  const cy = H * (+$('#mk-y').value) / 100;        // 텍스트 블록 중심 (글자에만 적용)
   const title = $('#mk-title').value, sub = $('#mk-sub').value;
-  // 띠: 글자 크기와 무관하게 세로 위치(cy) 중심 + 띠 높이로만 결정
+  // 띠: 화면 정중앙 고정 — 글자 위치·크기와 완전 분리, 띠 높이로만 결정
   const band = (+$('#mk-band').value) / 100;
   const bandH = +$('#mk-bandh').value;
   if (band > 0) {
     ctx.fillStyle = `rgba(0,0,0,${band})`;
-    ctx.fillRect(0, cy - bandH / 2, W, bandH);
+    ctx.fillRect(0, H / 2 - bandH / 2, W, bandH);
   }
   const titleY = sub ? cy - gap / 2 : cy;
   const subY = cy + gap / 2;
