@@ -185,6 +185,7 @@ textarea { resize: vertical; }
         <input type="text" id="mk-sub" value="소장 작품선">
       </label>
       <label class="fld"><span>띠 어둡기 <b class="mk-val" data-for="mk-band" style="color:var(--accent)">38%</b></span><input type="range" id="mk-band" min="0" max="80" value="38"></label>
+      <label class="fld"><span>띠 높이 <b class="mk-val" data-for="mk-bandh" style="color:var(--accent)">280px</b></span><input type="range" id="mk-bandh" min="80" max="800" value="280"></label>
       <label class="fld"><span>배경 어둡기 <b class="mk-val" data-for="mk-dim" style="color:var(--accent)">0%</b></span><input type="range" id="mk-dim" min="0" max="70" value="0"></label>
       <label class="fld"><span>글자 크기 <b class="mk-val" data-for="mk-size" style="color:var(--accent)">104px</b></span><input type="range" id="mk-size" min="60" max="160" value="104"></label>
       <label class="fld"><span>세로 위치 <b class="mk-val" data-for="mk-y" style="color:var(--accent)">48%</b></span><input type="range" id="mk-y" min="25" max="80" value="48"></label>
@@ -444,21 +445,21 @@ async function saveCover() {
 
 /* ───────── 표지 생성기 (배경 + 제목/부제 합성) ───────── */
 const MK = { ex: null, bg: null };
-const MK_FACTORY = { band: 38, dim: 0, size: 104, y: 48, sub: '소장 작품선' };
+const MK_FACTORY = { band: 38, bandh: 280, dim: 0, size: 104, y: 48, sub: '소장 작품선' };
 function mkDefaults() {
   try { return JSON.parse(localStorage.getItem('gallery-maker-defaults')) || null; } catch { return null; }
 }
 function mkSaveDefaults() {
   localStorage.setItem('gallery-maker-defaults', JSON.stringify({
     enabled: $('#mk-keep').checked,
-    band: +$('#mk-band').value, dim: +$('#mk-dim').value,
+    band: +$('#mk-band').value, bandh: +$('#mk-bandh').value, dim: +$('#mk-dim').value,
     size: +$('#mk-size').value, y: +$('#mk-y').value, sub: $('#mk-sub').value,
   }));
 }
 function mkUpdateVals() {
   $$('.mk-val').forEach(el => {
     const v = $('#' + el.dataset.for).value;
-    el.textContent = el.dataset.for === 'mk-size' ? v + 'px' : v + '%';
+    el.textContent = (el.dataset.for === 'mk-size' || el.dataset.for === 'mk-bandh') ? v + 'px' : v + '%';
   });
 }
 function openMaker(ex) {
@@ -470,6 +471,7 @@ function openMaker(ex) {
   const v = useSaved ? d : MK_FACTORY;
   $('#mk-sub').value = v.sub ?? MK_FACTORY.sub;
   $('#mk-band').value = v.band ?? MK_FACTORY.band;
+  $('#mk-bandh').value = v.bandh ?? MK_FACTORY.bandh;
   $('#mk-dim').value = v.dim ?? MK_FACTORY.dim;
   $('#mk-size').value = v.size ?? MK_FACTORY.size;
   $('#mk-y').value = v.y ?? MK_FACTORY.y;
@@ -506,13 +508,13 @@ function drawMaker() {
   const subSize = Math.round(size * 0.4);
   const cy = H * (+$('#mk-y').value) / 100;
   const title = $('#mk-title').value, sub = $('#mk-sub').value;
-  // 기존 양식: 텍스트 뒤 전폭 반투명 검정 띠
+  // 기존 양식: 텍스트 뒤 전폭 반투명 검정 띠 — 텍스트 블록 중앙 기준, 높이 조절 가능
   const band = (+$('#mk-band').value) / 100;
+  const bandH = +$('#mk-bandh').value;
   if (band > 0) {
-    const top = cy - size * 0.82;
-    const bottom = sub ? cy + size * 0.85 + subSize * 0.85 : cy + size * 0.82;
+    const blockCenter = sub ? cy + (size * 0.85 + subSize * 0.85 - size * 0.82) / 2 : cy;
     ctx.fillStyle = `rgba(0,0,0,${band})`;
-    ctx.fillRect(0, top, W, bottom - top);
+    ctx.fillRect(0, blockCenter - bandH / 2, W, bandH);
   }
   ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
   ctx.shadowColor = 'rgba(0,0,0,.35)'; ctx.shadowBlur = 10; ctx.shadowOffsetY = 2;
@@ -531,7 +533,7 @@ function drawMaker() {
   ctx.shadowBlur = 0; ctx.shadowOffsetY = 0;
   try { ctx.letterSpacing = '0px'; } catch {}
 }
-['mk-title', 'mk-sub', 'mk-band', 'mk-dim', 'mk-size', 'mk-y'].forEach(id => document.addEventListener('input', e => {
+['mk-title', 'mk-sub', 'mk-band', 'mk-bandh', 'mk-dim', 'mk-size', 'mk-y'].forEach(id => document.addEventListener('input', e => {
   if (e.target.id !== id) return;
   mkUpdateVals();
   drawMaker();
