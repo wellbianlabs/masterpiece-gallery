@@ -165,6 +165,24 @@ textarea { resize: vertical; }
 </div>
 
 <!-- 표지 선택 -->
+<!-- 사이니지 URL 팝업 -->
+<div id="surl" style="position:fixed;inset:0;background:rgba(8,8,10,.85);display:none;z-index:160;align-items:center;justify-content:center;padding:20px">
+  <div style="background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:26px 30px;width:560px;max-width:100%">
+    <h3 class="serif" style="color:var(--accent);font-size:18px;margin-bottom:4px">사이니지 자동재생 URL</h3>
+    <p id="surl-ex" style="color:var(--fg-dim);font-size:12.5px;margin-bottom:16px"></p>
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+      <span style="font-size:13px;color:var(--fg-dim)">작품 전환 시간</span>
+      <input type="number" id="surl-t" min="5" max="60" value="15" style="width:70px;background:var(--bg3);border:1px solid var(--line);color:var(--fg);border-radius:6px;padding:6px 8px">
+      <span style="font-size:13px;color:var(--fg-dim)">초</span>
+    </div>
+    <input type="text" id="surl-url" readonly style="width:100%;background:var(--bg3);border:1px solid var(--line);color:var(--fg);border-radius:6px;padding:10px;font-size:12px;margin-bottom:14px">
+    <div style="display:flex;gap:10px;justify-content:flex-end">
+      <button class="btn" id="surl-close">닫기</button>
+      <button class="btn primary" id="surl-copy" style="min-width:130px">📋 복사하기</button>
+    </div>
+  </div>
+</div>
+
 <!-- 표지 생성기 -->
 <div id="maker">
   <div id="maker-box">
@@ -315,19 +333,7 @@ function exRow(ex) {
   };
   row.querySelector('.f-cover').onclick = () => pickCover(ex);
   row.querySelector('.f-maker').onclick = () => openMaker(ex);
-  row.querySelector('.f-signage').onclick = async () => {
-    const t = prompt('작품 전환 시간(초, 5~60)', localStorage.getItem('gallery-signage-t') || '15');
-    if (t == null) return;
-    const sec = Math.min(60, Math.max(5, parseInt(t) || 15));
-    localStorage.setItem('gallery-signage-t', sec);
-    const url = `${location.origin}/#/play/${ex.id}?t=${sec}`;
-    try {
-      await navigator.clipboard.writeText(url);
-      toast(`복사됨 (${sec}초 간격): ${url}`);
-    } catch {
-      prompt('아래 URL을 복사하세요', url);
-    }
-  };
+  row.querySelector('.f-signage').onclick = () => openSignageUrl(ex);
   row.querySelector('.f-coverfile').onchange = e => { if (e.target.files[0]) startCoverCrop(ex, e.target.files[0]); e.target.value = ''; };
   row.querySelector('.f-works').onclick = () => { OPEN_EX = ex.id; renderWorks(ex.id); };
   row.querySelector('.f-upload').onchange = e => startCropQueue(ex, [...e.target.files]);
@@ -421,6 +427,44 @@ function pickCover(ex) {
 
 /* ───────── 크롭 큐 (브라우저 캔버스 크롭 → 업로드) ───────── */
 const cropState = { mode: 'upload', ex: null, artwork: null, exId: null, queue: [], file: null, img: null, scale: 1, box: { x: 0, y: 0, w: 0, h: 0 } };
+
+/* ── 사이니지 URL 팝업 ── */
+let SURL_EX = null;
+function surlBuild() {
+  const sec = Math.min(60, Math.max(5, parseInt($('#surl-t').value) || 15));
+  $('#surl-url').value = `${location.origin}/#/play/${SURL_EX.id}?t=${sec}`;
+  const btn = $('#surl-copy');
+  btn.textContent = '📋 복사하기';
+  btn.style.background = ''; btn.style.borderColor = ''; btn.style.color = '';
+}
+function openSignageUrl(ex) {
+  SURL_EX = ex;
+  $('#surl-ex').textContent = `${ex.name} — 이 URL을 사이니지 기기(키오스크 브라우저)의 시작 주소로 등록하면 자동 재생됩니다`;
+  $('#surl-t').value = localStorage.getItem('gallery-signage-t') || '15';
+  surlBuild();
+  $('#surl').style.display = 'flex';
+}
+$('#surl-t').oninput = () => { localStorage.setItem('gallery-signage-t', $('#surl-t').value); surlBuild(); };
+$('#surl-close').onclick = () => { $('#surl').style.display = 'none'; };
+$('#surl-copy').onclick = async () => {
+  const url = $('#surl-url').value;
+  const btn = $('#surl-copy');
+  let ok = false;
+  try { await navigator.clipboard.writeText(url); ok = true; }
+  catch {
+    // 폴백: 텍스트 선택 + execCommand
+    const inp = $('#surl-url');
+    inp.select(); inp.setSelectionRange(0, 9999);
+    try { ok = document.execCommand('copy'); } catch {}
+  }
+  if (ok) {
+    btn.textContent = '✓ 복사됨!';
+    btn.style.background = 'var(--ok)'; btn.style.borderColor = 'var(--ok)'; btn.style.color = '#0c1a10';
+  } else {
+    btn.textContent = '⚠ 복사 실패 — 직접 선택하세요';
+    $('#surl-url').select();
+  }
+};
 
 /* ── 전용 대표 표지 업로드: 작품과 분리된 covers/ 공간에 저장 ── */
 function startCoverCrop(ex, file) {
