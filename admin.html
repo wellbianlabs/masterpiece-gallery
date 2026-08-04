@@ -296,6 +296,7 @@ function exRow(ex) {
         <label class="btn" style="cursor:pointer" title="작품과 별개로 보관되는 전용 대표 표지">🖼 표지 업로드<input type="file" class="f-coverfile" accept="image/jpeg,image/png,image/webp" style="display:none"></label>
         <button class="btn f-maker" title="배경+제목 합성으로 표지 생성">✏️ 표지 생성</button>
         <button class="btn f-cover" title="기존 작품 중에서 표지로 지정">작품에서 표지 선택</button>
+        <button class="btn f-signage" title="사이니지 기기에 등록할 자동재생 URL 복사">📋 사이니지 URL</button>
         <button class="btn f-works">작품 관리 ▾</button>
         <label class="btn" style="cursor:pointer">+ 작품 업로드<input type="file" class="f-upload" multiple accept="image/*" style="display:none"></label>
         <div class="spacer"></div>
@@ -314,6 +315,19 @@ function exRow(ex) {
   };
   row.querySelector('.f-cover').onclick = () => pickCover(ex);
   row.querySelector('.f-maker').onclick = () => openMaker(ex);
+  row.querySelector('.f-signage').onclick = async () => {
+    const t = prompt('작품 전환 시간(초, 5~60)', localStorage.getItem('gallery-signage-t') || '15');
+    if (t == null) return;
+    const sec = Math.min(60, Math.max(5, parseInt(t) || 15));
+    localStorage.setItem('gallery-signage-t', sec);
+    const url = `${location.origin}/#/play/${ex.id}?t=${sec}`;
+    try {
+      await navigator.clipboard.writeText(url);
+      toast(`복사됨 (${sec}초 간격): ${url}`);
+    } catch {
+      prompt('아래 URL을 복사하세요', url);
+    }
+  };
   row.querySelector('.f-coverfile').onchange = e => { if (e.target.files[0]) startCoverCrop(ex, e.target.files[0]); e.target.value = ''; };
   row.querySelector('.f-works').onclick = () => { OPEN_EX = ex.id; renderWorks(ex.id); };
   row.querySelector('.f-upload').onchange = e => startCropQueue(ex, [...e.target.files]);
