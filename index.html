@@ -145,9 +145,15 @@ footer a:hover { color: var(--accent); }
 
 <div id="music-modal">
   <div id="music-box">
-    <h3 class="serif">슬라이드쇼 음악</h3>
+    <h3 class="serif">슬라이드쇼 설정</h3>
     <p>갤러리와 함께 재생할 음악을 선택하세요</p>
     <div id="music-list"></div>
+    <div style="margin-top:16px">
+      <div style="display:flex;justify-content:space-between;font-size:13px;color:var(--fg-dim);margin-bottom:6px">
+        <span>작품 전환 시간</span><b id="iv-val" style="color:var(--accent)">12초</b>
+      </div>
+      <input type="range" id="iv-range" min="5" max="60" step="1" value="12" style="width:100%;accent-color:var(--accent)">
+    </div>
     <div class="foot">
       <button class="btn ghost" id="music-cancel">취소</button>
       <button class="btn" id="music-play">▶ 재생 시작</button>
@@ -193,8 +199,11 @@ async function route() {
   try { await loadSite(); }
   catch (e) { $('#view').innerHTML = `<div id="loading">오류: ${e.message}</div>`; return; }
   const mEx = h.match(/^#\/ex\/([a-z0-9-]+)/);
-  const mPlay = h.match(/^#\/play\/([a-z0-9-]+)/);
-  if (mPlay) return playExhibition(mPlay[1]);
+  const mPlay = h.match(/^#\/play\/([a-z0-9-]+)(?:\?t=(\d+))?/);
+  if (mPlay) {
+    if (mPlay[2]) INTERVAL = Math.min(60, Math.max(5, +mPlay[2]));   // 사이니지 기기용: #/play/<id>?t=20
+    return playExhibition(mPlay[1]);
+  }
   if (mEx) return renderExhibition(mEx[1]);
   renderHome();
 }
@@ -312,8 +321,9 @@ $('#lb-prev').onclick = () => { LB.idx = (LB.idx - 1 + LB.items.length) % LB.ite
 $('#lb-next').onclick = () => { LB.idx = (LB.idx + 1) % LB.items.length; showLB(); };
 $('#lightbox').onclick = e => { if (e.target === $('#lightbox') || e.target === $('#lb-stage')) closeLightbox(); };
 
-/* ───────── 음악 선택 ───────── */
+/* ───────── 음악·전환시간 설정 ───────── */
 let MUSIC_SEL = null, onMusicOK = null;
+let INTERVAL = Math.min(60, Math.max(5, parseInt(localStorage.getItem('gallery-interval')) || 12));
 function askMusic(cb) {
   onMusicOK = cb;
   const list = $('#music-list');
@@ -321,11 +331,16 @@ function askMusic(cb) {
     MUSIC.map(m => `<label class="music-opt"><input type="radio" name="mu" value="${m.path}"> ♪ ${m.name}</label>`).join('');
   if (!MUSIC.length) list.innerHTML += `<p style="color:var(--fg-dim);font-size:12px;margin-top:4px">등록된 음악이 없습니다.</p>`;
   $$('.music-opt').forEach(o => o.onclick = () => { $$('.music-opt').forEach(x => x.classList.remove('sel')); o.classList.add('sel'); });
+  $('#iv-range').value = INTERVAL;
+  $('#iv-val').textContent = INTERVAL + '초';
   $('#music-modal').classList.add('open');
 }
+$('#iv-range').oninput = e => { $('#iv-val').textContent = e.target.value + '초'; };
 $('#music-cancel').onclick = () => $('#music-modal').classList.remove('open');
 $('#music-play').onclick = () => {
   MUSIC_SEL = document.querySelector('input[name=mu]:checked')?.value || null;
+  INTERVAL = +$('#iv-range').value;
+  localStorage.setItem('gallery-interval', INTERVAL);
   $('#music-modal').classList.remove('open');
   if (onMusicOK) onMusicOK();
 };
@@ -345,7 +360,7 @@ async function playExhibition(id) {
   if (MUSIC_SEL) { audio.src = musicUrl(MUSIC_SEL); audio.volume = .55; audio.play().catch(() => {}); }
   if (document.documentElement.requestFullscreen) document.documentElement.requestFullscreen().catch(() => {});
   showSlide(0);
-  playTimer = setInterval(nextSlide, 12000);
+  playTimer = setInterval(nextSlide, INTERVAL * 1000);
   $('#pl-pause').textContent = '⏸ 일시정지';
 }
 function nextSlide() { if (!paused) showSlide((playIdx + 1) % playItems.length); }
@@ -378,8 +393,8 @@ function closePlayer() {
 addEventListener('keydown', e => {
   if ($('#player').classList.contains('open')) {
     if (e.key === 'Escape') history.back();
-    if (e.key === 'ArrowRight') { clearInterval(playTimer); showSlide((playIdx + 1) % playItems.length); playTimer = setInterval(nextSlide, 12000); }
-    if (e.key === 'ArrowLeft') { clearInterval(playTimer); showSlide((playIdx - 1 + playItems.length) % playItems.length); playTimer = setInterval(nextSlide, 12000); }
+    if (e.key === 'ArrowRight') { clearInterval(playTimer); showSlide((playIdx + 1) % playItems.length); playTimer = setInterval(nextSlide, INTERVAL * 1000); }
+    if (e.key === 'ArrowLeft') { clearInterval(playTimer); showSlide((playIdx - 1 + playItems.length) % playItems.length); playTimer = setInterval(nextSlide, INTERVAL * 1000); }
     if (e.key === ' ') { e.preventDefault(); $('#pl-pause').click(); }
   } else if ($('#lightbox').classList.contains('open')) {
     if (e.key === 'Escape') closeLightbox();
