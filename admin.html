@@ -133,6 +133,7 @@ textarea { resize: vertical; }
     </div>
     <div class="spacer"></div>
     <a href="/" style="color:var(--fg-dim);font-size:13px">공개사이트↗</a>
+    <button class="btn" id="pw-open" style="padding:5px 12px;font-size:12px">비밀번호 변경</button>
     <button class="btn" id="logout" style="padding:5px 12px;font-size:12px">로그아웃</button>
   </div>
   <div id="content"></div>
@@ -167,6 +168,21 @@ textarea { resize: vertical; }
 </div>
 
 <!-- 표지 선택 -->
+<!-- 비밀번호 변경 팝업 -->
+<div id="pwmod" style="position:fixed;inset:0;background:rgba(8,8,10,.85);display:none;z-index:170;align-items:center;justify-content:center;padding:20px">
+  <div style="background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:26px 30px;width:400px;max-width:100%">
+    <h3 class="serif" style="color:var(--accent);font-size:18px;margin-bottom:6px">관리자 비밀번호 변경</h3>
+    <p style="color:var(--fg-dim);font-size:12px;margin-bottom:16px">변경 즉시 모든 기기의 관리자 로그인에 새 비밀번호가 적용됩니다.</p>
+    <input type="password" id="pw-new" placeholder="새 비밀번호 (8자 이상)" style="width:100%;margin-bottom:10px">
+    <input type="password" id="pw-new2" placeholder="새 비밀번호 확인" style="width:100%;margin-bottom:6px">
+    <p id="pw-err" style="color:var(--danger);font-size:12px;min-height:16px;margin-bottom:10px"></p>
+    <div style="display:flex;gap:10px;justify-content:flex-end">
+      <button class="btn" id="pw-cancel">취소</button>
+      <button class="btn primary" id="pw-save" style="min-width:110px">변경</button>
+    </div>
+  </div>
+</div>
+
 <!-- 사이니지 URL 팝업 -->
 <div id="surl" style="position:fixed;inset:0;background:rgba(8,8,10,.85);display:none;z-index:160;align-items:center;justify-content:center;padding:20px">
   <div style="background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:26px 30px;width:560px;max-width:100%">
@@ -429,6 +445,27 @@ function pickCover(ex) {
 
 /* ───────── 크롭 큐 (브라우저 캔버스 크롭 → 업로드) ───────── */
 const cropState = { mode: 'upload', ex: null, artwork: null, exId: null, queue: [], file: null, img: null, scale: 1, box: { x: 0, y: 0, w: 0, h: 0 } };
+
+/* ── 비밀번호 변경 ── */
+$('#pw-open').onclick = () => {
+  $('#pw-new').value = ''; $('#pw-new2').value = ''; $('#pw-err').textContent = '';
+  $('#pwmod').style.display = 'flex';
+  $('#pw-new').focus();
+};
+$('#pw-cancel').onclick = () => { $('#pwmod').style.display = 'none'; };
+$('#pw-save').onclick = async () => {
+  const p1 = $('#pw-new').value, p2 = $('#pw-new2').value;
+  const err = $('#pw-err');
+  if (p1.length < 8) { err.textContent = '8자 이상으로 입력하세요.'; return; }
+  if (p1 !== p2) { err.textContent = '두 입력값이 일치하지 않습니다.'; return; }
+  const btn = $('#pw-save');
+  btn.disabled = true; btn.textContent = '변경 중…';
+  const { error } = await sb.auth.updateUser({ password: p1 });
+  btn.disabled = false; btn.textContent = '변경';
+  if (error) { err.textContent = '실패: ' + error.message; return; }
+  $('#pwmod').style.display = 'none';
+  toast('✓ 비밀번호가 변경되었습니다. 다음 로그인부터 새 비밀번호를 사용하세요.');
+};
 
 /* ── 사이니지 URL 팝업 ── */
 let SURL_EX = null;
@@ -798,6 +835,7 @@ addEventListener('keydown', e => {
   if ($('#crop-modal').classList.contains('open')) { cancelCrop(); return; }
   if ($('#maker').classList.contains('open')) { $('#maker').classList.remove('open'); return; }
   if ($('#surl').style.display === 'flex') { $('#surl').style.display = 'none'; return; }
+  if ($('#pwmod').style.display === 'flex') { $('#pwmod').style.display = 'none'; return; }
   if ($('#picker').classList.contains('open')) $('#picker').classList.remove('open');
 });
 
