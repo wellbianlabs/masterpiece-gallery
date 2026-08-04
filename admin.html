@@ -149,6 +149,7 @@ textarea { resize: vertical; }
       <input type="text" id="m-year" placeholder="연도" style="max-width:80px">
     </div>
     <label class="pub-toggle" title="원본 파일도 비공개 보관함에 저장"><input type="checkbox" id="keep-original"> 원본 보관</label>
+    <button class="btn" id="crop-close" title="크롭 취소 (Esc) — 남은 대기열도 모두 취소됩니다">✕ 닫기</button>
   </div>
   <div id="crop-stage">
     <div id="crop-wrap">
@@ -782,6 +783,23 @@ $('#crop-skip').onclick = () => {
   if (cropState.mode === 'recrop' || cropState.mode === 'cover') { $('#crop-modal').classList.remove('open'); return; }
   nextCrop();
 };
+// ✕ 닫기 / Esc: 현재 크롭과 남은 대기열 전부 취소
+function cancelCrop() {
+  if (!$('#crop-modal').classList.contains('open')) return;
+  const hadQueue = cropState.mode === 'upload' && cropState.queue.length > 0;
+  cropState.queue = [];
+  $('#crop-modal').classList.remove('open');
+  toast(hadQueue ? '크롭 취소됨 (남은 파일 포함)' : '크롭 취소됨');
+  if (cropState.mode === 'upload' && cropState.ex) { OPEN_EX = cropState.ex.id; renderExhibit(); }
+}
+$('#crop-close').onclick = cancelCrop;
+addEventListener('keydown', e => {
+  if (e.key !== 'Escape') return;
+  if ($('#crop-modal').classList.contains('open')) { cancelCrop(); return; }
+  if ($('#maker').classList.contains('open')) { $('#maker').classList.remove('open'); return; }
+  if ($('#surl').style.display === 'flex') { $('#surl').style.display = 'none'; return; }
+  if ($('#picker').classList.contains('open')) $('#picker').classList.remove('open');
+});
 
 function canvasBlob(imgEl, crop, w, h, q) {
   const cv = document.createElement('canvas');
