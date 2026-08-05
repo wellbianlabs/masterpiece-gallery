@@ -463,6 +463,15 @@ async function downloadAllZip(ex, btn) {
     const zip = new JSZip();
     const folder = zip.folder(sanitize(ex.name) || 'gallery');
     let done = 0, failed = 0;
+    // 표지 포함 (000_표지.jpg — 최신 상태를 다시 조회)
+    try {
+      const { data: exNow } = await sb.from('gallery_exhibitions').select('cover_path').eq('id', ex.id).single();
+      if (exNow?.cover_path) {
+        btn.textContent = '⬇ 표지…';
+        const cres = await fetch(artUrl(exNow.cover_path));
+        if (cres.ok) folder.file(`000_표지_${sanitize(ex.name)}.jpg`, await cres.blob());
+      }
+    } catch {}
     // 4개씩 병렬 다운로드
     const queue = [...arts.entries()];
     await Promise.all(Array.from({ length: 4 }, async () => {
