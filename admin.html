@@ -248,6 +248,7 @@ textarea { resize: vertical; }
 
 <div id="toast"></div>
 
+<script src="/vendor/jszip.min.js"></script>
 <script src="/vendor/supabase.js"></script>
 <script src="/config.js"></script>
 <script src="/shared.js"></script>
@@ -333,6 +334,7 @@ function exRow(ex) {
         <button class="btn f-maker" title="배경+제목 합성으로 표지 생성">✏️ 표지 생성</button>
         <button class="btn f-cover" title="기존 작품 중에서 표지로 지정">작품에서 표지 선택</button>
         <button class="btn f-signage" title="사이니지 기기에 등록할 자동재생 URL 복사">📋 사이니지 URL</button>
+        <button class="btn f-zip" title="이 전시의 크롭 완성본(1920×1080) 전체를 ZIP으로 다운로드">⬇ 전체받기</button>
         <button class="btn f-works">작품 관리 ▾</button>
         <label class="btn" style="cursor:pointer">+ 작품 업로드<input type="file" class="f-upload" multiple accept="image/*" style="display:none"></label>
         <div class="spacer"></div>
@@ -352,6 +354,7 @@ function exRow(ex) {
   row.querySelector('.f-cover').onclick = () => pickCover(ex);
   row.querySelector('.f-maker').onclick = () => openMaker(ex);
   row.querySelector('.f-signage').onclick = () => openSignageUrl(ex);
+  row.querySelector('.f-zip').onclick = () => downloadAllZip(ex, row.querySelector('.f-zip'));
   row.querySelector('.f-coverfile').onchange = e => { if (e.target.files[0]) startCoverCrop(ex, e.target.files[0]); e.target.value = ''; };
   row.querySelector('.f-works').onclick = () => { OPEN_EX = ex.id; renderWorks(ex.id); };
   row.querySelector('.f-upload').onchange = e => startCropQueue(ex, [...e.target.files]);
@@ -445,6 +448,48 @@ function pickCover(ex) {
 
 /* ───────── 크롭 큐 (브라우저 캔버스 크롭 → 업로드) ───────── */
 const cropState = { mode: 'upload', ex: null, artwork: null, exId: null, queue: [], file: null, img: null, scale: 1, box: { x: 0, y: 0, w: 0, h: 0 } };
+
+/* ── 전시 전체 ZIP 다운로드 ── */
+const sanitize = s => (s || '').replace(/[\\/:*?"<>|]/g, '').replace(/\s+/g, ' ').trim().slice(0, 80);
+async function downloadAllZip(ex, btn) {
+  if (btn.disabled) return;
+  const orig = btn.textContent;
+  btn.disabled = true;
+  try {
+    const { data: arts, error } = await sb.from('gallery_artworks').select('title, artist, image_path')
+      .eq('exhibition_id', ex.id).order('sort').order('created_at');
+    if (error) throw new Error(error.message);
+    if (!arts.length) { toast('작품이 없습니다'); return; }
+    const zip = new JSZip();
+    const folder = zip.folder(sanitize(ex.name) || 'gallery');
+    let done = 0, failed = 0;
+    // 4개씩 병렬 다운로드
+    const queue = [...arts.entries()];
+    await Promise.all(Array.from({ length: 4 }, async () => {
+      while (queue.length) {
+        const [i, a] = queue.shift();
+        try {
+          const res = await fetch(artUrl(a.image_path));
+          if (!res.ok) throw new Error(res.status);
+          const name = `${String(i + 1).padStart(3, '0')}_${sanitize(a.title) || 'untitled'}${a.artist ? '_' + sanitize(a.artist) : ''}.jpg`;
+          folder.file(name, await res.blob());
+        } catch { failed++; }
+        done++;
+        btn.textContent = `⬇ ${done}/${arts.length}…`;
+      }
+    }));
+    btn.textContent = '압축 중…';
+    const blob = await zip.generateAsync({ type: 'blob' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `${sanitize(ex.name)}_1920x1080.zip`;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 30000);
+    toast(`✓ ${ex.name} — ${arts.length - failed}장 ZIP 다운로드${failed ? ` (실패 ${failed}장)` : ''}`);
+  } catch (e) { toast('오류: ' + e.message); }
+  btn.disabled = false;
+  btn.textContent = orig;
+}
 
 /* ── 비밀번호 변경 ── */
 $('#pw-open').onclick = () => {
