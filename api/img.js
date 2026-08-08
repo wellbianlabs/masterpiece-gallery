@@ -17,19 +17,26 @@ const SIGN_TTL = 3600;          // 서명 URL 유효시간 (초)
 const REDIRECT_CACHE = 1800;    // 브라우저가 리다이렉트를 재사용하는 시간 (초)
 
 // ── IP당 요청 제한 (인스턴스 메모리, 슬라이딩 윈도) ──
+// 썸네일·표지는 넉넉히, 1920×1080 완성본은 엄격히 — 정상 감상/사이니지 재생은 통과, 전량 수집은 차단
 const WINDOW_MS = 10 * 60 * 1000;
-const MAX_PER_WINDOW = 400;     // 정상 감상·관리자 일괄 다운로드는 충분, 전량 수집은 차단
+const MAX_SMALL = 600;          // 썸네일(480×270)·표지
+const MAX_FULL = 150;           // 사이니지 완성본 (슬라이드쇼 10분간 40장 수준)
 const hits = new Map();
 
-function rateLimited(ip) {
+function rateLimited(ip, isFull) {
   const now = Date.now();
-  const arr = (hits.get(ip) || []).filter(t => now - t < WINDOW_MS);
-  arr.push(now);
-  hits.set(ip, arr);
+  const rec = hits.get(ip) || { small: [], full: [] };
+  const key = isFull ? 'full' : 'small';
+  rec[key] = rec[key].filter(t => now - t < WINDOW_MS);
+  rec[key].push(now);
+  hits.set(ip, rec);
   if (hits.size > 5000) {       // 메모리 보호
-    for (const [k, v] of hits) if (!v.length || now - v[v.length - 1] > WINDOW_MS) hits.delete(k);
+    for (const [k, v] of hits) {
+      const last = Math.max(v.small.at(-1) || 0, v.full.at(-1) || 0);
+      if (now - last > WINDOW_MS) hits.delete(k);
+    }
   }
-  return arr.length > MAX_PER_WINDOW;
+  return rec[key].length > (isFull ? MAX_FULL : MAX_SMALL);
 }
 
 // ── 읽기 계정 세션 캐시 ──
@@ -66,7 +73,8 @@ module.exports = async (req, res) => {
       if (!ok) { res.status(403).send('forbidden'); return; }
     }
     const ip = (req.headers['x-forwarded-for'] || '').split(',')[0].trim() || 'unknown';
-    if (rateLimited(ip)) {
+    const isFull = !path.includes('/thumbs/') && !path.startsWith('covers/');
+    if (rateLimited(ip, isFull)) {
       res.setHeader('Retry-After', '600');
       res.status(429).send('too many requests');
       return;
