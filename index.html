@@ -25,6 +25,9 @@ header { position: sticky; top: 0; z-index: 20; background: rgba(12,12,15,.82); 
 
 #hero { position: relative; height: 46vh; min-height: 300px; display: flex; align-items: flex-end; overflow: hidden; }
 #hero .bg { position: absolute; inset: 0; background-size: cover; background-position: center; filter: brightness(.45); transform: scale(1.04); }
+/* 히어로 작품 롤링 — 두 레이어 크로스페이드 */
+#hero .roll { opacity: 0; transition: opacity 1.6s ease; }
+#hero .roll.on { opacity: 1; }
 #hero .in { position: relative; max-width: 1280px; margin: 0 auto; width: 100%; padding: 0 24px 44px; }
 #hero h2 { font-size: clamp(30px, 5vw, 54px); font-weight: 600; text-shadow: 0 2px 20px rgba(0,0,0,.6); }
 #hero p { color: #cfc9bc; margin-top: 10px; max-width: 640px; line-height: 1.7; text-shadow: 0 1px 8px rgba(0,0,0,.7); }
@@ -196,6 +199,7 @@ async function loadSite() {
 /* ───────── 라우터 ───────── */
 async function route() {
   closePlayer(); closeLightbox();
+  clearInterval(HERO_TIMER);
   const h = location.hash || '#/';
   try { await loadSite(); }
   catch (e) { $('#view').innerHTML = `<div id="loading">오류: ${e.message}</div>`; return; }
@@ -212,13 +216,63 @@ addEventListener('hashchange', route);
 
 /* ───────── 홈 ───────── */
 let FILTER = '전체';
+let HERO_TIMER = null;
+
+/* 히어로용 작품 이미지 무작위 수집 (여러 구간에서 뽑아 섞음) */
+async function fetchHeroArtworks(total) {
+  const BATCH = 12, PICKS = 3;
+  const maxOffset = Math.max(0, total - BATCH);
+  const offsets = Array.from({ length: PICKS }, () => Math.floor(Math.random() * (maxOffset + 1)));
+  const res = await Promise.all(offsets.map(o =>
+    sb.from('gallery_artworks').select('image_path').order('created_at').range(o, o + BATCH - 1)
+  ));
+  const seen = new Set(), list = [];
+  for (const r of res) for (const a of (r.data || [])) {
+    if (a.image_path && !seen.has(a.image_path)) { seen.add(a.image_path); list.push(a.image_path); }
+  }
+  for (let i = list.length - 1; i > 0; i--) {           // 셔플
+    const j = Math.floor(Math.random() * (i + 1));
+    [list[i], list[j]] = [list[j], list[i]];
+  }
+  return list;
+}
+
+/* 두 레이어를 번갈아 페이드하며 작품 롤링 */
+async function startHeroRoll(total) {
+  clearInterval(HERO_TIMER);
+  let paths = [];
+  try { paths = await fetchHeroArtworks(total); } catch { return; }
+  if (!paths.length) return;
+  const layers = [$('#hero-a'), $('#hero-b')];
+  if (!layers[0] || !layers[1]) return;
+  let idx = 0, cur = 0;
+  const show = i => new Promise(resolve => {
+    const im = new Image();
+    im.onload = im.onerror = () => {
+      const next = 1 - cur;
+      layers[next].style.backgroundImage = `url('${artUrl(paths[i])}')`;
+      layers[next].classList.add('on');
+      layers[cur].classList.remove('on');
+      cur = next;
+      resolve();
+    };
+    im.src = artUrl(paths[i]);
+  });
+  await show(idx);
+  HERO_TIMER = setInterval(async () => {
+    if (!document.getElementById('hero-a')) { clearInterval(HERO_TIMER); return; }  // 홈을 벗어남
+    idx = (idx + 1) % paths.length;
+    await show(idx);
+  }, 8000);
+}
+
 function renderHome() {
-  const featured = EXS[Math.floor(Math.random() * EXS.length)];
   const cats = ['전체', ...new Set(EXS.map(e => e.category))];
   const total = EXS.reduce((s, e) => s + e.count, 0);
   $('#view').innerHTML = `
     <div id="hero">
-      <div class="bg" style="background-image:url('${featured ? artUrl(featured.cover_path) : ''}')"></div>
+      <div class="bg roll" id="hero-a"></div>
+      <div class="bg roll" id="hero-b"></div>
       <div class="in">
         <h2 class="serif">세계의 명화를<br>디지털로 만나다</h2>
         <p>세계 유수 미술관의 걸작 ${total.toLocaleString()}점을 디지털 사이니지 포맷으로 큐레이션한 온라인 갤러리입니다.</p>
@@ -233,6 +287,7 @@ function renderHome() {
     </div>`;
   $$('.chip').forEach(ch => ch.onclick = () => { FILTER = ch.dataset.c; renderHomeGrid(); $$('.chip').forEach(x => x.classList.toggle('active', x.dataset.c === FILTER)); });
   renderHomeGrid();
+  startHeroRoll(total);
 }
 function renderHomeGrid() {
   const exs = EXS.filter(e => FILTER === '전체' || e.category === FILTER);
