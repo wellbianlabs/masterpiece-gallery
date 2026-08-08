@@ -2,7 +2,8 @@
 const CFG = window.GALLERY_CONFIG;
 const sb = window.supabase.createClient(CFG.SUPABASE_URL, CFG.SUPABASE_ANON_KEY);
 
-const artUrl = p => p ? `${CFG.SUPABASE_URL}/storage/v1/object/public/gallery-art/${encodeURIComponent(p).replace(/%2F/g, '/')}` : '';
+// 이미지는 중계 게이트웨이(/api/img)를 통해서만 제공된다 — 직접 URL 접근·대량 수집 차단
+const artUrl = p => p ? `/api/img?p=${encodeURIComponent(p)}` : '';
 const musicUrl = p => `${CFG.SUPABASE_URL}/storage/v1/object/public/gallery-music/${encodeURIComponent(p).replace(/%2F/g, '/')}`;
 
 // 파일명 → {title, artist, year} 자동 파싱 (반스/메트 형식 지원)
