@@ -15,6 +15,16 @@ html { scroll-behavior: smooth; }
 body { background: var(--bg); color: var(--fg); font-family: 'Pretendard', 'Malgun Gothic', system-ui, sans-serif; font-size: 15px; }
 h1, h2, h3, h4, .serif { font-family: 'Playfair Display', 'Nanum Myeongjo', Georgia, serif; }
 img { -webkit-user-drag: none; user-select: none; }
+/* 이미지 저장·드래그·길게눌러 저장 차단 */
+body { -webkit-touch-callout: none; }
+.art-card .im, #lb-img, #hero .bg, .ex-card .bg, #player .slide {
+  -webkit-user-drag: none; -webkit-touch-callout: none; user-select: none; -webkit-user-select: none;
+}
+/* 인쇄로 이미지 추출 차단 */
+@media print {
+  body * { display: none !important; }
+  body::after { content: '© 이지커넥트 · 명화 디지털 갤러리 — 인쇄가 허용되지 않습니다.'; display: block !important; padding: 40px; font-size: 16px; }
+}
 a { color: inherit; text-decoration: none; }
 
 header { position: sticky; top: 0; z-index: 20; background: rgba(12,12,15,.82); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); }
@@ -66,7 +76,7 @@ header { position: sticky; top: 0; z-index: 20; background: rgba(12,12,15,.82); 
 .art-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
 .art-card { border-radius: 10px; overflow: hidden; cursor: pointer; background: var(--bg2); border: 1px solid var(--line); transition: transform .15s, border-color .15s; }
 .art-card:hover { transform: translateY(-3px); border-color: var(--accent); }
-.art-card .im { aspect-ratio: 16/9; background: #000; overflow: hidden; }
+.art-card .im { aspect-ratio: 16/9; background: #000 center/cover no-repeat; overflow: hidden; }
 .art-card img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .art-card .cap { padding: 12px 14px; }
 .art-card .t { font-size: 14px; line-height: 1.4; }
@@ -75,7 +85,7 @@ header { position: sticky; top: 0; z-index: 20; background: rgba(12,12,15,.82); 
 #lightbox { position: fixed; inset: 0; background: rgba(5,5,7,.96); z-index: 60; display: none; flex-direction: column; }
 #lightbox.open { display: flex; }
 #lb-stage { flex: 1; display: flex; align-items: center; justify-content: center; position: relative; padding: 24px; min-height: 0; }
-#lb-img { max-width: 100%; max-height: 100%; box-shadow: 0 10px 60px rgba(0,0,0,.7); }
+#lb-img { width: 100%; height: 100%; background: center/contain no-repeat; box-shadow: 0 10px 60px rgba(0,0,0,.7); }
 #lb-cap { text-align: center; padding: 0 24px 28px; }
 #lb-cap .t { font-family: 'Playfair Display', Georgia, serif; font-size: 20px; }
 #lb-cap .a { color: var(--fg-dim); font-size: 14px; margin-top: 4px; }
@@ -141,7 +151,7 @@ footer a:hover { color: var(--accent); }
   <button id="lb-close">✕</button>
   <div id="lb-stage">
     <button class="lb-nav" id="lb-prev">‹</button>
-    <img id="lb-img" oncontextmenu="return false">
+    <div id="lb-img"></div>
     <button class="lb-nav" id="lb-next">›</button>
   </div>
   <div id="lb-cap"><div class="t"></div><div class="a"></div></div>
@@ -182,7 +192,19 @@ const $$ = s => [...document.querySelectorAll(s)];
 
 let EXS = null, MUSIC = [], EX_CACHE = {};
 
-document.addEventListener('contextmenu', e => { if (e.target.tagName === 'IMG' || e.target.closest('#player')) e.preventDefault(); });
+/* ───────── 이미지 보호 ───────── */
+document.addEventListener('contextmenu', e => e.preventDefault());        // 우클릭 메뉴 전면 차단
+document.addEventListener('dragstart', e => e.preventDefault());          // 드래그로 끌어내기 차단
+document.addEventListener('selectstart', e => {                           // 이미지 영역 선택 차단
+  if (e.target.closest('.art-card, #lb-img, #hero, #player, .ex-card')) e.preventDefault();
+});
+addEventListener('keydown', e => {                                        // 저장/소스보기/인쇄 단축키 차단
+  const k = (e.key || '').toLowerCase();
+  const mod = e.ctrlKey || e.metaKey;
+  if (mod && ['s', 'u', 'p'].includes(k)) { e.preventDefault(); return false; }
+  if (mod && e.shiftKey && ['i', 'j', 'c'].includes(k)) { e.preventDefault(); return false; }
+  if (k === 'f12') { e.preventDefault(); return false; }
+}, true);
 
 async function loadSite() {
   if (EXS) return;
@@ -350,7 +372,7 @@ async function renderExhibition(id) {
     const d = document.createElement('div');
     d.className = 'art-card';
     d.innerHTML = `
-      <div class="im"><img loading="lazy" src="${artUrl(it.thumb_path || it.image_path)}" oncontextmenu="return false"></div>
+      <div class="im" style="background-image:url('${artUrl(it.thumb_path || it.image_path)}')"></div>
       <div class="cap"><div class="t">${it.title || ''}</div><div class="a">${it.artist || ''}${it.year ? ' · ' + it.year : ''}</div></div>`;
     d.onclick = () => openLightbox(items, i);
     g.appendChild(d);
@@ -367,7 +389,7 @@ function openLightbox(items, idx) {
 }
 function showLB() {
   const it = LB.items[LB.idx];
-  $('#lb-img').src = artUrl(it.image_path);
+  $('#lb-img').style.backgroundImage = `url('${artUrl(it.image_path)}')`;
   $('#lb-cap .t').textContent = it.title || '';
   $('#lb-cap .a').textContent = (it.artist || '') + (it.year ? ' · ' + it.year : '');
 }
