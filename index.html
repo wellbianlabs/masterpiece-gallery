@@ -263,7 +263,7 @@ async function startHeroRoll(total) {
     if (!document.getElementById('hero-a')) { clearInterval(HERO_TIMER); return; }  // 홈을 벗어남
     idx = (idx + 1) % paths.length;
     await show(idx);
-  }, 8000);
+  }, 15000);
 }
 
 function renderHome() {
